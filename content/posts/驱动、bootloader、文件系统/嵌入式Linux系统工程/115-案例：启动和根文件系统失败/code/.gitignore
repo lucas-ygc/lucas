@@ -5,3 +5,4 @@ __pycache__/
 trace.txt
 core
 core.*
+!boot.log

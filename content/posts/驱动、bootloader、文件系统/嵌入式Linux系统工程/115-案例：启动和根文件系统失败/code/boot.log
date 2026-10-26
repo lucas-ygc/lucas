@@ -1,0 +1,4 @@
+EXAMPLE ONLY - not a real board log
+case=root: VFS: Unable to mount root fs on unknown-block(0,0)
+case=init: Kernel panic - not syncing: No working init found.
+case=unknown: custom board stalled without further output
