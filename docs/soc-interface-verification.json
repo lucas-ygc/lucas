@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-24",
+  "python": "3.13.9",
+  "method": "copy allowlisted files to isolated temporary directory and run main.py",
+  "hardware_tested": false,
+  "results": [
+    {
+      "id": "soc-05-clocks-cdc",
+      "exit_code": 0,
+      "stdout": "ideal output Hz: 300000000 period ns: 3.3333333333333335\n还需核对参考/VCO/输出范围、锁定和切换规则\n"
+    },
+    {
+      "id": "soc-07-adc-dac",
+      "exit_code": 0,
+      "stdout": "ideal ADC step mV: 0.8056640625 alias frequency Hz: 200.0\n"
+    },
+    {
+      "id": "soc-11-dsp-fixed-point",
+      "exit_code": 0,
+      "stdout": "step response: [0.0, 0.0, 0.0, 0.0, 0.25, 0.5, 0.75, 1.0, 1.0, 1.0, 1.0, 1.0] Q15 saturation/wrap: 0.999969482421875 -0.5 DFT peak bin: 8\n"
+    },
+    {
+      "id": "soc-12-npu-architecture",
+      "exit_code": 0,
+      "stdout": "compute/transfer/optimistic lower bound ms: 1.0 20.0 20.0\ndoubling compute peak does not reduce this transfer bound\n"
+    },
+    {
+      "id": "soc-18-secure-update",
+      "exit_code": 0,
+      "stdout": "incomplete write: A; uncommitted candidate: A; two failed trials: B B A; confirmed: B\n真实系统还需原子元数据、签名、防回滚及掉电验证\n"
+    },
+    {
+      "id": "soc-19-mmio-registers",
+      "exit_code": 0,
+      "stdout": "status 0b101 clear bit0 0b100 write back read value 0b0\n"
+    },
+    {
+      "id": "soc-20-memory-bandwidth",
+      "exit_code": 0,
+      "stdout": "NV12 bytes/frame 3110400 RGB888 bytes/frame 6220800\nassumed DDR traffic MB/s 559.872 triple NV12 buffers MB 9.3312\n不含 stride、缓存和总线开销；实际硬件可采用不同通路\n"
+    },
+    {
+      "id": "soc-21-cache-coherence",
+      "exit_code": 0,
+      "stdout": "stale memory/cache demonstrated; synchronized ownership result: 84\n"
+    },
+    {
+      "id": "soc-22-dma-rings",
+      "exit_code": 0,
+      "stdout": "busy reuse and stale completion rejected; slot: {'state': 'FREE', 'generation': 2}\n"
+    },
+    {
+      "id": "soc-24-amba-interconnect",
+      "exit_code": 0,
+      "stdout": "accepted cycles [1, 4, 5] backpressure cycles [0, 2]\n64-bit / 200MHz ideal GB/s: 1.6\n"
+    },
+    {
+      "id": "soc-28-uart-rs485",
+      "exit_code": 0,
+      "stdout": "256 bytes 115200 8N1 ideal wire ms: 22.22222222222222\n未包含字节间隔、RS-485 转向和应用等待；DMA 完成不等于尾停止位已出线\n"
+    },
+    {
+      "id": "soc-29-i2c",
+      "exit_code": 0,
+      "stdout": "7-bit address 0x36 write/read bytes 0x6c 0x6d\nassumed 4.7kohm / 100pF 30%-70% rise ns: 398.2299943819857\n需另核对模式限值、灌电流、总线负载与实际波形\n"
+    },
+    {
+      "id": "soc-30-spi-qspi",
+      "exit_code": 0,
+      "stdout": "single/1-1-4 assumed SDR clocks: 2088 552 ratio 3.782608695652174\n指令、地址和 dummy 仍为本例给定阶段；不是所有器件事务定义\n"
+    },
+    {
+      "id": "soc-31-timers-pwm",
+      "exit_code": 0,
+      "stdout": "assumed upcounter PWM Hz 1000.0 single-wrap capture ticks 16\n回绕公式假设间隔小于一次完整计数周期；多次回绕需要额外信息\n"
+    },
+    {
+      "id": "soc-32-audio-i2s",
+      "exit_code": 0,
+      "stdout": "stereo BCLK Hz 3072000 8-slot TDM BCLK Hz 12288000\n按槽宽计算；24 位有效样本也可占 32 位槽\n"
+    },
+    {
+      "id": "soc-34-usb-uvc",
+      "exit_code": 0,
+      "stdout": "uncompressed payload Mbit/s 995.328 USB2 HS raw line Mbit/s 480\n有效负载已超过原始线速；缓冲无法补足长期速率缺口\n"
+    },
+    {
+      "id": "soc-40-csi-bandwidth",
+      "exit_code": 0,
+      "stdout": "payload Mbit/s 622.08 ideal per-lane Mbit/s 311.04\nASSUMED 20% budget per-lane Mbit/s 373.248\nunpacked 16-bit DDR write MB/s 124.416\n20% 不是规范值；最终按 sensor mode 与接收端能力配置\n"
+    },
+    {
+      "id": "soc-41-display-interfaces",
+      "exit_code": 0,
+      "stdout": "example pixel clock MHz 148.5\n仅给定扫描时序的算术；面板、桥接和 PHY 需分别核对\n"
+    },
+    {
+      "id": "soc-45-system-troubleshooting",
+      "exit_code": 0,
+      "stdout": "0 queue/compute/age ms: 5 10 15\n1 queue/compute/age ms: 5 10 15\n2 queue/compute/age ms: 134 10 144\nconstructed stale result: [2] not a hardware benchmark\n"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<nav class="breadcrumb mono" aria-label="当前位置"><a href="<%- url('/') %>">首页</a><span>/</span><% if (page.series) { %><a href="<%- url('/series/') %>">合集</a><span>/</span><a href="<%- url(page.series.path) %>"><%= page.series.title %></a><% } else { %><a href="<%- url('/archives/') %>">文章</a><% } %><span>/</span><span><%= page.slug.split('/').pop() %></span></nav>
+<header class="post-header"><p class="eyebrow mono"><%= page.categories.map(c => c.name).join(' / ') %></p><h1><%= page.title || page.slug.split('/').pop() %></h1><div class="post-meta"><time class="mono" datetime="<%= formatDate(page.date, 'YYYY-MM-DD') %>"><%= formatDate(page.date, 'YYYY.MM.DD') %></time><span>Lucas</span><span><%= Math.max(1, Math.ceil(plainText(page.content).length / 500)) %> 分钟阅读</span></div></header>
+<% if (page.series) { const collection = site.series.find(item => item.path === page.series.path); %>
+<section class="series-panel" aria-label="所属合集">
+  <div class="series-panel-heading"><a href="<%- url(page.series.path) %>">合集 · <%= page.series.title %></a><span class="small muted">已发布 <%= page.series.total %> 篇</span></div>
+  <details><summary>展开合集目录</summary><ol><% collection.posts.forEach(function(post) { %><li><a href="<%- url(post.path) %>" <%- post.path === page.path ? 'aria-current="page"' : '' %>><%= post.title %></a></li><% }) %></ol></details>
+  <% if (page.series.previous || page.series.next) { %><nav class="series-neighbors" aria-label="合集阅读顺序"><% if (page.series.previous) { %><a href="<%- url(page.series.previous.path) %>">← 上一篇：<%= page.series.previous.title %></a><% } %><% if (page.series.next) { %><a href="<%- url(page.series.next.path) %>">下一篇：<%= page.series.next.title %> →</a><% } %></nav><% } %>
+</section>
+<% } %>
+<% if(page.cover) { %><div class="post-cover"><img src="<%- url(page.cover) %>" alt="<%= page.title %>的封面" width="1536" height="1024" fetchpriority="high"></div><% } %>
+<div class="reading-layout"><article class="prose"><%- page.content %></article><aside class="toc-panel"><div class="toc-inner"><h2 class="aside-heading">本文目录</h2><%- page.toc %><a class="back-top" href="#main">回到顶部 ↑</a></div></aside></div>
+<nav class="post-neighbors" aria-label="相邻文章"><% if(page.prev) { %><a href="<%- url(page.prev.path) %>"><span class="muted small">← 较新记录</span><span><%= page.prev.title || page.prev.slug.split('/').pop() %></span></a><% } %><% if(page.next) { %><a href="<%- url(page.next.path) %>"><span class="muted small">较早记录 →</span><span><%= page.next.title || page.next.slug.split('/').pop() %></span></a><% } %></nav>

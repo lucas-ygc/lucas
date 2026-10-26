@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">电平、地与逻辑阈值</title><desc id="desc">学习路径：输入阈值 → 输出与负载 → 电压域转换</desc>
+<rect width="1200" height="720" fill="#f7f2e9"/><g font-family="sans-serif" fill="#304d50">
+<text x="70" y="85" font-size="23">嵌入式 SoC 与接口 · 02 / 50</text>
+<text x="70" y="160" font-size="39">电平、地与逻辑阈值</text>
+<rect x="70" y="310" width="320" height="125" rx="16" fill="#dce6df"/><text x="230" y="365" text-anchor="middle" font-size="19">01</text><text x="230" y="405" text-anchor="middle" font-size="25">输入阈值</text>
+<path d="M398 370 h30 l-8 -6 m8 6 l-8 6" fill="none" stroke="#657e80" stroke-width="3"/>
+<rect x="440" y="310" width="320" height="125" rx="16" fill="#e2e6ed"/><text x="600" y="365" text-anchor="middle" font-size="19">02</text><text x="600" y="405" text-anchor="middle" font-size="25">输出与负载</text>
+<path d="M768 370 h30 l-8 -6 m8 6 l-8 6" fill="none" stroke="#657e80" stroke-width="3"/>
+<rect x="810" y="310" width="320" height="125" rx="16" fill="#ede0ce"/><text x="970" y="365" text-anchor="middle" font-size="19">03</text><text x="970" y="405" text-anchor="middle" font-size="25">电压域转换</text>
+<polyline points="70,520 70,520 70,495 107,495 107,520 144,520 144,495 181,495 181,520 218,520 218,495 255,495 255,520 292,520 292,495 329,495 329,520 366,520 366,495 403,495 403,520 440,520 440,495 477,495 477,520 514,520 514,495 551,495 551,520 588,520 588,495 625,495 625,520 662,520 662,495 699,495 699,520 736,520 736,495 773,495 773,520 810,520 810,495 847,495 847,520 884,520 884,495 921,495 921,520 958,520 958,495 995,495 995,520 1032,520 1032,495 1069,495 1069,520" fill="none" stroke="#698780" stroke-width="3"/>
+<polyline points="70,575 70,575 70,550 107,550 107,575 144,575 144,550 181,550 181,575 218,575 218,550 255,550 255,575 292,575 292,550 329,550 329,575 366,575 366,550 403,550 403,575 440,575 440,550 477,550 477,575 514,575 514,550 551,550 551,575 588,575 588,550 625,550 625,575 662,575 662,550 699,550 699,575 736,575 736,550 773,550 773,575 810,575 810,550 847,550 847,575 884,575 884,550 921,550 921,575 958,575 958,550 995,550 995,575 1032,575 1032,550 1069,550 1069,575" fill="none" stroke="#698780" stroke-width="3"/>
+<text x="70" y="660" font-size="20">概念示意 · 机制 / 约束 / 验证</text></g></svg>

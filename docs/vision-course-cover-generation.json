@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-23",
+  "tool": "built-in image_gen",
+  "covers": [
+    {
+      "chapter": 9,
+      "prompt": "Use case: scientific-educational. Create one landscape 16:9 cover illustration for chapter 09 of a beginner computer vision course: datasets, labels and train validation test splits. Warm ivory modern study room, sage blue-grey accents, refined editorial 3D paper illustration. Main subject: three clearly separated trays of small airplane and car photo cards; cards from the same source bound together, showing grouped dataset splitting. Three trays with visually different subtle accent colors, proportional large training tray and smaller validation and test trays. No readable text, no numbers, no logos, no camera lens, no floating leaves. Subject clearly legible at thumbnail size, generous margin.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/09-数据集标签与划分/images/封面.png",
+      "sha256": "e3aa2fb4ce805b6a8c148b39b97abc030ba9adba41664fc1588809af9f992251"
+    },
+    {
+      "chapter": 10,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Loss functions and optimizers: a sculpted bowl-shaped loss landscape on a desk, small descending stepping stones with arrows ending at its bottom, beside a two-class probability bar card. Emphasize gradient descent. Style: refined editorial 3D paper illustration in a warm ivory modern study, sage and blue-grey accents, soft daylight, clear main subject legible at thumbnail size. No readable text, no letters, no numbers, no logos, no watermark, no floating leaves or large camera lens. Each object must support this lesson.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/10-损失函数与优化器/images/封面.png",
+      "sha256": "945171d6ec020a97e2fa320f3d82159205584a684a5236b5838f479a014330dd"
+    },
+    {
+      "chapter": 11,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Batches epochs and learning rate: small image cards arranged into four distinct mini-batches on a desk, curved return arrow around the batches and a descending staircase learning-rate chart on a standing card. Style: refined editorial 3D paper illustration in a warm ivory modern study, sage and blue-grey accents, soft daylight, clear main subject legible at thumbnail size. No readable text, no letters, no numbers, no logos, no watermark, no floating leaves or large camera lens. Each object must support this lesson.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/11-批次轮次与学习率/images/封面.png",
+      "sha256": "3e0f5ec89f50b735d35117bd460178bf3e6d0d0de5249b07b1e06fb5d49b72e0"
+    },
+    {
+      "chapter": 12,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: First real image classifier: laptop on a study desk showing a grid of low-resolution airplane and automobile photographs flowing through a small convolutional network into two neat category columns. No detection boxes. Style: refined editorial 3D paper illustration in a warm ivory modern study, sage and blue-grey accents, soft daylight, clear main subject legible at thumbnail size. No readable text, no letters, no numbers, no logos, no watermark, no floating leaves or large camera lens. Each object must support this lesson.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/12-第一个真实图片分类器/images/封面.png",
+      "sha256": "56f6b03f68151b2009afb2d5c36508a85ebacc284926a389822b363859228b4d"
+    },
+    {
+      "chapter": 13,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Overfitting augmentation and regularization: open notebook showing a smooth training curve going down and a validation curve bending back up; beside it a fan of the SAME airplane photo with subtle crop brightness and horizontal flip variations. Restrained conceptual illustration. Style: refined editorial 3D paper illustration in a warm ivory modern study, sage and blue-grey accents, soft daylight, clear main subject legible at thumbnail size. No readable text, no letters, no numbers, no logos, no watermark, no floating leaves or large camera lens. Each object must support this lesson.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/13-过拟合数据增强与正则化/images/封面.png",
+      "sha256": "d574982091f9bc60acb3898c4e472657f364c806754e57984d47e51fe2ce15d1"
+    },
+    {
+      "chapter": 14,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Model evaluation and error analysis: large four-cell confusion matrix made of paper tiles, correct airplane and car cards on the diagonal, a few mismatched cards off diagonal, magnifying glass inspecting one mistaken card. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/14-验证测试与错误分析/images/封面.png",
+      "sha256": "53f93a1d0e3e5d9b8447caae9c0bf9fbd8188742c5413c35bfa7b15e18622575"
+    },
+    {
+      "chapter": 15,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Checkpoint save restore and independent inference: neural network built of connected wooden nodes, its parameter pattern stored on a small archive card in a drawer, identical pattern restored on a separate smaller inference device, clear arrows between the three. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/15-保存恢复与独立推理/images/封面.png",
+      "sha256": "f7eb4b08aeffdfba58ffe54e30bfabe2b2dc7b89adbd3406c15707cfc46cb349"
+    },
+    {
+      "chapter": 16,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Residual network: a tabletop sculptural network diagram, main route through two square transformation blocks, a clearly visible arched shortcut bypassing BOTH blocks, both branches joining at a circular plus node. Emphasize skip connection. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/16-ResNet与残差连接/images/封面.png",
+      "sha256": "f6e20663ceeca034b2d0b224774f391c21922ad537466db3c7929561241a1569"
+    },
+    {
+      "chapter": 17,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Transfer learning: a large network of sage feature blocks with small lock icons, a replaceable blue two-output classification head, an adjacent small set of airplane and car photo cards. Frozen backbone and trainable head visually distinct. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/17-预训练迁移学习与微调/images/封面.png",
+      "sha256": "08e78a5bf80111678ed7acb0fce7a0ec69cab978c94176dd1749644d5e08688f"
+    },
+    {
+      "chapter": 18,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Lightweight convolutional models and computational cost: a large dense cube of feature tiles beside a much smaller depthwise stack and pointwise thin mixing sheet, a tiny edge computer and a simple stopwatch. Visually compare bulky versus efficient computation. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/18-轻量模型与计算成本/images/封面.png",
+      "sha256": "dd1c80b5c01837c367cc8889b34ceb3b85160e03c44b71b65531b8cf4131ea81"
+    },
+    {
+      "chapter": 19,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Object detection: a single city street photo on a large standing card, two cars and one pedestrian each enclosed by precise separate rectangular bounding boxes; beside it two overlapping outline rectangles illustrating intersection over union. No segmentation masks. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/19-目标检测与YOLO/images/封面.png",
+      "sha256": "2c28f08d21025c64bccab2e14c4c1c26deea214478c31b3f77670b9fdd18b196"
+    },
+    {
+      "chapter": 20,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Semantic segmentation and U-Net: a U-shaped arrangement of descending then ascending feature-map paper stacks with horizontal skip connections, an input street scene at left and same scene as colored pixel regions at right. Regions follow car and road outlines, no bounding boxes. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/20-图像分割与UNet/images/封面.png",
+      "sha256": "a679c2896dc9c00361a328c6907deb71d860c20f5e33ff6abdb3e1e521dd493f"
+    },
+    {
+      "chapter": 21,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Vision Transformer and attention: an airplane photograph cut into an orderly 4 by 4 grid of square patches, patches unfolding into a row of token tiles, fine curved blue lines connecting distant tiles to show attention. No generic neuron brain. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/21-注意力与视觉Transformer/images/封面.png",
+      "sha256": "7313041b8540a7b9bf3110fcb8113c1988dbb7f08df9ae26c4641db35335aff1"
+    },
+    {
+      "chapter": 22,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: ONNX model export and numerical equivalence: laptop displaying a small network graph, an intermediate portable graph document with connected operator nodes, then a compact inference computer. Two matching pairs of probability bars beneath source and destination show numerical agreement. A bridge connects systems. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/22-从训练模型到ONNX/images/封面.png",
+      "sha256": "ab81c4d67e7dac252675bb3409dfcf00471a32f835817410f2fd041928d5b803"
+    },
+    {
+      "chapter": 23,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Quantization and precision comparison: a smooth continuous blue curve above a coarse sage stair-step approximation on a standing notebook chart, large translucent floating-point cubes converting into compact integer tiles, visible rounding and clipping at the ends. Scientific conceptual illustration. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/23-量化与精度对比/images/封面.png",
+      "sha256": "1748073fd6d12e458b227a40f6b2f3b8b70710cc36a30d3e90fdbaf6c1a6d107"
+    },
+    {
+      "chapter": 24,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Camera input and deployment acceptance: a compact USB camera observing a toy car, connected to a small edge computing board and a monitor displaying the same car with two classification probability bars; beside it a timing strip with four stages and a checklist of check marks. No corporate branding. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/24-摄像头输入与部署验收/images/封面.png",
+      "sha256": "3f513b94a6b031944e5a6bdd18958a91cd99252d30e53d5567080acbfbe83ae1"
+    },
+    {
+      "chapter": 25,
+      "prompt": "Use case: scientific-educational. Asset: landscape 16:9 course cover. Subject: Panorama of computer vision model families: a large open book on a study desk showing a branching visual map, from hand-crafted edge grids to convolution feature stacks to patch attention tokens, branches ending in classification photo cards, object bounding boxes, pixel segmentation masks and generated imagery. Elegant clear overview, no text. Style: refined editorial 3D paper illustration in warm ivory modern study, sage and blue-grey accents, soft daylight. Main subject large and legible at thumbnail size. No readable text, numbers, logos, watermark, floating leaves or large camera lens.",
+      "path": "content/posts/AI-深度学习/从零搭建视觉模型/25-视觉模型全景/images/封面.png",
+      "sha256": "d3d8b771cc2907d9a749e451736bb7a2178465deaae7ade253724768f3c65ead"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+  <title id="title">CT1820B 测温驱动分层</title>
+  <desc id="desc">应用经 sysfs 调用 ct1820b 家族驱动，通过 wire 和 w1-gpio 操作 GPIO1_4 上的传感器。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#527572"/></marker></defs>
+  <rect width="1200" height="660" fill="#f5f0e7"/>
+  <g font-family="sans-serif" fill="#233b3a">
+    <text x="66" y="67" font-size="18" letter-spacing="3" fill="#527572">LUCAS  /  EMBEDDED LINUX</text>
+    <text x="66" y="126" font-size="44" font-weight="700">CT1820B 测温驱动实战</text>
+    <text x="68" y="164" font-size="22" fill="#596a66">Hi3516CV610 · GPIO1_4 · Linux w1 · 按需测温</text>
+    <g stroke="#a4b7ad" stroke-width="2">
+      <rect x="68" y="214" width="315" height="108" rx="12" fill="#fffdf8"/>
+      <rect x="443" y="214" width="315" height="108" rx="12" fill="#fffdf8"/>
+      <rect x="818" y="214" width="315" height="108" rx="12" fill="#dfe9df"/>
+      <rect x="818" y="397" width="315" height="108" rx="12" fill="#fffdf8"/>
+      <rect x="443" y="397" width="315" height="108" rx="12" fill="#fffdf8"/>
+      <rect x="68" y="397" width="315" height="108" rx="12" fill="#dfe9df"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="225" y="258" font-size="26">应用读取</text><text x="225" y="293" font-size="18" fill="#596a66">TemperatureRead</text>
+      <text x="600" y="258" font-size="26">sysfs 属性</text><text x="600" y="293" font-size="18" fill="#596a66">temperature</text>
+      <text x="975" y="258" font-size="26">ct1820b</text><text x="975" y="293" font-size="18" fill="#596a66">转换 · 校验 · 温度换算</text>
+      <text x="975" y="441" font-size="26">wire 核心</text><text x="975" y="477" font-size="18" fill="#596a66">总线管理 · ROM 选择</text>
+      <text x="600" y="441" font-size="26">w1-gpio</text><text x="600" y="477" font-size="18" fill="#596a66">GPIO 主机 · 开漏模拟</text>
+      <text x="225" y="441" font-size="26">CT1820B 传感器</text><text x="225" y="477" font-size="18" fill="#596a66">独立供电 · DIO 外部上拉</text>
+    </g>
+    <g stroke="#527572" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M383 268 H427"/><path d="M758 268 H802"/><path d="M975 322 V381"/><path d="M818 451 H774"/><path d="M443 451 H399"/></g>
+    <path d="M68 556 H1133" stroke="#c8d1c5"/>
+    <text x="68" y="604" font-size="21">一次读取触发一次转换</text>
+    <text x="1133" y="604" font-size="21" text-anchor="end" fill="#527572">硬件 → 内核 → 部署 → 应用</text>
+  </g>
+</svg>

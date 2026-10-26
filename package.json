@@ -1,0 +1,21 @@
+{
+  "name": "lucas-blog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node tools/dev.mjs",
+    "build": "node tools/build.mjs",
+    "preview": "node tools/dev.mjs --preview",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "ejs": "3.1.10",
+    "highlight.js": "11.11.1",
+    "js-yaml": "4.1.0",
+    "markdown-it": "14.1.0"
+  }
+}

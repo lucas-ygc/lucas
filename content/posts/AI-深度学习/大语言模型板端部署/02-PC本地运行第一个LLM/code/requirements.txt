@@ -1,0 +1,2 @@
+# 客户端与启动脚本仅使用 Python 3.10+ 标准库。
+# 推理引擎另行编译 llama.cpp；不需要安装 PyTorch 或云端 API SDK。

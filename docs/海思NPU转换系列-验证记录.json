@@ -1,0 +1,59 @@
+{
+  "articles": 16,
+  "dates": "2026-08-01..2026-08-16",
+  "code_files": 6,
+  "internal_links_and_assets_checked": 567,
+  "covers": 16,
+  "svg_diagrams": 2,
+  "missing_links": 0,
+  "cjk_characters": 18400,
+  "characters": 49872,
+  "source_onnx_check": "passed",
+  "cpu_equivalence_outputs": 12,
+  "cpu_equivalence_max_abs": 1.1026859283447266e-06,
+  "cpu_versions": {
+    "numpy": "2.3.5",
+    "opencv": "5.0.0",
+    "onnx": "1.22.0",
+    "onnxruntime": "1.28.0"
+  },
+  "helper_checks": {
+    "tests": [
+      {
+        "case": "padded_equal",
+        "expected_exit": 0,
+        "actual_exit": 0
+      },
+      {
+        "case": "numeric_rejected",
+        "expected_exit": 1,
+        "actual_exit": 1
+      },
+      {
+        "case": "truncated_rejected",
+        "expected_exit": 1,
+        "actual_exit": 1
+      },
+      {
+        "case": "name_rejected",
+        "expected_exit": 1,
+        "actual_exit": 1
+      },
+      {
+        "case": "dtype_rejected",
+        "expected_exit": 1,
+        "actual_exit": 1
+      }
+    ],
+    "passed": 5,
+    "uses_simulated_buffers": true,
+    "note": "检验文件读取与比较逻辑，不代表执行了 NPU。"
+  },
+  "convert_shell_syntax": "passed",
+  "blog_test_files_passed": 3,
+  "built_articles": 163,
+  "built_pages": 315,
+  "atc_executed": false,
+  "functional_simulator_executed": false,
+  "board_inference_rerun": false
+}

@@ -1,0 +1,22 @@
+/* BA4K / Hi3516CV610 专用片段，合入现有板级 DTS，不是独立 DTS。 */
+&gpio_chip1 { gpio-controller; };
+
+/ {
+    w1_temperature {
+        compatible = "w1-gpio";
+        gpios = <&gpio_chip1 4 0>;
+        pinctrl-names = "default";
+        pinctrl-0 = <&ct1820_dio_pin>;
+        status = "okay";
+    };
+    ct1820_pinmux: pinctrl@11130004 {
+        compatible = "pinctrl-single";
+        reg = <0x11130004 0x4>;
+        #pinctrl-cells = <1>;
+        pinctrl-single,register-width = <32>;
+        pinctrl-single,function-mask = <0xf>;
+        ct1820_dio_pin: ct1820-dio-pin {
+            pinctrl-single,pins = <0x0 0x0>; /* M2 GPIO1_4 */
+        };
+    };
+};

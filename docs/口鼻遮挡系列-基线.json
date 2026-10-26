@@ -1,0 +1,329 @@
+{
+  "recorded_on": "2026-10-12",
+  "article_dates": "2026-08-01..2026-08-18",
+  "sources": [
+    {
+      "path": "application/Apps/Stream/Src/Npu/Common/StreamNpuOcclusionProcessor.cpp",
+      "bytes": 25897,
+      "sha256": "d6f3d8346711f3e7f9e85b7753413267664184cb64a6c53d226cd3e777374f28"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Common/StreamNpuDebug.cpp",
+      "bytes": 38786,
+      "sha256": "fce81ef675f637083ff84b9c1ca1f86dbb20965790dffcfebf27cd3cd2f416cd"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Postprocess/FaceOcclusionPolicy.h",
+      "bytes": 1929,
+      "sha256": "ac8c3fe9a6a10cf06b397b6374ce25892ca36eb4edd201dc2a9ba9d5025689e4"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Postprocess/FaceOcclusionPolicy.cpp",
+      "bytes": 31747,
+      "sha256": "4be2c456d3787f40af27fedab0928f63f5e2f1ee2f47b09ca9bef02dae3e8dfb"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Postprocess/PipNet.cpp",
+      "bytes": 7025,
+      "sha256": "6f93d7cab4b5f1cbf5357c024fe515b72a7c667f7974a752b04331f49a75be9d"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Postprocess/PipNetMeanfaceData.h",
+      "bytes": 78970,
+      "sha256": "2c3fc71007272fcff910716da16bbb2bab11ee4fa1260856e291278e0f5d3ccd"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Postprocess/YuNet.cpp",
+      "bytes": 8666,
+      "sha256": "521e954b382fdc80e22d2cb60eec67308577ac8e63321a34ae7185296a70ec11"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Postprocess/OcclusionCore.h",
+      "bytes": 2491,
+      "sha256": "965f95fc2841c5d8d74707a8a91e5593425d914db6f0f431d86245292af7eadd"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Postprocess/WorldOcclusionReview.h",
+      "bytes": 1550,
+      "sha256": "681c6e9eb44f4fc04d08f18b172756bc19d38093fdddcac000c2c7b89bf319e0"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Postprocess/WorldOcclusionReview.cpp",
+      "bytes": 19459,
+      "sha256": "800ff61b8b0ba5e4269b595f3ccb9802f526cd5a9af1045ad96c8832e88d7d1d"
+    },
+    {
+      "path": "application/Board/HI3516CV610_00S/Src/BoardNpu.cpp",
+      "bytes": 29394,
+      "sha256": "28f6b5168668f5e16dfef12d1139338a3637bb85138a1d5f0f76f56db9dd40fd"
+    },
+    {
+      "path": "application/Platform/Params/HI3516CV610_00S/config_table.json",
+      "bytes": 6061,
+      "sha256": "4deacc1a69c7137a98e9b5e5a0aae934a8c4032d22b7d3e9b18502f968bb60a6"
+    },
+    {
+      "path": "application/Upgrade/Scripts/PackApps.sh",
+      "bytes": 1569,
+      "sha256": "bbc6f8fa98285067d9be1fd067ad2253a693636f9202058db55e3ecdc10cf953"
+    },
+    {
+      "path": "SDK/Tools/Npu/YuNet/BuildOm.sh",
+      "bytes": 2297,
+      "sha256": "aa77689959f9fe7e88b9c7b540bef6ce305a493957a5d9614f56a4925b5cea4d"
+    },
+    {
+      "path": "SDK/Tools/Npu/YuNet/MakeInput255Onnx.py",
+      "bytes": 1580,
+      "sha256": "b39870e199fac7a8f5532b7535eb845c2e181d18e5576945ae8314169adabe7d"
+    },
+    {
+      "path": "SDK/Tools/Npu/YuNet/aipp.cfg",
+      "bytes": 236,
+      "sha256": "257b1a77512198b43ae1138add42fdc32d82d9cb7bc65902f17c73d041546cd7"
+    },
+    {
+      "path": "SDK/Tools/Npu/PipNet/BuildOm.sh",
+      "bytes": 1794,
+      "sha256": "07f9787060e771cfc78169c9a997e3847b87657f52addc9c19e633c5365b085a"
+    },
+    {
+      "path": "SDK/Tools/Npu/PipNet/aipp.cfg",
+      "bytes": 248,
+      "sha256": "26adfb2250dfee3cb092caef06329ef6bbf40e70e361f3dcec8e254056ed34ad"
+    },
+    {
+      "path": "application/Dependent/shared/head_detection_yolov5s/prepare_board.py",
+      "bytes": 2427,
+      "sha256": "b89b6b2e501637da9cdc8db58e771e7ad82adde172fd4eb0047e7220a175e149"
+    },
+    {
+      "path": "application/Dependent/shared/head_detection_yolov5s/build_om.sh",
+      "bytes": 828,
+      "sha256": "eb78e9de450ca36527aae24ffccf39ff73baf5cc89350fb0a2eb6649e04f251c"
+    },
+    {
+      "path": "application/Dependent/shared/unet_occlusion/hi3516/export_model.py",
+      "bytes": 3019,
+      "sha256": "e6928ec0e5bc80d74a12fc1b069d83ae259320146f1a19fa26b9bcde88ca3696"
+    },
+    {
+      "path": "application/Dependent/shared/unet_occlusion/hi3516/build_om.sh",
+      "bytes": 936,
+      "sha256": "92ebdb8e9e4052dd153d4b7f11d410b13a0289058c43b06eb3d4fafbf2e56cbb"
+    },
+    {
+      "path": "application/Dependent/shared/yoloworld_occluder/export_board.py",
+      "bytes": 7962,
+      "sha256": "488dbec2bedc7be3e27464362917ba48df25cd34cf545d608e9b45e4c6ef9c60"
+    },
+    {
+      "path": "application/Dependent/shared/yoloworld_occluder/build_board.sh",
+      "bytes": 1337,
+      "sha256": "f029dc9063e2e00e0a8f7dbbee804261ac1400014af42e9045106ff9540d0083"
+    },
+    {
+      "path": "application/Dependent/shared/yoloworld_occluder/aipp_board.cfg",
+      "bytes": 337,
+      "sha256": "cc3e2002ea7716c13a724a9eb7dfdb6b70803bde306f571bf5d076fe464e7f70"
+    },
+    {
+      "path": "GenerateTestTools/npu/CASCADE.md",
+      "bytes": 10501,
+      "sha256": "67554409ae49744568df5a17706544ccb6a9ee7764336833060606f58cffc837"
+    },
+    {
+      "path": "GenerateTestTools/npu/README.md",
+      "bytes": 2001,
+      "sha256": "157335eb0885c635f365e67e2e23337826257fead4f7bcc31d5b80cbab996a6e"
+    }
+  ],
+  "models": [
+    {
+      "path": "application/Platform/Module/HI3516CV610_00S/head_yolov5s_p34.om",
+      "bytes": 11724223,
+      "sha256": "8af87c017e9b48c9a7bc0300efb26c0914a50e4c87f25190dc2ab94f25644266"
+    },
+    {
+      "path": "application/Platform/Module/HI3516CV610_00S/head_crowdhuman.om",
+      "bytes": 44796121,
+      "sha256": "0575f5f7cd3ad0ccf13dde88d5d1a1e9edc0efbf2d7801c0535b2e9797349c21"
+    },
+    {
+      "path": "application/Platform/Module/HI3516CV610_00S/face_detection_yunet_320.om",
+      "bytes": 378408,
+      "sha256": "65eb4591ba41e6bb8e50171aae5fe9b37eec4817e362d0abf4448728eb5391ad"
+    },
+    {
+      "path": "application/Platform/Module/HI3516CV610_00S/pipnet_98.om",
+      "bytes": 25412033,
+      "sha256": "33bbd8fbe6f371efa4fd5a6d40814cc18c5f5212d0c796d70fc52abe00c3e906"
+    },
+    {
+      "path": "application/Platform/Module/HI3516CV610_00S/faceocc.om",
+      "bytes": 29420017,
+      "sha256": "e4120d085157078820931bf30dc7e4abc0e6946d1eb1666c4cfc97092bdeeefc"
+    },
+    {
+      "path": "application/Platform/Module/HI3516CV610_00S/world64.om",
+      "bytes": 26814468,
+      "sha256": "39a3be2797354e84daa46ca988586a0a3a47228ad924759793460cebe18a34e1"
+    },
+    {
+      "path": "application/Platform/Module/HI3516CV610_00S/world64.json",
+      "bytes": 6390,
+      "sha256": "91b4d1e1757c001e3e533c7439de56b2aabb32e262463d3b15522b907032b570"
+    }
+  ],
+  "articles": [
+    {
+      "code": "01",
+      "title": "口鼻遮挡工程实录：01 需求与判断边界",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/01-需求与判断边界/articles/需求与判断边界.md",
+      "route": "/posts/nose-mouth-occlusion-01.html",
+      "cjk_characters": 1511,
+      "characters": 3593
+    },
+    {
+      "code": "02",
+      "title": "口鼻遮挡工程实录：02 方案探索与演进",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/02-方案探索与演进/articles/方案探索与演进.md",
+      "route": "/posts/nose-mouth-occlusion-02.html",
+      "cjk_characters": 1606,
+      "characters": 3042
+    },
+    {
+      "code": "03",
+      "title": "口鼻遮挡工程实录：03 总体架构与完整时序",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/03-总体架构与完整时序/articles/总体架构与完整时序.md",
+      "route": "/posts/nose-mouth-occlusion-03.html",
+      "cjk_characters": 1384,
+      "characters": 2972
+    },
+    {
+      "code": "04",
+      "title": "口鼻遮挡工程实录：04 图像预处理与坐标转换",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/04-图像预处理与坐标转换/articles/图像预处理与坐标转换.md",
+      "route": "/posts/nose-mouth-occlusion-04.html",
+      "cjk_characters": 1154,
+      "characters": 3198
+    },
+    {
+      "code": "05",
+      "title": "口鼻遮挡工程实录：05 头部检测与YuNet",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/05-头部检测与YuNet/articles/头部检测与YuNet.md",
+      "route": "/posts/nose-mouth-occlusion-05.html",
+      "cjk_characters": 1035,
+      "characters": 3028
+    },
+    {
+      "code": "06",
+      "title": "口鼻遮挡工程实录：06 PIPNet98关键点与响应",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/06-PIPNet98关键点与响应/articles/PIPNet98关键点与响应.md",
+      "route": "/posts/nose-mouth-occlusion-06.html",
+      "cjk_characters": 1254,
+      "characters": 3022
+    },
+    {
+      "code": "07",
+      "title": "口鼻遮挡工程实录：07 FaceOcc分割与口鼻覆盖率",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/07-FaceOcc分割与口鼻覆盖率/articles/FaceOcc分割与口鼻覆盖率.md",
+      "route": "/posts/nose-mouth-occlusion-07.html",
+      "cjk_characters": 1344,
+      "characters": 2833
+    },
+    {
+      "code": "08",
+      "title": "口鼻遮挡工程实录：08 姿态与几何分析",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/08-姿态与几何分析/articles/姿态与几何分析.md",
+      "route": "/posts/nose-mouth-occlusion-08.html",
+      "cjk_characters": 1257,
+      "characters": 2616
+    },
+    {
+      "code": "09",
+      "title": "口鼻遮挡工程实录：09 多证据融合规则",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/09-多证据融合规则/articles/多证据融合规则.md",
+      "route": "/posts/nose-mouth-occlusion-09.html",
+      "cjk_characters": 1197,
+      "characters": 3307
+    },
+    {
+      "code": "10",
+      "title": "口鼻遮挡工程实录：10 跟踪与持续确认",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/10-跟踪与持续确认/articles/跟踪与持续确认.md",
+      "route": "/posts/nose-mouth-occlusion-10.html",
+      "cjk_characters": 1179,
+      "characters": 2477
+    },
+    {
+      "code": "11",
+      "title": "口鼻遮挡工程实录：11 YOLO-World物体复核",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/11-YOLO-World物体复核/articles/YOLO-World物体复核.md",
+      "route": "/posts/nose-mouth-occlusion-11.html",
+      "cjk_characters": 1322,
+      "characters": 2983
+    },
+    {
+      "code": "12",
+      "title": "口鼻遮挡工程实录：12 模型转换与海思部署",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/12-模型转换与海思部署/articles/模型转换与海思部署.md",
+      "route": "/posts/nose-mouth-occlusion-12.html",
+      "cjk_characters": 1430,
+      "characters": 3814
+    },
+    {
+      "code": "13",
+      "title": "口鼻遮挡工程实录：13 板端运行与调试闭环",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/13-板端运行与调试闭环/articles/板端运行与调试闭环.md",
+      "route": "/posts/nose-mouth-occlusion-13.html",
+      "cjk_characters": 1582,
+      "characters": 3330
+    },
+    {
+      "code": "14",
+      "title": "口鼻遮挡工程实录：14 测试评估与问题复盘",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/14-测试评估与问题复盘/articles/测试评估与问题复盘.md",
+      "route": "/posts/nose-mouth-occlusion-14.html",
+      "cjk_characters": 1882,
+      "characters": 3740
+    },
+    {
+      "code": "a",
+      "title": "口鼻遮挡工程实录：A 附录A-参数字典",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/A-附录A-参数字典/articles/附录A-参数字典.md",
+      "route": "/posts/nose-mouth-occlusion-a.html",
+      "cjk_characters": 1483,
+      "characters": 4543
+    },
+    {
+      "code": "b",
+      "title": "口鼻遮挡工程实录：B 附录B-状态与结果字段",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/B-附录B-状态与结果字段/articles/附录B-状态与结果字段.md",
+      "route": "/posts/nose-mouth-occlusion-b.html",
+      "cjk_characters": 1303,
+      "characters": 5310
+    },
+    {
+      "code": "c",
+      "title": "口鼻遮挡工程实录：C 附录C-模型与代码索引",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/C-附录C-模型与代码索引/articles/附录C-模型与代码索引.md",
+      "route": "/posts/nose-mouth-occlusion-c.html",
+      "cjk_characters": 917,
+      "characters": 8194
+    },
+    {
+      "code": "d",
+      "title": "口鼻遮挡工程实录：D 附录D-完整教学样例",
+      "article": "content/posts/AI-深度学习/口鼻遮挡/D-附录D-完整教学样例/articles/附录D-完整教学样例.md",
+      "route": "/posts/nose-mouth-occlusion-d.html",
+      "cjk_characters": 1398,
+      "characters": 2991
+    }
+  ],
+  "cover": {
+    "method": "built-in image_gen",
+    "sha256": "711ec46380155b8beb045b3d0fa860fea9accf729ef7bc9919a92e2633306852",
+    "prompt": "Use case: scientific-educational. Asset type: wide landscape cover illustration for a Chinese technical blog series about embedded nose and mouth occlusion analysis. Create a polished editorial illustration: an abstract neutral human face in three-quarter front view with fine facial landmark dots and a subtle translucent green visible-face segmentation overlay, nose and mouth regions outlined in muted violet and amber; nearby layered image planes connect visually to a small embedded vision processor board. Warm ivory paper background, restrained blue-gray technical linework, soft lighting, precise elegant scientific aesthetic matching a quiet modern study. Balanced wide composition, generous breathing space, all salient elements inside central 80 percent for thumbnail cropping. The illustration is conceptual, not an actual inference result. No text, letters, numbers, logos, watermarks, medical symbols, alarm icons, or frightening imagery. Opaque background."
+  }
+}

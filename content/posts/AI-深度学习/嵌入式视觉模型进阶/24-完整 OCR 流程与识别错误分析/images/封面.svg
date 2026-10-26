@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc"><title id="title">完整 OCR 流程与识别错误分析</title><desc id="desc">区域与方向 → 裁剪与识别 → 排序与 CER</desc>
+<rect width="1600" height="900" fill="#f6f1e7"/><path d="M80 120H1520M80 795H1520" stroke="#ded7c9" stroke-width="2"/>
+<g font-family="KaiTi, STKaiti, serif" fill="#344e4b"><text x="100" y="90" font-size="30">Lucas · 嵌入式视觉模型进阶</text><text x="1490" y="95" text-anchor="end" font-family="monospace" font-size="50">24</text><text x="100" y="215" font-size="58">完整 OCR 流程与识别错误分析</text></g>
+<rect x="100" y="325" width="380" height="350" rx="24" fill="#fffdf7" stroke="#c3ccc1" stroke-width="2"/>
+<path d="M170 430L395 395L415 550L185 565Z" fill="none" stroke="#718e88" stroke-width="4"/>
+<circle cx="210" cy="455" r="9" fill="#718e88"/>
+<circle cx="245" cy="500" r="9" fill="#718e88"/>
+<circle cx="280" cy="455" r="9" fill="#718e88"/>
+<circle cx="315" cy="500" r="9" fill="#718e88"/>
+<circle cx="350" cy="455" r="9" fill="#718e88"/>
+<text x="290" y="625" text-anchor="middle" font-family="KaiTi, STKaiti, serif" font-size="30" fill="#344e4b">区域与方向</text>
+<path d="M505 495h75m-20-15 20 15-20 15" fill="none" stroke="#718e88" stroke-width="5"/>
+<rect x="610" y="325" width="380" height="350" rx="24" fill="#fffdf7" stroke="#c3ccc1" stroke-width="2"/>
+<path d="M680 430L905 395L925 550L695 565Z" fill="none" stroke="#718e88" stroke-width="4"/>
+<circle cx="720" cy="455" r="9" fill="#718e88"/>
+<circle cx="755" cy="500" r="9" fill="#718e88"/>
+<circle cx="790" cy="455" r="9" fill="#718e88"/>
+<circle cx="825" cy="500" r="9" fill="#718e88"/>
+<circle cx="860" cy="455" r="9" fill="#718e88"/>
+<text x="800" y="625" text-anchor="middle" font-family="KaiTi, STKaiti, serif" font-size="30" fill="#344e4b">裁剪与识别</text>
+<path d="M1015 495h75m-20-15 20 15-20 15" fill="none" stroke="#718e88" stroke-width="5"/>
+<rect x="1120" y="325" width="380" height="350" rx="24" fill="#fffdf7" stroke="#c3ccc1" stroke-width="2"/>
+<path d="M1190 430L1415 395L1435 550L1205 565Z" fill="none" stroke="#718e88" stroke-width="4"/>
+<circle cx="1230" cy="455" r="9" fill="#718e88"/>
+<circle cx="1265" cy="500" r="9" fill="#718e88"/>
+<circle cx="1300" cy="455" r="9" fill="#718e88"/>
+<circle cx="1335" cy="500" r="9" fill="#718e88"/>
+<circle cx="1370" cy="455" r="9" fill="#718e88"/>
+<text x="1310" y="625" text-anchor="middle" font-family="KaiTi, STKaiti, serif" font-size="30" fill="#344e4b">排序与 CER</text>
+<text x="100" y="765" font-family="monospace" font-size="25" fill="#6e8177">ocr-pipeline / structure · experiment · verification</text></svg>

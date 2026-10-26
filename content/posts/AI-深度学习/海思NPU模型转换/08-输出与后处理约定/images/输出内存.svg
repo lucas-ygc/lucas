@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="687" viewBox="0 0 1100 687" role="img" aria-label="从设备输出 buffer 恢复逻辑张量">
+<title>从设备输出 buffer 恢复逻辑张量</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#526a73"/></marker></defs>
+<rect width="100%" height="100%" rx="20" fill="#f7f3e9"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" fill="#293e47">
+<text x="45" y="58" font-size="30" font-weight="bold">从设备输出 buffer 恢复逻辑张量</text>
+<rect x="45" y="90" width="1005" height="78" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="65" y="121" font-size="24" font-weight="bold">读取真实模型描述</text>
+<text x="65" y="150" font-size="20">name / type / dims / stride / buffer bytes</text>
+<path d="M548 170V190" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="45" y="193" width="1005" height="78" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="65" y="224" font-size="24" font-weight="bold">计算逻辑行宽和行数</text>
+<text x="65" y="253" font-size="20">element bytes = type bits / 8；row bytes = last dim × element bytes</text>
+<path d="M548 273V293" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="45" y="296" width="1005" height="78" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="65" y="327" font-size="24" font-weight="bold">检查范围与对齐</text>
+<text x="65" y="356" font-size="20">row bytes ≤ stride；row count × stride ≤ buffer bytes</text>
+<path d="M548 376V396" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="45" y="399" width="1005" height="78" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="65" y="430" font-size="24" font-weight="bold">逐行复制有效数据</text>
+<text x="65" y="459" font-size="20">每行只取 row bytes，跳过 stride 中剩余 padding</text>
+<path d="M548 479V499" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="45" y="502" width="1005" height="78" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="65" y="533" font-size="24" font-weight="bold">恢复 shape 并按名称比较</text>
+<text x="65" y="562" font-size="20">检查输出集合、维度、有限值，再计算数值指标</text>
+<text x="45" y="630" font-size="19">示意对应本项目描述格式；不同 tensor 布局需要另外核对。</text>
+</g></svg>

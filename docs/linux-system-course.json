@@ -1,0 +1,1531 @@
+[
+  {
+    "number": 1,
+    "id": "linux-sys-001",
+    "module": "系统全貌与工作环境",
+    "title": "Linux 系统分层与资源地图",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/001-Linux 系统分层与资源地图/articles/Linux 系统分层与资源地图.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/001-Linux 系统分层与资源地图/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 2,
+    "id": "linux-sys-002",
+    "module": "系统全貌与工作环境",
+    "title": "主机、目标板与交叉开发",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/002-主机、目标板与交叉开发/articles/主机、目标板与交叉开发.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/002-主机、目标板与交叉开发/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 3,
+    "id": "linux-sys-003",
+    "module": "系统全貌与工作环境",
+    "title": "架构、ABI、大小端与工具链",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/003-架构、ABI、大小端与工具链/articles/架构、ABI、大小端与工具链.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/003-架构、ABI、大小端与工具链/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 4,
+    "id": "linux-sys-004",
+    "module": "系统全貌与工作环境",
+    "title": "Shell、管道、重定向与退出码",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/004-Shell、管道、重定向与退出码/articles/Shell、管道、重定向与退出码.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/004-Shell、管道、重定向与退出码/images/封面.svg",
+    "code_files": [
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机临时目录内验证重定向和退出码；不修改系统配置。"
+  },
+  {
+    "number": 5,
+    "id": "linux-sys-005",
+    "module": "系统全貌与工作环境",
+    "title": "BusyBox 与 GNU 工具差异",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/005-BusyBox 与 GNU 工具差异/articles/BusyBox 与 GNU 工具差异.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/005-BusyBox 与 GNU 工具差异/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 6,
+    "id": "linux-sys-006",
+    "module": "系统全貌与工作环境",
+    "title": "目录结构与虚拟文件系统",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/006-目录结构与虚拟文件系统/articles/目录结构与虚拟文件系统.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/006-目录结构与虚拟文件系统/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 7,
+    "id": "linux-sys-007",
+    "module": "系统全貌与工作环境",
+    "title": "串口、SSH 与开发网络",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/007-串口、SSH 与开发网络/articles/串口、SSH 与开发网络.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/007-串口、SSH 与开发网络/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 8,
+    "id": "linux-sys-008",
+    "module": "系统全貌与工作环境",
+    "title": "建立开发板信息与版本基线",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/008-建立开发板信息与版本基线/articles/建立开发板信息与版本基线.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/008-建立开发板信息与版本基线/images/封面.svg",
+    "code_files": [
+      "collect.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh collect.sh",
+    "scope": "只读采集本机固定 /proc 项，输出行数有界；不连接板子，不采集完整命令行或环境变量。"
+  },
+  {
+    "number": 9,
+    "id": "linux-sys-009",
+    "module": "启动与系统构建",
+    "title": "从 Boot ROM 到用户空间",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/009-从 Boot ROM 到用户空间/articles/从 Boot ROM 到用户空间.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/009-从 Boot ROM 到用户空间/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 10,
+    "id": "linux-sys-010",
+    "module": "启动与系统构建",
+    "title": "U-Boot 环境与内核启动参数",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/010-U-Boot 环境与内核启动参数/articles/U-Boot 环境与内核启动参数.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/010-U-Boot 环境与内核启动参数/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 11,
+    "id": "linux-sys-011",
+    "module": "启动与系统构建",
+    "title": "内核配置、编译与模块",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/011-内核配置、编译与模块/articles/内核配置、编译与模块.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/011-内核配置、编译与模块/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 12,
+    "id": "linux-sys-012",
+    "module": "启动与系统构建",
+    "title": "设备树编译、加载与生效确认",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/012-设备树编译、加载与生效确认/articles/设备树编译、加载与生效确认.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/012-设备树编译、加载与生效确认/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 13,
+    "id": "linux-sys-013",
+    "module": "启动与系统构建",
+    "title": "根文件系统与 initramfs",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/013-根文件系统与 initramfs/articles/根文件系统与 initramfs.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/013-根文件系统与 initramfs/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 14,
+    "id": "linux-sys-014",
+    "module": "启动与系统构建",
+    "title": "BusyBox init、启动脚本与 systemd",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/014-BusyBox init、启动脚本与 systemd/articles/BusyBox init、启动脚本与 systemd.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/014-BusyBox init、启动脚本与 systemd/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 15,
+    "id": "linux-sys-015",
+    "module": "启动与系统构建",
+    "title": "Buildroot 工程构建与定制",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/015-Buildroot 工程构建与定制/articles/Buildroot 工程构建与定制.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/015-Buildroot 工程构建与定制/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 16,
+    "id": "linux-sys-016",
+    "module": "启动与系统构建",
+    "title": "Yocto 的 layer、recipe 与镜像",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/016-Yocto 的 layer、recipe 与镜像/articles/Yocto 的 layer、recipe 与镜像.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/016-Yocto 的 layer、recipe 与镜像/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 17,
+    "id": "linux-sys-017",
+    "module": "系统观察与证据采集",
+    "title": "读懂 procfs 的系统与进程信息",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/017-读懂 procfs 的系统与进程信息/articles/读懂 procfs 的系统与进程信息.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/017-读懂 procfs 的系统与进程信息/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 18,
+    "id": "linux-sys-018",
+    "module": "系统观察与证据采集",
+    "title": "sysfs：设备、属性与拓扑",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/018-sysfs：设备、属性与拓扑/articles/sysfs：设备、属性与拓扑.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/018-sysfs：设备、属性与拓扑/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 19,
+    "id": "linux-sys-019",
+    "module": "系统观察与证据采集",
+    "title": "设备节点、设备号与动态管理",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/019-设备节点、设备号与动态管理/articles/设备节点、设备号与动态管理.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/019-设备节点、设备号与动态管理/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 20,
+    "id": "linux-sys-020",
+    "module": "系统观察与证据采集",
+    "title": "debugfs、tracefs 与配置依赖",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/020-debugfs、tracefs 与配置依赖/articles/debugfs、tracefs 与配置依赖.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/020-debugfs、tracefs 与配置依赖/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 21,
+    "id": "linux-sys-021",
+    "module": "系统观察与证据采集",
+    "title": "内核日志、用户日志与时间线",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/021-内核日志、用户日志与时间线/articles/内核日志、用户日志与时间线.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/021-内核日志、用户日志与时间线/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 22,
+    "id": "linux-sys-022",
+    "module": "系统观察与证据采集",
+    "title": "uptime、负载与基础状态",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/022-uptime、负载与基础状态/articles/uptime、负载与基础状态.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/022-uptime、负载与基础状态/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 23,
+    "id": "linux-sys-023",
+    "module": "系统观察与证据采集",
+    "title": "系统快照与版本对照",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/023-系统快照与版本对照/articles/系统快照与版本对照.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/023-系统快照与版本对照/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 24,
+    "id": "linux-sys-024",
+    "module": "系统观察与证据采集",
+    "title": "工具、权限和内核能力的辨别",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/024-工具、权限和内核能力的辨别/articles/工具、权限和内核能力的辨别.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/024-工具、权限和内核能力的辨别/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 25,
+    "id": "linux-sys-025",
+    "module": "进程、线程与调度",
+    "title": "进程生命周期与状态",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/025-进程生命周期与状态/articles/进程生命周期与状态.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/025-进程生命周期与状态/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 26,
+    "id": "linux-sys-026",
+    "module": "进程、线程与调度",
+    "title": "线程、TID 与共享资源",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/026-线程、TID 与共享资源/articles/线程、TID 与共享资源.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/026-线程、TID 与共享资源/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 27,
+    "id": "linux-sys-027",
+    "module": "进程、线程与调度",
+    "title": "调度策略、nice 与实时优先级",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/027-调度策略、nice 与实时优先级/articles/调度策略、nice 与实时优先级.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/027-调度策略、nice 与实时优先级/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 28,
+    "id": "linux-sys-028",
+    "module": "进程、线程与调度",
+    "title": "CPU 亲和性与多核",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/028-CPU 亲和性与多核/articles/CPU 亲和性与多核.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/028-CPU 亲和性与多核/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 29,
+    "id": "linux-sys-029",
+    "module": "进程、线程与调度",
+    "title": "上下文切换、抢占与唤醒延迟",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/029-上下文切换、抢占与唤醒延迟/articles/上下文切换、抢占与唤醒延迟.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/029-上下文切换、抢占与唤醒延迟/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 30,
+    "id": "linux-sys-030",
+    "module": "进程、线程与调度",
+    "title": "信号与有序退出",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/030-信号与有序退出/articles/信号与有序退出.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/030-信号与有序退出/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 31,
+    "id": "linux-sys-031",
+    "module": "进程、线程与调度",
+    "title": "僵尸进程与子进程回收",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/031-僵尸进程与子进程回收/articles/僵尸进程与子进程回收.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/031-僵尸进程与子进程回收/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 32,
+    "id": "linux-sys-032",
+    "module": "进程、线程与调度",
+    "title": "高 CPU、低 CPU 卡顿与 D 状态",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/032-高 CPU、低 CPU 卡顿与 D 状态/articles/高 CPU、低 CPU 卡顿与 D 状态.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/032-高 CPU、低 CPU 卡顿与 D 状态/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 33,
+    "id": "linux-sys-033",
+    "module": "内存管理与排查",
+    "title": "虚拟地址、物理内存与映射",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/033-虚拟地址、物理内存与映射/articles/虚拟地址、物理内存与映射.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/033-虚拟地址、物理内存与映射/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 34,
+    "id": "linux-sys-034",
+    "module": "内存管理与排查",
+    "title": "栈、堆、malloc 与 mmap",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/034-栈、堆、malloc 与 mmap/articles/栈、堆、malloc 与 mmap.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/034-栈、堆、malloc 与 mmap/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 35,
+    "id": "linux-sys-035",
+    "module": "内存管理与排查",
+    "title": "RSS、PSS 与共享内存统计",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/035-RSS、PSS 与共享内存统计/articles/RSS、PSS 与共享内存统计.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/035-RSS、PSS 与共享内存统计/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 36,
+    "id": "linux-sys-036",
+    "module": "内存管理与排查",
+    "title": "页缓存、回收、swap 与内存压力",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/036-页缓存、回收、swap 与内存压力/articles/页缓存、回收、swap 与内存压力.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/036-页缓存、回收、swap 与内存压力/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 37,
+    "id": "linux-sys-037",
+    "module": "内存管理与排查",
+    "title": "slab 与内核内存",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/037-slab 与内核内存/articles/slab 与内核内存.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/037-slab 与内核内存/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 38,
+    "id": "linux-sys-038",
+    "module": "内存管理与排查",
+    "title": "CMA、保留内存与厂商缓冲池",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/038-CMA、保留内存与厂商缓冲池/articles/CMA、保留内存与厂商缓冲池.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/038-CMA、保留内存与厂商缓冲池/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 39,
+    "id": "linux-sys-039",
+    "module": "内存管理与排查",
+    "title": "OOM、碎片与分配失败",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/039-OOM、碎片与分配失败/articles/OOM、碎片与分配失败.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/039-OOM、碎片与分配失败/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 40,
+    "id": "linux-sys-040",
+    "module": "内存管理与排查",
+    "title": "内存泄漏、越界与峰值",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/040-内存泄漏、越界与峰值/articles/内存泄漏、越界与峰值.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/040-内存泄漏、越界与峰值/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 20 轮有界对象分配与释放，验证活跃计数；不以 RSS 是否下降判定释放。"
+  },
+  {
+    "number": 41,
+    "id": "linux-sys-041",
+    "module": "文件、存储与持久化",
+    "title": "文件描述符与打开文件状态",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/041-文件描述符与打开文件状态/articles/文件描述符与打开文件状态.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/041-文件描述符与打开文件状态/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 42,
+    "id": "linux-sys-042",
+    "module": "文件、存储与持久化",
+    "title": "权限、属主、umask 与链接",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/042-权限、属主、umask 与链接/articles/权限、属主、umask 与链接.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/042-权限、属主、umask 与链接/images/封面.svg",
+    "code_files": [
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "只在新建临时目录验证链接，不改变项目文件权限。"
+  },
+  {
+    "number": 43,
+    "id": "linux-sys-043",
+    "module": "文件、存储与持久化",
+    "title": "VFS、挂载点与文件系统",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/043-VFS、挂载点与文件系统/articles/VFS、挂载点与文件系统.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/043-VFS、挂载点与文件系统/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 44,
+    "id": "linux-sys-044",
+    "module": "文件、存储与持久化",
+    "title": "块设备、分区、eMMC 与 SD",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/044-块设备、分区、eMMC 与 SD/articles/块设备、分区、eMMC 与 SD.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/044-块设备、分区、eMMC 与 SD/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 45,
+    "id": "linux-sys-045",
+    "module": "文件、存储与持久化",
+    "title": "MTD、NOR、NAND、UBI 与 UBIFS",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/045-MTD、NOR、NAND、UBI 与 UBIFS/articles/MTD、NOR、NAND、UBI 与 UBIFS.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/045-MTD、NOR、NAND、UBI 与 UBIFS/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 46,
+    "id": "linux-sys-046",
+    "module": "文件、存储与持久化",
+    "title": "SquashFS、OverlayFS 与只读系统",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/046-SquashFS、OverlayFS 与只读系统/articles/SquashFS、OverlayFS 与只读系统.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/046-SquashFS、OverlayFS 与只读系统/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 47,
+    "id": "linux-sys-047",
+    "module": "文件、存储与持久化",
+    "title": "缓冲写入、fsync 与掉电一致性",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/047-缓冲写入、fsync 与掉电一致性/articles/缓冲写入、fsync 与掉电一致性.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/047-缓冲写入、fsync 与掉电一致性/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 48,
+    "id": "linux-sys-048",
+    "module": "文件、存储与持久化",
+    "title": "空间满、inode 耗尽与 I/O 慢",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/048-空间满、inode 耗尽与 I与O 慢/articles/空间满、inode 耗尽与 I与O 慢.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/048-空间满、inode 耗尽与 I与O 慢/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 49,
+    "id": "linux-sys-049",
+    "module": "并发、IPC 与异步 I/O",
+    "title": "阻塞、非阻塞与短读写",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/049-阻塞、非阻塞与短读写/articles/阻塞、非阻塞与短读写.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/049-阻塞、非阻塞与短读写/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 50,
+    "id": "linux-sys-050",
+    "module": "并发、IPC 与异步 I/O",
+    "title": "select、poll 与 epoll",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/050-select、poll 与 epoll/articles/select、poll 与 epoll.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/050-select、poll 与 epoll/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 51,
+    "id": "linux-sys-051",
+    "module": "并发、IPC 与异步 I/O",
+    "title": "pipe、FIFO 与 Unix socket",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/051-pipe、FIFO 与 Unix socket/articles/pipe、FIFO 与 Unix socket.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/051-pipe、FIFO 与 Unix socket/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 52,
+    "id": "linux-sys-052",
+    "module": "并发、IPC 与异步 I/O",
+    "title": "共享内存与消息队列",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/052-共享内存与消息队列/articles/共享内存与消息队列.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/052-共享内存与消息队列/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 53,
+    "id": "linux-sys-053",
+    "module": "并发、IPC 与异步 I/O",
+    "title": "mutex、条件变量与信号量",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/053-mutex、条件变量与信号量/articles/mutex、条件变量与信号量.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/053-mutex、条件变量与信号量/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 54,
+    "id": "linux-sys-054",
+    "module": "并发、IPC 与异步 I/O",
+    "title": "原子操作、内存序与数据竞争",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/054-原子操作、内存序与数据竞争/articles/原子操作、内存序与数据竞争.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/054-原子操作、内存序与数据竞争/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 55,
+    "id": "linux-sys-055",
+    "module": "并发、IPC 与异步 I/O",
+    "title": "eventfd、timerfd 与 signalfd",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/055-eventfd、timerfd 与 signalfd/articles/eventfd、timerfd 与 signalfd.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/055-eventfd、timerfd 与 signalfd/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 56,
+    "id": "linux-sys-056",
+    "module": "并发、IPC 与异步 I/O",
+    "title": "死锁、优先级反转与队列背压",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/056-死锁、优先级反转与队列背压/articles/死锁、优先级反转与队列背压.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/056-死锁、优先级反转与队列背压/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 57,
+    "id": "linux-sys-057",
+    "module": "驱动模型与硬件资源",
+    "title": "device、driver、bus 与绑定",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/057-device、driver、bus 与绑定/articles/device、driver、bus 与绑定.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/057-device、driver、bus 与绑定/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 58,
+    "id": "linux-sys-058",
+    "module": "驱动模型与硬件资源",
+    "title": "platform、设备树与 probe",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/058-platform、设备树与 probe/articles/platform、设备树与 probe.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/058-platform、设备树与 probe/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 59,
+    "id": "linux-sys-059",
+    "module": "驱动模型与硬件资源",
+    "title": "模块、固件加载与版本匹配",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/059-模块、固件加载与版本匹配/articles/模块、固件加载与版本匹配.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/059-模块、固件加载与版本匹配/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 60,
+    "id": "linux-sys-060",
+    "module": "驱动模型与硬件资源",
+    "title": "MMIO 与资源申请",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/060-MMIO 与资源申请/articles/MMIO 与资源申请.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/060-MMIO 与资源申请/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 61,
+    "id": "linux-sys-061",
+    "module": "驱动模型与硬件资源",
+    "title": "IRQ、软中断与工作队列",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/061-IRQ、软中断与工作队列/articles/IRQ、软中断与工作队列.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/061-IRQ、软中断与工作队列/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 62,
+    "id": "linux-sys-062",
+    "module": "驱动模型与硬件资源",
+    "title": "GPIO、pinctrl 与有效电平",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/062-GPIO、pinctrl 与有效电平/articles/GPIO、pinctrl 与有效电平.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/062-GPIO、pinctrl 与有效电平/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 63,
+    "id": "linux-sys-063",
+    "module": "驱动模型与硬件资源",
+    "title": "clock、reset、regulator 与生命周期",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/063-clock、reset、regulator 与生命周期/articles/clock、reset、regulator 与生命周期.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/063-clock、reset、regulator 与生命周期/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 64,
+    "id": "linux-sys-064",
+    "module": "驱动模型与硬件资源",
+    "title": "DMA、IOMMU 与缓存所有权",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/064-DMA、IOMMU 与缓存所有权/articles/DMA、IOMMU 与缓存所有权.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/064-DMA、IOMMU 与缓存所有权/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 65,
+    "id": "linux-sys-065",
+    "module": "常见外设的 Linux 用法",
+    "title": "UART、termios 与串口使用",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/065-UART、termios 与串口使用/articles/UART、termios 与串口使用.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/065-UART、termios 与串口使用/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 66,
+    "id": "linux-sys-066",
+    "module": "常见外设的 Linux 用法",
+    "title": "I²C 设备、事务与访问工具",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/066-I²C 设备、事务与访问工具/articles/I²C 设备、事务与访问工具.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/066-I²C 设备、事务与访问工具/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 67,
+    "id": "linux-sys-067",
+    "module": "常见外设的 Linux 用法",
+    "title": "SPI、spidev 与传输",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/067-SPI、spidev 与传输/articles/SPI、spidev 与传输.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/067-SPI、spidev 与传输/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 68,
+    "id": "linux-sys-068",
+    "module": "常见外设的 Linux 用法",
+    "title": "GPIO 字符设备与事件",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/068-GPIO 字符设备与事件/articles/GPIO 字符设备与事件.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/068-GPIO 字符设备与事件/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 69,
+    "id": "linux-sys-069",
+    "module": "常见外设的 Linux 用法",
+    "title": "PWM、定时器与控制输出",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/069-PWM、定时器与控制输出/articles/PWM、定时器与控制输出.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/069-PWM、定时器与控制输出/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 70,
+    "id": "linux-sys-070",
+    "module": "常见外设的 Linux 用法",
+    "title": "ADC、传感器与 IIO",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/070-ADC、传感器与 IIO/articles/ADC、传感器与 IIO.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/070-ADC、传感器与 IIO/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 71,
+    "id": "linux-sys-071",
+    "module": "常见外设的 Linux 用法",
+    "title": "input、按键与触摸事件",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/071-input、按键与触摸事件/articles/input、按键与触摸事件.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/071-input、按键与触摸事件/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 72,
+    "id": "linux-sys-072",
+    "module": "常见外设的 Linux 用法",
+    "title": "CAN、SocketCAN 与错误状态",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/072-CAN、SocketCAN 与错误状态/articles/CAN、SocketCAN 与错误状态.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/072-CAN、SocketCAN 与错误状态/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 73,
+    "id": "linux-sys-073",
+    "module": "USB、PCIe 与多媒体",
+    "title": "USB 枚举、描述符与端点",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/073-USB 枚举、描述符与端点/articles/USB 枚举、描述符与端点.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/073-USB 枚举、描述符与端点/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 74,
+    "id": "linux-sys-074",
+    "module": "USB、PCIe 与多媒体",
+    "title": "USB Host、Gadget 与 UVC",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/074-USB Host、Gadget 与 UVC/articles/USB Host、Gadget 与 UVC.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/074-USB Host、Gadget 与 UVC/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 75,
+    "id": "linux-sys-075",
+    "module": "USB、PCIe 与多媒体",
+    "title": "PCIe 枚举、BAR、MSI 与 DMA",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/075-PCIe 枚举、BAR、MSI 与 DMA/articles/PCIe 枚举、BAR、MSI 与 DMA.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/075-PCIe 枚举、BAR、MSI 与 DMA/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 76,
+    "id": "linux-sys-076",
+    "module": "USB、PCIe 与多媒体",
+    "title": "V4L2 采集与缓冲队列",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/076-V4L2 采集与缓冲队列/articles/V4L2 采集与缓冲队列.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/076-V4L2 采集与缓冲队列/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 77,
+    "id": "linux-sys-077",
+    "module": "USB、PCIe 与多媒体",
+    "title": "Media Controller 与摄像头拓扑",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/077-Media Controller 与摄像头拓扑/articles/Media Controller 与摄像头拓扑.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/077-Media Controller 与摄像头拓扑/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 78,
+    "id": "linux-sys-078",
+    "module": "USB、PCIe 与多媒体",
+    "title": "ALSA、PCM 与音频欠载",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/078-ALSA、PCM 与音频欠载/articles/ALSA、PCM 与音频欠载.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/078-ALSA、PCM 与音频欠载/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 79,
+    "id": "linux-sys-079",
+    "module": "USB、PCIe 与多媒体",
+    "title": "DRM、KMS 与显示缓冲",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/079-DRM、KMS 与显示缓冲/articles/DRM、KMS 与显示缓冲.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/079-DRM、KMS 与显示缓冲/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 80,
+    "id": "linux-sys-080",
+    "module": "USB、PCIe 与多媒体",
+    "title": "厂商视频 SDK 与 NPU 资源",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/080-厂商视频 SDK 与 NPU 资源/articles/厂商视频 SDK 与 NPU 资源.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/080-厂商视频 SDK 与 NPU 资源/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 81,
+    "id": "linux-sys-081",
+    "module": "网络配置与排障",
+    "title": "网卡、MAC、PHY 与链路状态",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/081-网卡、MAC、PHY 与链路状态/articles/网卡、MAC、PHY 与链路状态.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/081-网卡、MAC、PHY 与链路状态/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 82,
+    "id": "linux-sys-082",
+    "module": "网络配置与排障",
+    "title": "IP、子网、路由与邻居表",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/082-IP、子网、路由与邻居表/articles/IP、子网、路由与邻居表.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/082-IP、子网、路由与邻居表/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 83,
+    "id": "linux-sys-083",
+    "module": "网络配置与排障",
+    "title": "DHCP、DNS 与时间同步",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/083-DHCP、DNS 与时间同步/articles/DHCP、DNS 与时间同步.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/083-DHCP、DNS 与时间同步/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 84,
+    "id": "linux-sys-084",
+    "module": "网络配置与排障",
+    "title": "TCP、UDP 与 socket 缓冲",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/084-TCP、UDP 与 socket 缓冲/articles/TCP、UDP 与 socket 缓冲.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/084-TCP、UDP 与 socket 缓冲/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机内存中的拆包练习；不建立 TCP 连接，不模拟重传或拥塞。"
+  },
+  {
+    "number": 85,
+    "id": "linux-sys-085",
+    "module": "网络配置与排障",
+    "title": "ss、抓包与协议分析",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/085-ss、抓包与协议分析/articles/ss、抓包与协议分析.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/085-ss、抓包与协议分析/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 86,
+    "id": "linux-sys-086",
+    "module": "网络配置与排障",
+    "title": "吞吐、重传、MTU 与延迟",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/086-吞吐、重传、MTU 与延迟/articles/吞吐、重传、MTU 与延迟.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/086-吞吐、重传、MTU 与延迟/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 87,
+    "id": "linux-sys-087",
+    "module": "网络配置与排障",
+    "title": "Wi-Fi、蜂窝模块与重连",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/087-Wi-Fi、蜂窝模块与重连/articles/Wi-Fi、蜂窝模块与重连.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/087-Wi-Fi、蜂窝模块与重连/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 88,
+    "id": "linux-sys-088",
+    "module": "网络配置与排障",
+    "title": "防火墙、转发、NAT 与隔离",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/088-防火墙、转发、NAT 与隔离/articles/防火墙、转发、NAT 与隔离.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/088-防火墙、转发、NAT 与隔离/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 89,
+    "id": "linux-sys-089",
+    "module": "应用开发与部署",
+    "title": "交叉编译、sysroot 与 pkg-config",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/089-交叉编译、sysroot 与 pkg-config/articles/交叉编译、sysroot 与 pkg-config.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/089-交叉编译、sysroot 与 pkg-config/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 90,
+    "id": "linux-sys-090",
+    "module": "应用开发与部署",
+    "title": "Make、CMake 与可重复构建",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/090-Make、CMake 与可重复构建/articles/Make、CMake 与可重复构建.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/090-Make、CMake 与可重复构建/images/封面.svg",
+    "code_files": [
+      "CMakeLists.txt",
+      "main.c",
+      "message.h",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 CMake 构建，需 CMake 3.16+ 和 C 编译器；不代表交叉工具链已验证。"
+  },
+  {
+    "number": 91,
+    "id": "linux-sys-091",
+    "module": "应用开发与部署",
+    "title": "ELF、库与动态加载器",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/091-ELF、库与动态加载器/articles/ELF、库与动态加载器.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/091-ELF、库与动态加载器/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 92,
+    "id": "linux-sys-092",
+    "module": "应用开发与部署",
+    "title": "程序无法启动的分层排查",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/092-程序无法启动的分层排查/articles/程序无法启动的分层排查.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/092-程序无法启动的分层排查/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 93,
+    "id": "linux-sys-093",
+    "module": "应用开发与部署",
+    "title": "配置、日志与错误处理",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/093-配置、日志与错误处理/articles/配置、日志与错误处理.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/093-配置、日志与错误处理/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 94,
+    "id": "linux-sys-094",
+    "module": "应用开发与部署",
+    "title": "服务管理、依赖与恢复",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/094-服务管理、依赖与恢复/articles/服务管理、依赖与恢复.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/094-服务管理、依赖与恢复/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 95,
+    "id": "linux-sys-095",
+    "module": "应用开发与部署",
+    "title": "capabilities 与设备访问",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/095-capabilities 与设备访问/articles/capabilities 与设备访问.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/095-capabilities 与设备访问/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 96,
+    "id": "linux-sys-096",
+    "module": "应用开发与部署",
+    "title": "软件包、升级与回退",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/096-软件包、升级与回退/articles/软件包、升级与回退.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/096-软件包、升级与回退/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 97,
+    "id": "linux-sys-097",
+    "module": "调试与性能工具",
+    "title": "strace 定位系统调用问题",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/097-strace 定位系统调用问题/articles/strace 定位系统调用问题.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/097-strace 定位系统调用问题/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "build-debug.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 98,
+    "id": "linux-sys-098",
+    "module": "调试与性能工具",
+    "title": "GDB 与 gdbserver",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/098-GDB 与 gdbserver/articles/GDB 与 gdbserver.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/098-GDB 与 gdbserver/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "build-debug.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 99,
+    "id": "linux-sys-099",
+    "module": "调试与性能工具",
+    "title": "core dump、符号与回溯",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/099-core dump、符号与回溯/articles/core dump、符号与回溯.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/099-core dump、符号与回溯/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 100,
+    "id": "linux-sys-100",
+    "module": "调试与性能工具",
+    "title": "ASan、UBSan 与内存错误",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/100-ASan、UBSan 与内存错误/articles/ASan、UBSan 与内存错误.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/100-ASan、UBSan 与内存错误/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 ASan+UBSan 构建和边界输入验证；没有故意触发越界，不代表覆盖任意输入或真实板端。"
+  },
+  {
+    "number": 101,
+    "id": "linux-sys-101",
+    "module": "调试与性能工具",
+    "title": "perf 与采样分析",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/101-perf 与采样分析/articles/perf 与采样分析.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/101-perf 与采样分析/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "build-debug.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机有界 CPU 工作负载，验证确定性结果；perf 权限与硬件事件未自动测试。"
+  },
+  {
+    "number": 102,
+    "id": "linux-sys-102",
+    "module": "调试与性能工具",
+    "title": "ftrace、tracepoints 与时序",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/102-ftrace、tracepoints 与时序/articles/ftrace、tracepoints 与时序.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/102-ftrace、tracepoints 与时序/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 103,
+    "id": "linux-sys-103",
+    "module": "调试与性能工具",
+    "title": "eBPF 的用途、条件与替代方案",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/103-eBPF 的用途、条件与替代方案/articles/eBPF 的用途、条件与替代方案.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/103-eBPF 的用途、条件与替代方案/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 104,
+    "id": "linux-sys-104",
+    "module": "调试与性能工具",
+    "title": "联合定位性能瓶颈",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/104-联合定位性能瓶颈/articles/联合定位性能瓶颈.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/104-联合定位性能瓶颈/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "timeline.json",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "python3 main.py",
+    "scope": "Python 3.10+ 标准库；构造时间线，不代表网络或 NPU 实测。"
+  },
+  {
+    "number": 105,
+    "id": "linux-sys-105",
+    "module": "内核故障、实时性与可靠性",
+    "title": "Oops、panic 与内核调用栈",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/105-Oops、panic 与内核调用栈/articles/Oops、panic 与内核调用栈.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/105-Oops、panic 与内核调用栈/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 106,
+    "id": "linux-sys-106",
+    "module": "内核故障、实时性与可靠性",
+    "title": "hung task、soft lockup 与 hard lockup",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/106-hung task、soft lockup 与 hard lockup/articles/hung task、soft lockup 与 hard lockup.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/106-hung task、soft lockup 与 hard lockup/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 107,
+    "id": "linux-sys-107",
+    "module": "内核故障、实时性与可靠性",
+    "title": "锁检查与内核调试配置",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/107-锁检查与内核调试配置/articles/锁检查与内核调试配置.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/107-锁检查与内核调试配置/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 108,
+    "id": "linux-sys-108",
+    "module": "内核故障、实时性与可靠性",
+    "title": "PREEMPT_RT 与实时延迟",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/108-PREEMPT_RT 与实时延迟/articles/PREEMPT_RT 与实时延迟.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/108-PREEMPT_RT 与实时延迟/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 109,
+    "id": "linux-sys-109",
+    "module": "内核故障、实时性与可靠性",
+    "title": "时钟源、时间戳与对齐",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/109-时钟源、时间戳与对齐/articles/时钟源、时间戳与对齐.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/109-时钟源、时间戳与对齐/images/封面.svg",
+    "code_files": [
+      "main.c",
+      "run.sh",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh run.sh",
+    "scope": "主机 Linux 的有界 C 实验；不访问真实外设，不代表板端时序或性能。"
+  },
+  {
+    "number": 110,
+    "id": "linux-sys-110",
+    "module": "内核故障、实时性与可靠性",
+    "title": "频率、温度与降频",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/110-频率、温度与降频/articles/频率、温度与降频.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/110-频率、温度与降频/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 111,
+    "id": "linux-sys-111",
+    "module": "内核故障、实时性与可靠性",
+    "title": "suspend、runtime PM 与唤醒",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/111-suspend、runtime PM 与唤醒/articles/suspend、runtime PM 与唤醒.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/111-suspend、runtime PM 与唤醒/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 112,
+    "id": "linux-sys-112",
+    "module": "内核故障、实时性与可靠性",
+    "title": "watchdog、pstore 与故障现场",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/112-watchdog、pstore 与故障现场/articles/watchdog、pstore 与故障现场.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/112-watchdog、pstore 与故障现场/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 113,
+    "id": "linux-sys-113",
+    "module": "隔离与综合工程案例",
+    "title": "cgroups、限制与资源压力",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/113-cgroups、限制与资源压力/articles/cgroups、限制与资源压力.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/113-cgroups、限制与资源压力/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 114,
+    "id": "linux-sys-114",
+    "module": "隔离与综合工程案例",
+    "title": "namespaces、容器与设备访问",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/114-namespaces、容器与设备访问/articles/namespaces、容器与设备访问.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/114-namespaces、容器与设备访问/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 115,
+    "id": "linux-sys-115",
+    "module": "隔离与综合工程案例",
+    "title": "案例：启动和根文件系统失败",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/115-案例：启动和根文件系统失败/articles/案例：启动和根文件系统失败.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/115-案例：启动和根文件系统失败/images/封面.svg",
+    "code_files": [
+      "boot.log",
+      "main.py",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "python3 main.py",
+    "scope": "Python 标准库；仅对三行构造日志分类线索，未知信息保持 unknown。"
+  },
+  {
+    "number": 116,
+    "id": "linux-sys-116",
+    "module": "隔离与综合工程案例",
+    "title": "案例：摄像头无图、花屏与丢帧",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/116-案例：摄像头无图、花屏与丢帧/articles/案例：摄像头无图、花屏与丢帧.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/116-案例：摄像头无图、花屏与丢帧/images/封面.svg",
+    "code_files": [
+      "frames.csv",
+      "main.py",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "python3 main.py",
+    "scope": "Python 标准库；构造帧序号和持有量，未接入摄像头。"
+  },
+  {
+    "number": 117,
+    "id": "linux-sys-117",
+    "module": "隔离与综合工程案例",
+    "title": "案例：NPU 变慢与缓冲分配失败",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/117-案例：NPU 变慢与缓冲分配失败/articles/案例：NPU 变慢与缓冲分配失败.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/117-案例：NPU 变慢与缓冲分配失败/images/封面.svg",
+    "code_files": [],
+    "command": null,
+    "scope": "analysis-or-board-observation-not-executed"
+  },
+  {
+    "number": 118,
+    "id": "linux-sys-118",
+    "module": "隔离与综合工程案例",
+    "title": "案例：网络视频卡顿与帧龄",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/118-案例：网络视频卡顿与帧龄/articles/案例：网络视频卡顿与帧龄.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/118-案例：网络视频卡顿与帧龄/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "timeline.json",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "python3 main.py",
+    "scope": "Python 3.10+ 标准库；构造时间线，不代表网络或 NPU 实测。"
+  },
+  {
+    "number": 119,
+    "id": "linux-sys-119",
+    "module": "隔离与综合工程案例",
+    "title": "案例：长期运行的内存与句柄增长",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/119-案例：长期运行的内存与句柄增长/articles/案例：长期运行的内存与句柄增长.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/119-案例：长期运行的内存与句柄增长/images/封面.svg",
+    "code_files": [
+      "resources.csv",
+      "main.py",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "python3 main.py",
+    "scope": "Python 标准库；分析构造趋势，不声称发现真实进程泄漏。"
+  },
+  {
+    "number": 120,
+    "id": "linux-sys-120",
+    "module": "隔离与综合工程案例",
+    "title": "整机验收与故障报告",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/120-整机验收与故障报告/articles/整机验收与故障报告.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式Linux系统工程/120-整机验收与故障报告/images/封面.svg",
+    "code_files": [
+      "collect.sh",
+      "resource-index.md",
+      "troubleshooting.md",
+      "tool-matrix.md",
+      "report-template.md",
+      "README.md",
+      "verification.md",
+      ".gitignore"
+    ],
+    "command": "sh collect.sh",
+    "scope": "有界只读采集和可填写模板；不执行板端压力、掉电、升级或可靠性测试。"
+  }
+]

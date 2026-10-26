@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+<title id="title">ISP 处理的三个理解层次</title>
+<desc id="desc">校正采样、重建颜色、改善输出。按目的分类，不表示固定硬件顺序。</desc>
+<rect width="760" height="600" rx="18" fill="#f7f3eb"/>
+<g font-family="sans-serif" text-anchor="middle" fill="#384e49">
+<text x="380" y="55" font-size="30">从 RAW 到可用图像</text>
+<rect x="55" y="90" width="650" height="125" rx="12" fill="#dce4d5"/>
+<text x="380" y="133" font-size="26">校正采样中的偏差</text>
+<text x="380" y="177" font-size="21">黑电平 · 坏点 · 镜头阴影</text>
+<rect x="55" y="235" width="650" height="125" rx="12" fill="#d5e1e8"/>
+<text x="380" y="278" font-size="26">重建并校正颜色</text>
+<text x="380" y="322" font-size="21">去马赛克 · 白平衡 · 颜色校正</text>
+<rect x="55" y="380" width="650" height="125" rx="12" fill="#e9dfce"/>
+<text x="380" y="423" font-size="26">改善输出表现</text>
+<text x="380" y="467" font-size="21">降噪 · 锐化 · 色调与编码</text>
+<text x="380" y="554" font-size="20">按目的分类，不代表固定处理顺序</text>
+</g>
+</svg>

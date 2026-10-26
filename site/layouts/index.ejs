@@ -1,0 +1,27 @@
+<section class="intro" aria-labelledby="intro-title">
+  <div class="intro-copy">
+    <p class="eyebrow mono">LUCAS / ENGINEERING NOTES</p>
+    <h1 id="intro-title"><%= config.intro %></h1>
+    <p class="intro-description"><%= config.introDescription %></p>
+  </div>
+  <img class="intro-art" src="<%- url('/illustrations/reading-room.png') %>" alt="" width="1536" height="1024" fetchpriority="high">
+</section>
+<div class="workspace">
+  <section class="article-section" aria-labelledby="articles-title">
+    <% const featured = site.posts.find(post => post.abbrlink === config.featuredPost); const entries = featured ? [featured, ...site.posts.filter(post => post !== featured)] : site.posts; %>
+    <%- partial('_partial/list', { entries, filterable: true }) %>
+  </section>
+  <aside class="sidebar">
+    <% if (site.series.length) { %><section><h2 class="aside-heading"><a href="<%- url('/series/') %>">专题合集 →</a></h2><ul class="folder-list"><% site.series.forEach(function(collection) { %><li><a href="<%- url(collection.path) %>"><span><%= collection.title %></span><span class="folder-count mono"><%= collection.posts.length %></span></a></li><% }) %></ul></section><% } %>
+    <section>
+      <h2 class="aside-heading"><a href="<%- url('/categories/') %>">知识书架</a></h2>
+      <ul class="folder-list">
+        <% site.categoriesByCount.forEach(function(category) { %>
+        <li><a href="<%- url(category.path) %>"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M3 7V5a2 2 0 0 1 2-2h5l3 3h6a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Zm0 3h18"/></svg><span><%= config.categoryLabels?.[category.name] || category.name %></span><span class="folder-count mono"><%= category.length %></span></a></li>
+        <% }) %>
+      </ul>
+    </section>
+    <section class="readme"><h2 class="aside-heading">关于这里</h2><p>把问题弄明白，把过程记下来。</p><p>从原理到实践，给每一次探索留一份记录。</p><a href="<%- url('/about/') %>">认识 Lucas <span aria-hidden="true">↗</span></a></section>
+    <div class="site-stats"><div><strong><%= site.posts.length %></strong><span>篇记录</span></div><div><strong><%= site.categories.length %></strong><span>个领域</span></div></div>
+  </aside>
+</div>

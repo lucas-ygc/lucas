@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "capture_ms": 0,
+    "start_ms": 5,
+    "finish_ms": 15
+  },
+  {
+    "id": 1,
+    "capture_ms": 33,
+    "start_ms": 38,
+    "finish_ms": 48
+  },
+  {
+    "id": 2,
+    "capture_ms": 66,
+    "start_ms": 200,
+    "finish_ms": 210
+  }
+]

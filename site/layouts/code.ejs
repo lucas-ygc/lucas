@@ -1,0 +1,13 @@
+<nav class="breadcrumb" aria-label="当前位置"><a href="<%- url('/') %>">首页</a><span>/</span><a href="<%- url(page.post.path) %>"><%= page.post.title %></a><span>/</span><span>配套代码</span></nav>
+<header class="page-heading code-heading"><p class="eyebrow mono">EXPERIMENT / 配套代码</p><h1><%= page.source.name %></h1><a href="<%- url(page.post.path) %>">← 返回文章</a></header>
+<div class="code-layout">
+  <aside class="code-files"><h2 class="aside-heading">本课文件</h2><nav aria-label="代码文件"><% page.post.code.files.forEach(function(file) { %><% if(file.path) { %><a href="<%- url(file.path) %>" <%- file.name === page.source.name ? 'aria-current="page"' : '' %>><%= file.name %></a><% } else { %><span><%= file.name %>（见下载包）</span><% } %><% }) %></nav><a class="code-download" href="<%- url(page.post.code.download) %>" download>下载本课代码 ↓</a></aside>
+  <section class="code-content" aria-label="源代码">
+    <% const experiment = page.post.code.experiments.find(item => item.file === page.source.name); if(experiment) { %>
+    <div class="experiment-actions"><a href="<%- url(page.post.code.download) %>" download>下载代码</a><button type="button" data-copy-command="<%= experiment.projectCommand %>">复制运行命令</button><span class="copy-status" role="status"></span></div>
+    <p class="experiment-hint">在项目根目录执行；下载包解压后，在解压目录执行 <code><%= experiment.command %></code>。</p>
+    <pre class="experiment-command"><code><%= experiment.projectCommand %></code></pre>
+    <% } %>
+    <div class="source-code highlight"><pre><code><%- page.source.highlighted %></code></pre></div>
+  </section>
+</div>

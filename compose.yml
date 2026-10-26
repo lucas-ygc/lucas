@@ -1,0 +1,13 @@
+services:
+  lucas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    ports:
+      - "127.0.0.1:8080:4000"
+    volumes:
+      - ./content:/app/content:ro
+      - ./site:/app/site:ro
+      - ./static:/app/static:ro
+    init: true

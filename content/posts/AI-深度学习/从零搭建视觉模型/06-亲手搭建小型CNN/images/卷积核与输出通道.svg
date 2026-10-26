@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="285" viewBox="0 0 840 285" role="img" aria-label="一套 3×3×3 卷积核如何从 R、G、B 三个输入通道计算一个输出值">
+<title>一套 3×3×3 卷积核：27 个权重算出一个输出值</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#526a73"/></marker></defs>
+<rect width="100%" height="100%" rx="12" fill="#f7f3e9"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif">
+<text x="30" y="24" font-size="13" fill="#6b7d80">输入：每张图取一个 3×3 区域</text>
+<text x="250" y="24" font-size="13" fill="#6b7d80">一套核：三张 3×3 权重平面</text>
+<text x="560" y="24" font-size="13" fill="#6b7d80">输出</text>
+
+<g id="inR"><path d="M40,40 h42 M40,54 h42 M40,68 h42 M40,40 v42 M54,40 v42 M68,40 v42" stroke="#c05a5a" fill="none"/><text x="24" y="65" font-size="13" fill="#c05a5a">R</text></g>
+<g id="inG"><path d="M40,105 h42 M40,119 h42 M40,133 h42 M40,105 v42 M54,105 v42 M68,105 v42" stroke="#5a8f6a" fill="none"/><text x="24" y="130" font-size="13" fill="#5a8f6a">G</text></g>
+<g id="inB"><path d="M40,170 h42 M40,184 h42 M40,198 h42 M40,170 v42 M54,170 v42 M68,170 v42" stroke="#5a7fb0" fill="none"/><text x="24" y="195" font-size="13" fill="#5a7fb0">B</text></g>
+
+<text x="96" y="75" font-size="12" fill="#6b7d80">对应位置相乘：每层 9 项</text>
+
+<g id="kR"><path d="M250,40 h42 M250,54 h42 M250,68 h42 M250,40 v42 M264,40 v42 M278,40 v42" stroke="#c05a5a" fill="none" stroke-dasharray="3 2"/><text x="250" y="96" font-size="13" fill="#c05a5a">K_R</text></g>
+<g id="kG"><path d="M250,105 h42 M250,119 h42 M250,133 h42 M250,105 v42 M264,105 v42 M278,105 v42" stroke="#5a8f6a" fill="none" stroke-dasharray="3 2"/><text x="250" y="161" font-size="13" fill="#5a8f6a">K_G</text></g>
+<g id="kB"><path d="M250,170 h42 M250,184 h42 M250,198 h42 M250,170 v42 M264,170 v42 M278,170 v42" stroke="#5a7fb0" fill="none" stroke-dasharray="3 2"/><text x="250" y="226" font-size="13" fill="#5a7fb0">K_B</text></g>
+
+<line x1="296" y1="61" x2="428" y2="92" stroke="#526a73"/>
+<line x1="296" y1="126" x2="428" y2="106" stroke="#526a73"/>
+<line x1="296" y1="191" x2="428" y2="120" stroke="#526a73"/>
+<text x="436" y="100" font-size="30" fill="#293e47">Σ</text>
+<text x="436" y="144" font-size="12" fill="#6b7d80">27 个乘积求和，再加偏置 b</text>
+
+<line x1="488" y1="106" x2="552" y2="106" stroke="#526a73" marker-end="url(#arrow)"/>
+<rect x="560" y="88" width="34" height="34" rx="6" fill="#e4ece8" stroke="#526a73"/>
+<text x="604" y="99" font-size="12" fill="#6b7d80">1 个数，填入输出</text>
+<text x="604" y="116" font-size="12" fill="#6b7d80">特征图的第 (i,j) 格</text>
+
+<text x="30" y="260" font-size="13" fill="#293e47">8 个输出通道 = 8 套这样的核（每套 27 个权重 + 1 个偏置）；不是把 RGB 拆成 8 种颜色</text>
+</g>
+</svg>

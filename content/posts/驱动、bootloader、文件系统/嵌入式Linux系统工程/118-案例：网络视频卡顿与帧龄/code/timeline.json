@@ -1,0 +1,23 @@
+[
+  {
+    "frame": 0,
+    "capture_ms": 0,
+    "start_ms": 2,
+    "finish_ms": 12,
+    "present_ms": 15
+  },
+  {
+    "frame": 1,
+    "capture_ms": 33,
+    "start_ms": 38,
+    "finish_ms": 48,
+    "present_ms": 53
+  },
+  {
+    "frame": 2,
+    "capture_ms": 66,
+    "start_ms": 266,
+    "finish_ms": 276,
+    "present_ms": 286
+  }
+]

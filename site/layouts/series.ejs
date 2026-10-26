@@ -1,0 +1,28 @@
+<nav class="breadcrumb mono" aria-label="当前位置"><a href="<%- url('/') %>">首页</a><span>/</span><% if (page.collection) { %><a href="<%- url('/series/') %>">合集</a><span>/</span><span><%= page.title %></span><% } else { %><span>合集</span><% } %></nav>
+<header class="page-heading"><p class="eyebrow mono">LUCAS / COLLECTIONS</p><h1><%= page.title %></h1><p class="muted"><%= page.description || '把相关的记录放在一起，沿着一个主题慢慢读。' %></p></header>
+<% if (page.collection) { %>
+<section class="collection-reading" aria-label="合集文章目录">
+  <div class="collection-categories"><% page.collection.categories.forEach(function(category) { %><a class="series-badge" href="<%- url(category.path) %>"><%= config.categoryLabels?.[category.name] || category.name %></a><% }) %></div>
+  <p class="small muted">已发布 <%= page.collection.posts.length %> 篇 · 按阅读顺序排列</p>
+  <ol class="collection-chapters">
+  <% page.collection.posts.forEach(function(post) { %>
+    <li><a href="<%- url(post.path) %>"><h2><%= post.title %></h2><% if (post.description) { %><p><%= post.description %></p><% } %><span class="small muted">阅读全文 →</span></a></li>
+  <% }) %>
+  </ol>
+</section>
+<% } else { %>
+<% site.seriesGroups.forEach(function(group) { %>
+<section class="collection-category" aria-label="<%= config.categoryLabels?.[group.name] || group.name %>合集">
+<h2 class="collection-group-title"><% if (group.path) { %><a href="<%- url(group.path) %>"><%= config.categoryLabels?.[group.name] || group.name %></a><% } else { %><%= group.name %><% } %><span class="small muted"><%= group.collections.length %> 个合集</span></h2>
+<div class="collection-grid">
+  <% group.collections.forEach(function(collection) { %>
+  <a class="collection-card" href="<%- url(collection.path) %>">
+    <% if (collection.posts[0].cover) { %><img src="<%- url(collection.posts[0].cover) %>" alt="" width="600" height="300" loading="lazy"><% } %>
+    <div><span class="small muted">专题合集 · <%= collection.posts.length %> 篇</span><h3><%= collection.title %></h3><p><%= collection.description %></p><span class="collection-action">查看目录 →</span></div>
+  </a>
+  <% }) %>
+</div>
+</section>
+<% }) %>
+<% if (!site.series.length) { %><p class="muted">合集正在整理中。</p><% } %>
+<% } %>

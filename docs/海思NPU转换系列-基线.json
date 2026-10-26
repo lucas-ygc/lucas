@@ -1,0 +1,371 @@
+{
+  "recorded_on": "2026-10-12",
+  "article_dates": "2026-08-01..2026-08-16",
+  "target_soc": "Hi3516CV610",
+  "documents": [
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/AMCT使用指南（Caffe）.pdf",
+      "bytes": 1868567,
+      "sha256": "a0e842b32173c77197172390cc2e34908ceefac78beafda2ad01b9f221f40a0b"
+    },
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/AMCT使用指南（PyTorch）.pdf",
+      "bytes": 3308889,
+      "sha256": "d025b9f8c2d9e9ef61e565f4ae03d3f8df86d19da11d1611b945ae4a970ecf0d"
+    },
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/ATC Graph开发指南.pdf",
+      "bytes": 3462305,
+      "sha256": "7f046d33e4d57dcececd33c66a60cd62d573a35f56c5471262122e51c25cbe69"
+    },
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/ATC工具使用指南.pdf",
+      "bytes": 5688627,
+      "sha256": "b6ba9615d8cfdc06310f996cfa83d08cdc8da6d65da7f93faaaaf6d02cd76893"
+    },
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/ATC自定义算子开发指南.pdf",
+      "bytes": 1261851,
+      "sha256": "a61c621d3a2b276b32ad9d9ffa655dba9443f0b1892be8f54aa4608e529eaff9"
+    },
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/MindCmd 使用指南.pdf",
+      "bytes": 3066681,
+      "sha256": "03234fb692f448ff86b073a9670a23cec0ec121483caad47d38b1d61fc0eb222"
+    },
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/图像分析引擎使用差异说明.pdf",
+      "bytes": 1243538,
+      "sha256": "4fd814eabcac10ad53b4d2245d08eca4486f69b9af4487d5a13bbc288e4f1a9f"
+    },
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/应用开发指南.pdf",
+      "bytes": 3863433,
+      "sha256": "e0978d10555ce7e38ab1e26138c9c3a2f7d4e24b31708d49cc8cdf5fedff80c3"
+    },
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/快速上手指南.pdf",
+      "bytes": 1415530,
+      "sha256": "75483f5b3638f9367dd385e2ecd54a5a96f545e1bdf1451cae51e09f62c2f9de"
+    },
+    {
+      "path": "Hi3516C V610R001C01SPC020/ReleaseDoc/zh/01.software/pc/SVP_NPU/驱动和开发环境安装指南.pdf",
+      "bytes": 1186554,
+      "sha256": "7908a3609998649427b94d838462dfd4b239bb55088abbfec17b0abe80c94cd4"
+    }
+  ],
+  "sources": [
+    {
+      "path": "SDK/Tools/ModelConvertDocker/README.md",
+      "bytes": 938,
+      "sha256": "0ce7ac86fc0baa5d2d9f8f30fa174836c8e0fa541ede5b04a5bfe9d75e23407f"
+    },
+    {
+      "path": "SDK/Tools/ModelConvertDocker/PrepareResources.sh",
+      "bytes": 984,
+      "sha256": "605eba2cff1b09c03e1c1ce3bc7fdf8d5ab22a25336f1f092c60a15cd8b26d2b"
+    },
+    {
+      "path": "SDK/Tools/ModelConvertDocker/BuildImage.sh",
+      "bytes": 394,
+      "sha256": "9dd89109d0ac890bed7d914da6bc527f6ef517a34a04c8c48bc7bc0326248e6d"
+    },
+    {
+      "path": "SDK/Tools/ModelConvertDocker/Run.sh",
+      "bytes": 329,
+      "sha256": "f4201353824d8f7d318f94179ba8d0806ce0835529c78ff0419fafac0316e235"
+    },
+    {
+      "path": "SDK/Tools/ModelConvertDocker/cpu/Dockerfile",
+      "bytes": 10607,
+      "sha256": "d27d37d8b2e3a2765098f467aaa89eaabf7bb1149266f45b0c87e51c3bb53cbc"
+    },
+    {
+      "path": "SDK/Tools/Npu/YuNet/BuildOm.sh",
+      "bytes": 2297,
+      "sha256": "aa77689959f9fe7e88b9c7b540bef6ce305a493957a5d9614f56a4925b5cea4d"
+    },
+    {
+      "path": "SDK/Tools/Npu/YuNet/MakeInput255Onnx.py",
+      "bytes": 1580,
+      "sha256": "b39870e199fac7a8f5532b7535eb845c2e181d18e5576945ae8314169adabe7d"
+    },
+    {
+      "path": "SDK/Tools/Npu/YuNet/aipp.cfg",
+      "bytes": 236,
+      "sha256": "257b1a77512198b43ae1138add42fdc32d82d9cb7bc65902f17c73d041546cd7"
+    },
+    {
+      "path": "SDK/Tools/Npu/PipNet/BuildOm.sh",
+      "bytes": 1794,
+      "sha256": "07f9787060e771cfc78169c9a997e3847b87657f52addc9c19e633c5365b085a"
+    },
+    {
+      "path": "SDK/Tools/Npu/PipNet/aipp.cfg",
+      "bytes": 248,
+      "sha256": "26adfb2250dfee3cb092caef06329ef6bbf40e70e361f3dcec8e254056ed34ad"
+    },
+    {
+      "path": "SDK/Tools/Npu/PrepareOcclusionCalibration.py",
+      "bytes": 3151,
+      "sha256": "9f46d21c9b38a30e12681b96b6e68af2140785ef447f31b27cef25e5baa7bfb9"
+    },
+    {
+      "path": "SDK/Tools/Npu/Yolov8nPose/README.md",
+      "bytes": 3858,
+      "sha256": "62ef569f9a57e4a44941d412d1a3de9e94240dc4fcb8706b443aa3eeab32fc3a"
+    },
+    {
+      "path": "SDK/Tools/Npu/Yolov8nPose/aipp_bgr_planar.cfg",
+      "bytes": 224,
+      "sha256": "5ed8dc9e96da1b877183124789201c1cebf0c8e0af6e4f705b9540fcbb480de5"
+    },
+    {
+      "path": "SDK/Tools/Npu/Yolov8nPose/DeployPoseOm.sh",
+      "bytes": 1615,
+      "sha256": "61fbb189349598a01c231ec45f3704ffffc1d4122dfe48f11f061822ff665aa9"
+    },
+    {
+      "path": "application/Dependent/shared/head_yunet_luvli/hi3516/benchmark.cpp",
+      "bytes": 10845,
+      "sha256": "d6676c11735ba6023c7d3c60901ed7648ef7d089d221f5f9127663ca54699f44"
+    },
+    {
+      "path": "application/Dependent/shared/head_yunet_luvli/hi3516/build_benchmark.sh",
+      "bytes": 683,
+      "sha256": "2823b4aade8c78d6d22a91c72674870013aa39b87a14cc5a178b7b410b6ca142"
+    },
+    {
+      "path": "application/Dependent/shared/yoloworld_occluder/simulate_board.sh",
+      "bytes": 1219,
+      "sha256": "45382b942b6d6ce6682c33e8afe51f3302a0a78a3e3061e88dcb5e891a08128f"
+    },
+    {
+      "path": "application/Board/HI3516CV610_00S/Src/BoardNpu.cpp",
+      "bytes": 29394,
+      "sha256": "28f6b5168668f5e16dfef12d1139338a3637bb85138a1d5f0f76f56db9dd40fd"
+    },
+    {
+      "path": "application/Platform/Params/HI3516CV610_00S/config_table.json",
+      "bytes": 6061,
+      "sha256": "4deacc1a69c7137a98e9b5e5a0aae934a8c4032d22b7d3e9b18502f968bb60a6"
+    },
+    {
+      "path": "application/Apps/Stream/Src/Npu/Postprocess/YuNet.cpp",
+      "bytes": 8666,
+      "sha256": "521e954b382fdc80e22d2cb60eec67308577ac8e63321a34ae7185296a70ec11"
+    },
+    {
+      "path": "application/Dependent/shared/head_detection_yolov5s/prepare_board.py",
+      "bytes": 2427,
+      "sha256": "b89b6b2e501637da9cdc8db58e771e7ad82adde172fd4eb0047e7220a175e149"
+    },
+    {
+      "path": "application/Dependent/shared/head_detection_yolov5s/build_om.sh",
+      "bytes": 828,
+      "sha256": "eb78e9de450ca36527aae24ffccf39ff73baf5cc89350fb0a2eb6649e04f251c"
+    },
+    {
+      "path": "application/Dependent/shared/unet_occlusion/hi3516/export_model.py",
+      "bytes": 3019,
+      "sha256": "e6928ec0e5bc80d74a12fc1b069d83ae259320146f1a19fa26b9bcde88ca3696"
+    },
+    {
+      "path": "application/Dependent/shared/unet_occlusion/hi3516/build_om.sh",
+      "bytes": 936,
+      "sha256": "92ebdb8e9e4052dd153d4b7f11d410b13a0289058c43b06eb3d4fafbf2e56cbb"
+    },
+    {
+      "path": "application/Dependent/shared/yoloworld_occluder/export_board.py",
+      "bytes": 7962,
+      "sha256": "488dbec2bedc7be3e27464362917ba48df25cd34cf545d608e9b45e4c6ef9c60"
+    },
+    {
+      "path": "application/Dependent/shared/yoloworld_occluder/build_board.sh",
+      "bytes": 1337,
+      "sha256": "f029dc9063e2e00e0a8f7dbbee804261ac1400014af42e9045106ff9540d0083"
+    },
+    {
+      "path": "application/Dependent/shared/head_yunet_luvli/hi3516/export_models.py",
+      "bytes": 5973,
+      "sha256": "ce54f6ccba0e5cf66c9bc0a882b687213a670a4052b2559de4d827cb4d3cdd78"
+    },
+    {
+      "path": "application/Dependent/shared/head_yunet_luvli/hi3516/build_om.sh",
+      "bytes": 1343,
+      "sha256": "fd0f35e2a3f195636e0f6552d409041425fe4e4683b7e6ade4ef1a377dd33f62"
+    }
+  ],
+  "model": {
+    "path": "SDK/Tools/Npu/YuNet/face_detection_yunet_2023mar.onnx",
+    "bytes": 232589,
+    "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4"
+  },
+  "helpers": [
+    {
+      "path": "application/.temp/npu-conversion-blog/helpers/README.md",
+      "bytes": 2726,
+      "sha256": "b24bb0e2ad9987b9fefe7eab1aa611b6315ac6c1e7c364b977382082aaac9848"
+    },
+    {
+      "path": "application/.temp/npu-conversion-blog/helpers/audit_onnx.py",
+      "bytes": 1890,
+      "sha256": "fa5c46621a2b7ca64eb768b1c04a31a0b75041b89a0e32e5b43d2eff5743f804"
+    },
+    {
+      "path": "application/.temp/npu-conversion-blog/helpers/prepare_yunet.py",
+      "bytes": 6886,
+      "sha256": "efdddedab4db8cfd423fd44cac94a54ac58c46c5911f2dd0e1e34613d502df0a"
+    },
+    {
+      "path": "application/.temp/npu-conversion-blog/helpers/aipp_yunet.cfg",
+      "bytes": 295,
+      "sha256": "a4f3e09955cc5ec342a9ae4dd742c3d61c696deb2c17d59eeaee6636338bfc2d"
+    },
+    {
+      "path": "application/.temp/npu-conversion-blog/helpers/convert_yunet.sh",
+      "bytes": 1441,
+      "sha256": "9f15bb0ec5d45abd23a374dce513f621381c8c29d5db2d45eb0827eaab2d04ff"
+    },
+    {
+      "path": "application/.temp/npu-conversion-blog/helpers/compare_outputs.py",
+      "bytes": 3648,
+      "sha256": "6a6bce5c9c787bac5ce4fcfdfb0176c66adfcb721391bc22a830f53e67aa8eee"
+    }
+  ],
+  "articles": [
+    {
+      "code": "01",
+      "title": "海思NPU模型转换 01 平台工具与文档地图",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/01-平台工具与文档地图/articles/平台工具与文档地图.md",
+      "route": "/posts/hi3516-npu-convert-01.html",
+      "characters": 3667,
+      "cjk_characters": 1325
+    },
+    {
+      "code": "02",
+      "title": "海思NPU模型转换 02 搭建转换环境",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/02-搭建转换环境/articles/搭建转换环境.md",
+      "route": "/posts/hi3516-npu-convert-02.html",
+      "characters": 3089,
+      "cjk_characters": 1066
+    },
+    {
+      "code": "03",
+      "title": "海思NPU模型转换 03 拿到模型后的检查",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/03-拿到模型后的检查/articles/拿到模型后的检查.md",
+      "route": "/posts/hi3516-npu-convert-03.html",
+      "characters": 2570,
+      "cjk_characters": 1066
+    },
+    {
+      "code": "04",
+      "title": "海思NPU模型转换 04 导出和整理ONNX",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/04-导出和整理ONNX/articles/导出和整理ONNX.md",
+      "route": "/posts/hi3516-npu-convert-04.html",
+      "characters": 2480,
+      "cjk_characters": 1072
+    },
+    {
+      "code": "05",
+      "title": "海思NPU模型转换 05 预处理与AIPP",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/05-预处理与AIPP/articles/预处理与AIPP.md",
+      "route": "/posts/hi3516-npu-convert-05.html",
+      "characters": 3025,
+      "cjk_characters": 1064
+    },
+    {
+      "code": "06",
+      "title": "海思NPU模型转换 06 校准数据与量化",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/06-校准数据与量化/articles/校准数据与量化.md",
+      "route": "/posts/hi3516-npu-convert-06.html",
+      "characters": 2784,
+      "cjk_characters": 1301
+    },
+    {
+      "code": "07",
+      "title": "海思NPU模型转换 07 执行ATC转换",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/07-执行ATC转换/articles/执行ATC转换.md",
+      "route": "/posts/hi3516-npu-convert-07.html",
+      "characters": 2935,
+      "cjk_characters": 1000
+    },
+    {
+      "code": "08",
+      "title": "海思NPU模型转换 08 输出与后处理约定",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/08-输出与后处理约定/articles/输出与后处理约定.md",
+      "route": "/posts/hi3516-npu-convert-08.html",
+      "characters": 2519,
+      "cjk_characters": 1026
+    },
+    {
+      "code": "09",
+      "title": "海思NPU模型转换 09 PC仿真与精度比对",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/09-PC仿真与精度比对/articles/PC仿真与精度比对.md",
+      "route": "/posts/hi3516-npu-convert-09.html",
+      "characters": 3219,
+      "cjk_characters": 1110
+    },
+    {
+      "code": "10",
+      "title": "海思NPU模型转换 10 板端最小推理闭环",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/10-板端最小推理闭环/articles/板端最小推理闭环.md",
+      "route": "/posts/hi3516-npu-convert-10.html",
+      "characters": 2919,
+      "cjk_characters": 1214
+    },
+    {
+      "code": "11",
+      "title": "海思NPU模型转换 11 转换失败与性能排查",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/11-转换失败与性能排查/articles/转换失败与性能排查.md",
+      "route": "/posts/hi3516-npu-convert-11.html",
+      "characters": 2236,
+      "cjk_characters": 1248
+    },
+    {
+      "code": "12",
+      "title": "海思NPU模型转换 12 项目案例与交付清单",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/12-项目案例与交付清单/articles/项目案例与交付清单.md",
+      "route": "/posts/hi3516-npu-convert-12.html",
+      "characters": 6499,
+      "cjk_characters": 1683
+    },
+    {
+      "code": "a",
+      "title": "海思NPU模型转换 A 附录A文档检索表",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/A-附录A文档检索表/articles/附录A文档检索表.md",
+      "route": "/posts/hi3516-npu-convert-a.html",
+      "characters": 3041,
+      "cjk_characters": 1037
+    },
+    {
+      "code": "b",
+      "title": "海思NPU模型转换 B 附录BATC与AIPP参数表",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/B-附录BATC与AIPP参数表/articles/附录BATC与AIPP参数表.md",
+      "route": "/posts/hi3516-npu-convert-b.html",
+      "characters": 2907,
+      "cjk_characters": 868
+    },
+    {
+      "code": "c",
+      "title": "海思NPU模型转换 C 附录C错误现象与排查表",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/C-附录C错误现象与排查表/articles/附录C错误现象与排查表.md",
+      "route": "/posts/hi3516-npu-convert-c.html",
+      "characters": 2658,
+      "cjk_characters": 1248
+    },
+    {
+      "code": "d",
+      "title": "海思NPU模型转换 D 附录D项目目录及交付模板",
+      "article": "content/posts/AI-深度学习/海思NPU模型转换/D-附录D项目目录及交付模板/articles/附录D项目目录及交付模板.md",
+      "route": "/posts/hi3516-npu-convert-d.html",
+      "characters": 3324,
+      "cjk_characters": 1072
+    }
+  ],
+  "cover": {
+    "method": "built-in image_gen",
+    "sha256": "a35227bfd6ac315ee7cb00a8787b12180572e95c72d3320f57869aadd14310fe",
+    "prompt": "Use case: scientific-educational. Asset type: landscape cover illustration for an embedded AI model conversion technical manual. A refined conceptual cutaway of a neural network being compiled: translucent stacked tensor planes and a small connected-node graph on one side, precise orderly transformation paths through a compiler-like glass chamber, resolving into an embedded vision processor on a modest circuit board. Warm ivory paper background, blue-gray technical linework, restrained sage green and copper accents, soft studio lighting, elegant quiet study atmosphere. Wide balanced composition suitable for a blog thumbnail, keep essential elements comfortably within the central area, clean generous negative space. High-quality editorial scientific illustration, detailed but uncluttered. No text, numbers, letters, logos, watermarks, brand markings or fake user interfaces. Not an actual board photograph or benchmark result. Opaque background."
+  }
+}

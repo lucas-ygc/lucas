@@ -1,0 +1,2 @@
+<header class="page-heading"><p class="eyebrow mono">TOPICS / 标签</p><h1># <%= page.tag %><span class="accent">.</span></h1><a class="muted" href="<%- url('/tags/') %>">← 全部标签</a></header>
+<%- partial('_partial/list', { entries: page.posts, filterable: false }) %>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="741" viewBox="0 0 1100 741" role="img" aria-label="当前规则：按顺序选择第一个成立的结果">
+<title>当前规则：按顺序选择第一个成立的结果</title>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#526a73"/></marker></defs>
+<rect width="100%" height="100%" rx="20" fill="#f7f3e9"/>
+<g font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" fill="#293e47">
+<text x="48" y="60" font-size="30" font-weight="bold">当前规则：按顺序选择第一个成立的结果</text>
+<rect x="48" y="100" width="570" height="76" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="70" y="130" font-size="23" font-weight="bold">1. 鼻嘴区域是否均可统计？</text>
+<text x="70" y="159" font-size="18">越界、退化、过小、触边均不放行</text>
+<path d="M625 138H690" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="710" y="144" font-size="20">否 → UNCERTAIN</text>
+<path d="M330 177V200" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="48" y="205" width="570" height="76" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="70" y="235" font-size="23" font-weight="bold">2. 两区域覆盖是否均达标？</text>
+<text x="70" y="264" font-size="18">默认鼻和嘴各 ≥ 60%</text>
+<path d="M625 243H690" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="710" y="249" font-size="20">是 → VISIBLE / UNET_CLEAR</text>
+<path d="M330 282V305" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="48" y="310" width="570" height="76" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="70" y="340" font-size="23" font-weight="bold">3. 是否存在同侧鼻嘴候选？</text>
+<text x="70" y="369" font-size="18">可靠点 + 同侧接触比例 + 中心距离</text>
+<path d="M625 348H690" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="710" y="354" font-size="20">是 → SIDE_*_CANDIDATE</text>
+<path d="M330 387V410" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="48" y="415" width="570" height="76" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="70" y="445" font-size="23" font-weight="bold">4. 是否存在可靠明显倾斜？</text>
+<text x="70" y="474" font-size="18">姿态有效且 |roll| ≥ 默认 30°</text>
+<path d="M625 453H690" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="710" y="459" font-size="20">是 → POSE</text>
+<path d="M330 492V515" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="48" y="520" width="570" height="76" rx="12" fill="#e4ece8" stroke="#879b97"/>
+<text x="70" y="550" font-size="23" font-weight="bold">5. 使用区域融合结果</text>
+<text x="70" y="579" font-size="18">低覆盖 + 弱响应 → 对应部位疑似</text>
+<path d="M625 558H690" stroke="#526a73" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="710" y="564" font-size="20">仅冲突 → UNCERTAIN</text>
+<text x="48" y="645" font-size="19">图中向下表示继续检查；第 2 步放行优先于后续姿态和响应。</text>
+<text x="48" y="678" font-size="19">时序确认在单帧结果之后执行；独立 pose / legacy 字段仍保留。</text>
+</g></svg>

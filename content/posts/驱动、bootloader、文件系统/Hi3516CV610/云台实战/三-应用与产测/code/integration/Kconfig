@@ -1,0 +1,9 @@
+menu "PTZ Options"
+config PTZ
+    bool "PTZ control in Func"
+    depends on MODE_HI3516CV610_00S
+    default n
+    help
+        Build the asynchronous PTZ manager, factory control interfaces and
+        package the tuling_ptzmotor module. Startup never moves the motors.
+endmenu

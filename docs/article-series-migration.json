@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-12",
+  "moves": [
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-01-平台工具与文档地图",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/01-平台工具与文档地图"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-02-搭建转换环境",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/02-搭建转换环境"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-03-拿到模型后的检查",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/03-拿到模型后的检查"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-04-导出和整理ONNX",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/04-导出和整理ONNX"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-05-预处理与AIPP",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/05-预处理与AIPP"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-06-校准数据与量化",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/06-校准数据与量化"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-07-执行ATC转换",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/07-执行ATC转换"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-08-输出与后处理约定",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/08-输出与后处理约定"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-09-PC仿真与精度比对",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/09-PC仿真与精度比对"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-10-板端最小推理闭环",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/10-板端最小推理闭环"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-11-转换失败与性能排查",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/11-转换失败与性能排查"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-12-项目案例与交付清单",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/12-项目案例与交付清单"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-A-附录A文档检索表",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/A-附录A文档检索表"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-B-附录BATC与AIPP参数表",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/B-附录BATC与AIPP参数表"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-C-附录C错误现象与排查表",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/C-附录C错误现象与排查表"
+    },
+    {
+      "from": "content/posts/AI-深度学习/海思NPU模型转换-D-附录D项目目录及交付模板",
+      "to": "content/posts/AI-深度学习/海思NPU模型转换/D-附录D项目目录及交付模板"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-01-需求与判断边界",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/01-需求与判断边界"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-02-方案探索与演进",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/02-方案探索与演进"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-03-总体架构与完整时序",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/03-总体架构与完整时序"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-04-图像预处理与坐标转换",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/04-图像预处理与坐标转换"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-05-头部检测与YuNet",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/05-头部检测与YuNet"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-06-PIPNet98关键点与响应",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/06-PIPNet98关键点与响应"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-07-FaceOcc分割与口鼻覆盖率",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/07-FaceOcc分割与口鼻覆盖率"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-08-姿态与几何分析",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/08-姿态与几何分析"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-09-多证据融合规则",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/09-多证据融合规则"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-10-跟踪与持续确认",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/10-跟踪与持续确认"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-11-YOLO-World物体复核",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/11-YOLO-World物体复核"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-12-模型转换与海思部署",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/12-模型转换与海思部署"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-13-板端运行与调试闭环",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/13-板端运行与调试闭环"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-14-测试评估与问题复盘",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/14-测试评估与问题复盘"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-A-附录A-参数字典",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/A-附录A-参数字典"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-B-附录B-状态与结果字段",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/B-附录B-状态与结果字段"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-C-附录C-模型与代码索引",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/C-附录C-模型与代码索引"
+    },
+    {
+      "from": "content/posts/AI-深度学习/口鼻遮挡-D-附录D-完整教学样例",
+      "to": "content/posts/AI-深度学习/口鼻遮挡/D-附录D-完整教学样例"
+    },
+    {
+      "from": "content/posts/AI-深度学习/从零搭建视觉模型-MLP入门",
+      "to": "content/posts/AI-深度学习/从零搭建视觉模型/05-MLP入门"
+    },
+    {
+      "from": "content/posts/AI-深度学习/从零搭建视觉模型-Python起步",
+      "to": "content/posts/AI-深度学习/从零搭建视觉模型/02-Python起步"
+    },
+    {
+      "from": "content/posts/AI-深度学习/从零搭建视觉模型-亲手搭建小型CNN",
+      "to": "content/posts/AI-深度学习/从零搭建视觉模型/06-亲手搭建小型CNN"
+    },
+    {
+      "from": "content/posts/AI-深度学习/从零搭建视觉模型-图片如何变成张量",
+      "to": "content/posts/AI-深度学习/从零搭建视觉模型/04-图片如何变成张量"
+    },
+    {
+      "from": "content/posts/AI-深度学习/从零搭建视觉模型-基础概念",
+      "to": "content/posts/AI-深度学习/从零搭建视觉模型/03-基础概念"
+    },
+    {
+      "from": "content/posts/AI-深度学习/从零搭建视觉模型-让模型开始学习",
+      "to": "content/posts/AI-深度学习/从零搭建视觉模型/08-让模型开始学习"
+    },
+    {
+      "from": "content/posts/通用技术/ISP基础-ISP怎样形成图像",
+      "to": "content/posts/通用技术/ISP基础/ISP怎样形成图像"
+    },
+    {
+      "from": "content/posts/通用技术/ISP基础-从ISP输出到模型输入",
+      "to": "content/posts/通用技术/ISP基础/从ISP输出到模型输入"
+    },
+    {
+      "from": "content/posts/通用技术/ISP基础-从传感器到RAW",
+      "to": "content/posts/通用技术/ISP基础/从传感器到RAW"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/Hi3516CV610云台实战一-硬件与驱动",
+      "to": "content/posts/驱动、bootloader、文件系统/Hi3516CV610/云台实战/一-硬件与驱动"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/Hi3516CV610云台实战二-位置与归零",
+      "to": "content/posts/驱动、bootloader、文件系统/Hi3516CV610/云台实战/二-位置与归零"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/Hi3516CV610云台实战三-应用与产测",
+      "to": "content/posts/驱动、bootloader、文件系统/Hi3516CV610/云台实战/三-应用与产测"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/Hi3516CV610接入CT1820B",
+      "to": "content/posts/驱动、bootloader、文件系统/Hi3516CV610/接入CT1820B"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/固件签名升级一：原理与验证实验",
+      "to": "content/posts/驱动、bootloader、文件系统/固件签名升级/一-原理与验证实验"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/固件签名升级二：使用流程与注意事项",
+      "to": "content/posts/驱动、bootloader、文件系统/固件签名升级/二-使用流程与注意事项"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/设备树",
+      "to": "content/posts/驱动、bootloader、文件系统/设备树/学习关键问题"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/dts-dtb-设备树详解",
+      "to": "content/posts/驱动、bootloader、文件系统/设备树/详解"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/常用的文件系统",
+      "to": "content/posts/驱动、bootloader、文件系统/文件系统/UBIFS"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/mx6ull",
+      "to": "content/posts/驱动、bootloader、文件系统/mx6ull/编译器选择"
+    },
+    {
+      "from": "content/posts/驱动、bootloader、文件系统/mx6ull/rootfs移植",
+      "to": "content/posts/驱动、bootloader、文件系统/mx6ull/rootfs移植/概述"
+    },
+    {
+      "from": "content/posts/音视频协议/ffmpeg",
+      "to": "content/posts/音视频协议/ffmpeg/使用笔记"
+    },
+    {
+      "from": "content/posts/音视频协议/ffmpeg移植",
+      "to": "content/posts/音视频协议/ffmpeg/移植"
+    },
+    {
+      "from": "content/posts/网络/网络基础",
+      "to": "content/posts/网络/网络基础/基础知识"
+    }
+  ]
+}

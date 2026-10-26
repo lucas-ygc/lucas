@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1130" viewBox="0 0 720 1130" role="img" aria-labelledby="title desc">
+<title id="title">从文字到语音的部署链路</title><desc id="desc">文字经模板与分词进入语言模型，回答经分句进入 TTS，音频通过播放缓冲输出；语音输入可后续增加 ASR。</desc>
+<rect width="720" height="1130" rx="20" fill="#f8f3e9"/>
+<g font-family="KaiTi, STKaiti, Noto Serif CJK SC, serif" fill="#293e3c">
+<text x="32" y="56" font-size="36" fill="#293e3c">从回答到声音</text>
+<text x="32" y="97" font-size="25" fill="#587873">先单独验证，再连接各个模块</text>
+<rect x="64" y="130" width="592" height="106" rx="14" fill="#e7eee8"/>
+<text x="90" y="169" font-size="29" fill="#293e3c">文字输入</text>
+<text x="90" y="210" font-size="25" fill="#293e3c">问题与已有对话</text>
+<path d="M 360 238 V 261 M 352 253 L 360 262 L 368 253" fill="none" stroke="#78938a" stroke-width="3"/>
+<rect x="64" y="270" width="592" height="106" rx="14" fill="#eee3d4"/>
+<text x="90" y="309" font-size="29" fill="#293e3c">模板与 Tokenizer</text>
+<text x="90" y="350" font-size="25" fill="#293e3c">组织角色、编码为 Token ID</text>
+<path d="M 360 378 V 401 M 352 393 L 360 402 L 368 393" fill="none" stroke="#78938a" stroke-width="3"/>
+<rect x="64" y="410" width="592" height="106" rx="14" fill="#e7eee8"/>
+<text x="90" y="449" font-size="29" fill="#293e3c">语言模型推理</text>
+<text x="90" y="490" font-size="25" fill="#293e3c">Prefill / Decode · 后端与缓存</text>
+<path d="M 360 518 V 541 M 352 533 L 360 542 L 368 533" fill="none" stroke="#78938a" stroke-width="3"/>
+<rect x="64" y="550" width="592" height="106" rx="14" fill="#eee3d4"/>
+<text x="90" y="589" font-size="29" fill="#293e3c">回答缓冲与分句</text>
+<text x="90" y="630" font-size="25" fill="#293e3c">提取待朗读文本，形成合适片段</text>
+<path d="M 360 658 V 681 M 352 673 L 360 682 L 368 673" fill="none" stroke="#78938a" stroke-width="3"/>
+<rect x="64" y="690" width="592" height="106" rx="14" fill="#e7eee8"/>
+<text x="90" y="729" font-size="29" fill="#293e3c">TTS 语音合成</text>
+<text x="90" y="770" font-size="25" fill="#293e3c">文本 → 音频波形</text>
+<path d="M 360 798 V 821 M 352 813 L 360 822 L 368 813" fill="none" stroke="#78938a" stroke-width="3"/>
+<rect x="64" y="830" width="592" height="106" rx="14" fill="#eee3d4"/>
+<text x="90" y="869" font-size="29" fill="#293e3c">播放缓冲与音频输出</text>
+<text x="90" y="910" font-size="25" fill="#293e3c">匹配采样格式，送往扬声器</text>
+<text x="40" y="1005" font-size="25" fill="#587873">后续语音输入：录音 → ASR → 文字输入</text>
+<text x="40" y="1050" font-size="25" fill="#587873">统一取消：停止生成与合成，清空播放队列</text>
+<text x="40" y="1093" font-size="24" fill="#587873">实际部署同时评估两套模型的内存与算力占用</text>
+</g></svg>

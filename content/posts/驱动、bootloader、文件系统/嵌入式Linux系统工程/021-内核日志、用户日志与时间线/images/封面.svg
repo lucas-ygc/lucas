@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">内核日志、用户日志与时间线</title><desc id="desc">事件 → 时间基准 → 保存。概念观察路径，非实测波形。</desc>
+<rect width="1200" height="720" fill="#f7f2e9"/>
+<g font-family="sans-serif" fill="#304d50">
+<text x="64" y="70" font-size="22">LINUX SYSTEM ENGINEERING · 021 / 120</text>
+<text x="64" y="140" font-size="38">内核日志、用户日志与时间线</text>
+<text x="64" y="250" font-size="23">系统观察与证据采集</text>
+<rect x="64" y="310" width="330" height="135" rx="14" fill="#e9dfcf"/><text x="89" y="348" font-size="18">01</text><text x="229" y="405" text-anchor="middle" font-size="27">事件</text>
+<path d="M400 377 h26 l-7 -6 m7 6 l-7 6" stroke="#68817d" stroke-width="3" fill="none"/>
+<rect x="434" y="310" width="330" height="135" rx="14" fill="#e3deeb"/><text x="459" y="348" font-size="18">02</text><text x="599" y="405" text-anchor="middle" font-size="27">时间基准</text>
+<path d="M770 377 h26 l-7 -6 m7 6 l-7 6" stroke="#68817d" stroke-width="3" fill="none"/>
+<rect x="804" y="310" width="330" height="135" rx="14" fill="#e8ddd8"/><text x="829" y="348" font-size="18">03</text><text x="969" y="405" text-anchor="middle" font-size="27">保存</text>
+<rect x="70" y="490" width="1020" height="20" rx="4" fill="#e9dfcf"/>
+<rect x="70" y="525" width="890" height="20" rx="4" fill="#e3deeb"/>
+<rect x="70" y="560" width="760" height="20" rx="4" fill="#e8ddd8"/>
+<text x="64" y="655" font-size="21">资源机制 · 使用方法 · 证据与排查</text></g></svg>

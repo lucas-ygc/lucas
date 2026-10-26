@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">slab 与内核内存</title><desc id="desc">内核对象 → 对象数 → 回落。概念观察路径，非实测波形。</desc>
+<rect width="1200" height="720" fill="#f7f2e9"/>
+<g font-family="sans-serif" fill="#304d50">
+<text x="64" y="70" font-size="22">LINUX SYSTEM ENGINEERING · 037 / 120</text>
+<text x="64" y="140" font-size="38">slab 与内核内存</text>
+<text x="64" y="250" font-size="23">内存管理与排查</text>
+<rect x="64" y="310" width="330" height="135" rx="14" fill="#e8ddd8"/><text x="89" y="348" font-size="18">01</text><text x="229" y="405" text-anchor="middle" font-size="27">内核对象</text>
+<path d="M400 377 h26 l-7 -6 m7 6 l-7 6" stroke="#68817d" stroke-width="3" fill="none"/>
+<rect x="434" y="310" width="330" height="135" rx="14" fill="#d9e6df"/><text x="459" y="348" font-size="18">02</text><text x="599" y="405" text-anchor="middle" font-size="27">对象数</text>
+<path d="M770 377 h26 l-7 -6 m7 6 l-7 6" stroke="#68817d" stroke-width="3" fill="none"/>
+<rect x="804" y="310" width="330" height="135" rx="14" fill="#dce4eb"/><text x="829" y="348" font-size="18">03</text><text x="969" y="405" text-anchor="middle" font-size="27">回落</text>
+<rect x="70" y="505" width="110" height="65" fill="none" stroke="#68817d" stroke-width="2"/><text x="125" y="545" font-size="20" text-anchor="middle">00</text>
+<rect x="200" y="505" width="110" height="65" fill="none" stroke="#68817d" stroke-width="2"/><text x="255" y="545" font-size="20" text-anchor="middle">01</text>
+<rect x="330" y="505" width="110" height="65" fill="none" stroke="#68817d" stroke-width="2"/><text x="385" y="545" font-size="20" text-anchor="middle">02</text>
+<rect x="460" y="505" width="110" height="65" fill="none" stroke="#68817d" stroke-width="2"/><text x="515" y="545" font-size="20" text-anchor="middle">03</text>
+<rect x="590" y="505" width="110" height="65" fill="none" stroke="#68817d" stroke-width="2"/><text x="645" y="545" font-size="20" text-anchor="middle">04</text>
+<rect x="720" y="505" width="110" height="65" fill="none" stroke="#68817d" stroke-width="2"/><text x="775" y="545" font-size="20" text-anchor="middle">05</text>
+<rect x="850" y="505" width="110" height="65" fill="none" stroke="#68817d" stroke-width="2"/><text x="905" y="545" font-size="20" text-anchor="middle">06</text>
+<rect x="980" y="505" width="110" height="65" fill="none" stroke="#68817d" stroke-width="2"/><text x="1035" y="545" font-size="20" text-anchor="middle">07</text>
+<text x="64" y="655" font-size="21">资源机制 · 使用方法 · 证据与排查</text></g></svg>

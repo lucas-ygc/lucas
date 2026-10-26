@@ -1,0 +1,5 @@
+<header class="page-heading"><p class="eyebrow mono">BOOKSHELF / 知识书架</p><h1><%= page.category %><span class="accent">/</span></h1><a class="muted" href="<%- url('/categories/') %>">← 全部分类</a></header>
+<% const collections = site.seriesGroups.find(group => group.name === page.category)?.collections || []; if (collections.length) { %>
+<section class="category-collections" aria-label="本分类合集"><h2 class="aside-heading">本分类合集</h2><div class="collection-category-links"><% collections.forEach(function(collection) { %><a class="series-badge" href="<%- url(collection.path) %>"><%= collection.title %> · <%= collection.posts.length %> 篇</a><% }) %></div></section>
+<% } %>
+<%- partial('_partial/list', { entries: page.posts, filterable: false }) %>

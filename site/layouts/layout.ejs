@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="<%= plainText(page.description || config.description) %>">
+  <% if (page.cover) { %><meta property="og:image" content="<%= url(page.cover) %>"><% } %>
+  <title><%= page.title ? page.title + ' · ' + config.name : config.title %></title>
+  <link rel="icon" href="<%- url('/terminal/favicon.svg') %>" type="image/svg+xml">
+  <link rel="stylesheet" href="<%- url('/terminal/site.css') %><%= styleVersion ? '?v=' + styleVersion : '' %>">
+  <script src="<%- url('/terminal/site.js') %>" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到内容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="<%- url('/') %>" aria-label="Lucas 首页">Lucas<span>.</span></a>
+      <span class="brand-note">技术手记</span>
+      <nav aria-label="主导航">
+        <a href="<%- url('/') %>" <%- page.type === 'home' ? 'aria-current="page"' : '' %>>文章</a>
+        <a href="<%- url('/series/') %>" <%- page.type === 'series' ? 'aria-current="page"' : '' %>>合集</a>
+        <a href="<%- url('/archives/') %>" <%- page.type === 'archive' ? 'aria-current="page"' : '' %>>归档</a>
+        <a href="<%- url('/tags/') %>" <%- page.type === 'tag' || page.type === 'tags' ? 'aria-current="page"' : '' %>>标签</a>
+        <a href="<%- url('/about/') %>" <%- page.type === 'about' ? 'aria-current="page"' : '' %>>关于</a>
+        <a class="nav-search" href="<%- url('/') %>#post-search" aria-label="搜索文章"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 5 5"/></svg></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="shell"><%- body %></main>
+  <footer class="site-footer shell">
+    <span>把问题弄明白，把过程记下来。</span>
+    <span class="mono">© <%= formatDate(Date.now(), 'YYYY') %> Lucas</span>
+  </footer>
+</body>
+</html>

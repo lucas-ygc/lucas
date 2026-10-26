@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc"><title id="title">视频系统：队列、时间戳与异步流水线</title><desc id="desc">采集时间戳 → 有界队列 → 帧龄与 P95</desc>
+<rect width="1600" height="900" fill="#f6f1e7"/><path d="M80 120H1520M80 795H1520" stroke="#ded7c9" stroke-width="2"/>
+<g font-family="KaiTi, STKaiti, serif" fill="#344e4b"><text x="100" y="90" font-size="30">Lucas · 嵌入式视觉模型进阶</text><text x="1490" y="95" text-anchor="end" font-family="monospace" font-size="50">18</text><text x="100" y="215" font-size="58">视频系统</text></g>
+<rect x="100" y="325" width="380" height="350" rx="24" fill="#fffdf7" stroke="#c3ccc1" stroke-width="2"/>
+<circle cx="165" cy="500" r="13" fill="#9c8768"/><rect x="143" y="472" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<path d="M165 500L245 477" stroke="#9c8768" stroke-width="4"/>
+<circle cx="245" cy="477" r="13" fill="#9c8768"/><rect x="223" y="449" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<path d="M245 477L325 454" stroke="#9c8768" stroke-width="4"/>
+<circle cx="325" cy="454" r="13" fill="#9c8768"/><rect x="303" y="426" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<path d="M325 454L405 431" stroke="#9c8768" stroke-width="4"/>
+<circle cx="405" cy="431" r="13" fill="#9c8768"/><rect x="383" y="403" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<text x="290" y="625" text-anchor="middle" font-family="KaiTi, STKaiti, serif" font-size="30" fill="#344e4b">采集时间戳</text>
+<path d="M505 495h75m-20-15 20 15-20 15" fill="none" stroke="#9c8768" stroke-width="5"/>
+<rect x="610" y="325" width="380" height="350" rx="24" fill="#fffdf7" stroke="#c3ccc1" stroke-width="2"/>
+<circle cx="675" cy="490" r="13" fill="#9c8768"/><rect x="653" y="462" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<path d="M675 490L755 467" stroke="#9c8768" stroke-width="4"/>
+<circle cx="755" cy="467" r="13" fill="#9c8768"/><rect x="733" y="439" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<path d="M755 467L835 444" stroke="#9c8768" stroke-width="4"/>
+<circle cx="835" cy="444" r="13" fill="#9c8768"/><rect x="813" y="416" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<path d="M835 444L915 421" stroke="#9c8768" stroke-width="4"/>
+<circle cx="915" cy="421" r="13" fill="#9c8768"/><rect x="893" y="393" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<text x="800" y="625" text-anchor="middle" font-family="KaiTi, STKaiti, serif" font-size="30" fill="#344e4b">有界队列</text>
+<path d="M1015 495h75m-20-15 20 15-20 15" fill="none" stroke="#9c8768" stroke-width="5"/>
+<rect x="1120" y="325" width="380" height="350" rx="24" fill="#fffdf7" stroke="#c3ccc1" stroke-width="2"/>
+<circle cx="1185" cy="480" r="13" fill="#9c8768"/><rect x="1163" y="452" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<path d="M1185 480L1265 457" stroke="#9c8768" stroke-width="4"/>
+<circle cx="1265" cy="457" r="13" fill="#9c8768"/><rect x="1243" y="429" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<path d="M1265 457L1345 434" stroke="#9c8768" stroke-width="4"/>
+<circle cx="1345" cy="434" r="13" fill="#9c8768"/><rect x="1323" y="406" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<path d="M1345 434L1425 411" stroke="#9c8768" stroke-width="4"/>
+<circle cx="1425" cy="411" r="13" fill="#9c8768"/><rect x="1403" y="383" width="44" height="56" fill="none" stroke="#9c8768" stroke-width="2"/>
+<text x="1310" y="625" text-anchor="middle" font-family="KaiTi, STKaiti, serif" font-size="30" fill="#344e4b">帧龄与 P95</text>
+<text x="100" y="765" font-family="monospace" font-size="25" fill="#6e8177">video-pipeline / structure · experiment · verification</text></svg>

@@ -1,0 +1,1014 @@
+{
+  "articles": [
+    {
+      "old": "content/posts/AI-深度学习/AI人工智能深度学习-视觉基础.md",
+      "article": "content/posts/AI-深度学习/AI人工智能深度学习-视觉基础/articles/AI人工智能深度学习-视觉基础.md",
+      "abbrlink": "73778e8c",
+      "cover": "content/posts/AI-深度学习/AI人工智能深度学习-视觉基础/images/封面.png",
+      "generated_cover": false,
+      "images": 26
+    },
+    {
+      "old": "content/posts/AI-深度学习/AI人工智能深度学习正式篇.md",
+      "article": "content/posts/AI-深度学习/AI人工智能深度学习正式篇/articles/AI人工智能深度学习正式篇.md",
+      "abbrlink": "1ee5af06",
+      "cover": "content/posts/AI-深度学习/AI人工智能深度学习正式篇/images/封面.png",
+      "generated_cover": false,
+      "images": 7
+    },
+    {
+      "old": "content/posts/AI-深度学习/RK3568项目--LC850.md",
+      "article": "content/posts/AI-深度学习/RK3568项目--LC850/articles/RK3568项目--LC850.md",
+      "abbrlink": "21fffa81",
+      "cover": "content/posts/AI-深度学习/RK3568项目--LC850/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/AI-深度学习/富瀚平台/模型训练.md",
+      "article": "content/posts/AI-深度学习/富瀚平台/articles/模型训练.md",
+      "abbrlink": "44cf9ce6",
+      "cover": "content/posts/AI-深度学习/富瀚平台/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/AI-深度学习/模型基础知识.md",
+      "article": "content/posts/AI-深度学习/模型基础知识/articles/模型基础知识.md",
+      "abbrlink": "fa29055b",
+      "cover": "content/posts/AI-深度学习/模型基础知识/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/c++文件操作/c++文件操作.md",
+      "article": "content/posts/linux开发/c++/c++文件操作/articles/c++文件操作.md",
+      "abbrlink": "95495db",
+      "cover": "content/posts/linux开发/c++/c++文件操作/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/c和c++混合编程/c和c++混合操作.md",
+      "article": "content/posts/linux开发/c++/c和c++混合编程/articles/c和c++混合操作.md",
+      "abbrlink": "aecf8568",
+      "cover": "content/posts/linux开发/c++/c和c++混合编程/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/linuxCpp.md",
+      "article": "content/posts/linux开发/c++/linuxCpp/articles/linuxCpp.md",
+      "abbrlink": "6f1ca842",
+      "cover": "content/posts/linux开发/c++/linuxCpp/images/封面.png",
+      "generated_cover": false,
+      "images": 3
+    },
+    {
+      "old": "content/posts/linux开发/c++/map.md",
+      "article": "content/posts/linux开发/c++/map/articles/map.md",
+      "abbrlink": "93adaabb",
+      "cover": "content/posts/linux开发/c++/map/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/vector.md",
+      "article": "content/posts/linux开发/c++/vector/articles/vector.md",
+      "abbrlink": "1b6e485b",
+      "cover": "content/posts/linux开发/c++/vector/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/泛型编程/decltype关键字.md",
+      "article": "content/posts/linux开发/c++/泛型编程/decltype关键字/articles/decltype关键字.md",
+      "abbrlink": "20366e75",
+      "cover": "content/posts/linux开发/c++/泛型编程/decltype关键字/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/泛型编程/mutable关键字.md",
+      "article": "content/posts/linux开发/c++/泛型编程/mutable关键字/articles/mutable关键字.md",
+      "abbrlink": "5f30f095",
+      "cover": "content/posts/linux开发/c++/泛型编程/mutable关键字/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/泛型编程/仿函数operator.md",
+      "article": "content/posts/linux开发/c++/泛型编程/仿函数operator/articles/仿函数operator.md",
+      "abbrlink": "1b6149d4",
+      "cover": "content/posts/linux开发/c++/泛型编程/仿函数operator/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/禁止隐式explicit.md",
+      "article": "content/posts/linux开发/c++/禁止隐式explicit/articles/禁止隐式explicit.md",
+      "abbrlink": "700c1288",
+      "cover": "content/posts/linux开发/c++/禁止隐式explicit/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/线程创建与任务唤醒/std::this_thread命名空间.md",
+      "article": "content/posts/linux开发/c++/线程创建与任务唤醒/std::this_thread命名空间/articles/std::this_thread命名空间.md",
+      "abbrlink": "45a88c5b",
+      "cover": "content/posts/linux开发/c++/线程创建与任务唤醒/std::this_thread命名空间/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/线程创建与任务唤醒/任务唤醒.md",
+      "article": "content/posts/linux开发/c++/线程创建与任务唤醒/任务唤醒/articles/任务唤醒.md",
+      "abbrlink": "1c9151a4",
+      "cover": "content/posts/linux开发/c++/线程创建与任务唤醒/任务唤醒/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/线程创建与任务唤醒/线程创建.md",
+      "article": "content/posts/linux开发/c++/线程创建与任务唤醒/线程创建/articles/线程创建.md",
+      "abbrlink": "61d5cc5",
+      "cover": "content/posts/linux开发/c++/线程创建与任务唤醒/线程创建/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/虚函数virtual .md",
+      "article": "content/posts/linux开发/c++/虚函数virtual/articles/虚函数virtual .md",
+      "abbrlink": "cef3c4d",
+      "cover": "content/posts/linux开发/c++/虚函数virtual/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/设计模式/例子/单例模式.md",
+      "article": "content/posts/linux开发/c++/设计模式/例子/单例模式/articles/单例模式.md",
+      "abbrlink": "f1601c3e",
+      "cover": "content/posts/linux开发/c++/设计模式/例子/单例模式/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/设计模式/例子/命令模式.md",
+      "article": "content/posts/linux开发/c++/设计模式/例子/命令模式/articles/命令模式.md",
+      "abbrlink": "78134e07",
+      "cover": "content/posts/linux开发/c++/设计模式/例子/命令模式/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/设计模式/例子/工厂模式.md",
+      "article": "content/posts/linux开发/c++/设计模式/例子/工厂模式/articles/工厂模式.md",
+      "abbrlink": "54788f73",
+      "cover": "content/posts/linux开发/c++/设计模式/例子/工厂模式/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/设计模式/例子/模板模式.md",
+      "article": "content/posts/linux开发/c++/设计模式/例子/模板模式/articles/模板模式.md",
+      "abbrlink": "150e036b",
+      "cover": "content/posts/linux开发/c++/设计模式/例子/模板模式/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/设计模式/例子/策略模式.md",
+      "article": "content/posts/linux开发/c++/设计模式/例子/策略模式/articles/策略模式.md",
+      "abbrlink": "72e3b671",
+      "cover": "content/posts/linux开发/c++/设计模式/例子/策略模式/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/设计模式/例子/观察者模式.md",
+      "article": "content/posts/linux开发/c++/设计模式/例子/观察者模式/articles/观察者模式.md",
+      "abbrlink": "9a246216",
+      "cover": "content/posts/linux开发/c++/设计模式/例子/观察者模式/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c++/设计模式/设计模式/理论基础-李阳阳.md",
+      "article": "content/posts/linux开发/c++/设计模式/设计模式/articles/理论基础-李阳阳.md",
+      "abbrlink": "9da97ecd",
+      "cover": "content/posts/linux开发/c++/设计模式/设计模式/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/c/linuxC.md",
+      "article": "content/posts/linux开发/c/articles/linuxC.md",
+      "abbrlink": "a7d3f2b1",
+      "cover": "content/posts/linux开发/c/images/封面.png",
+      "generated_cover": false,
+      "images": 3
+    },
+    {
+      "old": "content/posts/linux开发/cmake学习.md",
+      "article": "content/posts/linux开发/cmake学习/articles/cmake学习.md",
+      "abbrlink": "72bbddf7",
+      "cover": "content/posts/linux开发/cmake学习/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/linux开发/io操作/几种堵塞机制/事件机制--io.md",
+      "article": "content/posts/linux开发/io操作/几种堵塞机制/articles/事件机制--io.md",
+      "abbrlink": "3b4d33c3",
+      "cover": "content/posts/linux开发/io操作/几种堵塞机制/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/linux开发/linux内核设计与实现/中断/中断.md",
+      "article": "content/posts/linux开发/linux内核设计与实现/中断/articles/中断.md",
+      "abbrlink": "686a0b5e",
+      "cover": "content/posts/linux开发/linux内核设计与实现/中断/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/linux开发/linux内核设计与实现/内存管理/内存管理.md",
+      "article": "content/posts/linux开发/linux内核设计与实现/内存管理/articles/内存管理.md",
+      "abbrlink": "41e39f2b",
+      "cover": "content/posts/linux开发/linux内核设计与实现/内存管理/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/linux内核设计与实现/块IO层/块IO层.md",
+      "article": "content/posts/linux开发/linux内核设计与实现/块IO层/articles/块IO层.md",
+      "abbrlink": "e7bbd886",
+      "cover": "content/posts/linux开发/linux内核设计与实现/块IO层/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/linux内核设计与实现/系统调用/系统调用.md",
+      "article": "content/posts/linux开发/linux内核设计与实现/系统调用/articles/系统调用.md",
+      "abbrlink": "4f5d4e8d",
+      "cover": "content/posts/linux开发/linux内核设计与实现/系统调用/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/linux内核设计与实现/虚拟文件系统/虚拟文件系统.md",
+      "article": "content/posts/linux开发/linux内核设计与实现/虚拟文件系统/articles/虚拟文件系统.md",
+      "abbrlink": "ab453ce",
+      "cover": "content/posts/linux开发/linux内核设计与实现/虚拟文件系统/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/linux内核设计与实现/设备和模块/设备与模块.md",
+      "article": "content/posts/linux开发/linux内核设计与实现/设备和模块/articles/设备与模块.md",
+      "abbrlink": "9301ed49",
+      "cover": "content/posts/linux开发/linux内核设计与实现/设备和模块/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/linux内核设计与实现/进程/进程.md",
+      "article": "content/posts/linux开发/linux内核设计与实现/进程/articles/进程.md",
+      "abbrlink": "31a6b40",
+      "cover": "content/posts/linux开发/linux内核设计与实现/进程/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/linux应用/技巧/新进程创建为什么要通过fork后execve方式创建.md",
+      "article": "content/posts/linux开发/linux应用/技巧/articles/新进程创建为什么要通过fork后execve方式创建.md",
+      "abbrlink": "dfca0185",
+      "cover": "content/posts/linux开发/linux应用/技巧/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/makefile语法.md",
+      "article": "content/posts/linux开发/makefile语法/articles/makefile语法.md",
+      "abbrlink": "66ca84be",
+      "cover": "content/posts/linux开发/makefile语法/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/linux开发/python/python.md",
+      "article": "content/posts/linux开发/python/articles/python.md",
+      "abbrlink": "0",
+      "cover": "content/posts/linux开发/python/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/rust/rust.md",
+      "article": "content/posts/linux开发/rust/articles/rust.md",
+      "abbrlink": "e9eb76ce",
+      "cover": "content/posts/linux开发/rust/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/shell语法.md",
+      "article": "content/posts/linux开发/shell语法/articles/shell语法.md",
+      "abbrlink": "4652f0c6",
+      "cover": "content/posts/linux开发/shell语法/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/富瀚平台/库移植/mmc控制器移植.md",
+      "article": "content/posts/linux开发/富瀚平台/库移植/mmc控制器移植/articles/mmc控制器移植.md",
+      "abbrlink": "fc7f7e68",
+      "cover": "content/posts/linux开发/富瀚平台/库移植/mmc控制器移植/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/富瀚平台/库移植/openssl和unzip和zip.md",
+      "article": "content/posts/linux开发/富瀚平台/库移植/openssl和unzip和zip/articles/openssl和unzip和zip.md",
+      "abbrlink": "a003dbfe",
+      "cover": "content/posts/linux开发/富瀚平台/库移植/openssl和unzip和zip/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/富瀚平台/库移植/x265和x264移植.md",
+      "article": "content/posts/linux开发/富瀚平台/库移植/x265和x264移植/articles/x265和x264移植.md",
+      "abbrlink": "1fd612c1",
+      "cover": "content/posts/linux开发/富瀚平台/库移植/x265和x264移植/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/富瀚平台/库移植/富瀚ffmpeg移植.md",
+      "article": "content/posts/linux开发/富瀚平台/库移植/富瀚ffmpeg移植/articles/富瀚ffmpeg移植.md",
+      "abbrlink": "d35c4abc",
+      "cover": "content/posts/linux开发/富瀚平台/库移植/富瀚ffmpeg移植/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/linux开发/工具移植/chrony工具移植.md",
+      "article": "content/posts/linux开发/工具移植/articles/chrony工具移植.md",
+      "abbrlink": "5b931532",
+      "cover": "content/posts/linux开发/工具移植/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/开发工具使用/neovim.md",
+      "article": "content/posts/开发工具使用/neovim/articles/neovim.md",
+      "abbrlink": "69453faf",
+      "cover": "content/posts/开发工具使用/neovim/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/开发工具使用/规划.md",
+      "article": "content/posts/开发工具使用/规划/articles/规划.md",
+      "abbrlink": "628ef738",
+      "cover": "content/posts/开发工具使用/规划/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/开发方法/ollama/模型本地运行.md",
+      "article": "content/posts/开发方法/ollama/articles/模型本地运行.md",
+      "abbrlink": "2f8cdaaf",
+      "cover": "content/posts/开发方法/ollama/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/开发方法/ubuntu.md",
+      "article": "content/posts/开发方法/ubuntu/articles/ubuntu.md",
+      "abbrlink": "7c4b9639",
+      "cover": "content/posts/开发方法/ubuntu/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/开发方法/wsl迁移/wsl迁移.md",
+      "article": "content/posts/开发方法/wsl迁移/articles/wsl迁移.md",
+      "abbrlink": "303f5b2b",
+      "cover": "content/posts/开发方法/wsl迁移/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/开发方法/应用代码库.md",
+      "article": "content/posts/开发方法/应用代码库/articles/应用代码库.md",
+      "abbrlink": "456492a6",
+      "cover": "content/posts/开发方法/应用代码库/images/封面.png",
+      "generated_cover": false,
+      "images": 4
+    },
+    {
+      "old": "content/posts/开发方法/开发技巧.md",
+      "article": "content/posts/开发方法/开发技巧/articles/开发技巧.md",
+      "abbrlink": "dcdad37e",
+      "cover": "content/posts/开发方法/开发技巧/images/技巧类/封面.png",
+      "generated_cover": false,
+      "images": 17
+    },
+    {
+      "old": "content/posts/网络/网络基础/mqtt.md",
+      "article": "content/posts/网络/网络基础/mqtt/articles/mqtt.md",
+      "abbrlink": "a100fb72",
+      "cover": "content/posts/网络/网络基础/mqtt/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/网络/网络基础/网络基础.md",
+      "article": "content/posts/网络/网络基础/基础知识/articles/网络基础.md",
+      "abbrlink": "50daec4",
+      "cover": "content/posts/网络/网络基础/基础知识/images/封面.png",
+      "generated_cover": false,
+      "images": 46
+    },
+    {
+      "old": "content/posts/通用技术/I2C/I2C.md",
+      "article": "content/posts/通用技术/I2C/articles/I2C.md",
+      "abbrlink": "82af2b06",
+      "cover": "content/posts/通用技术/I2C/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/通用技术/MDIO接口/MDIO.md",
+      "article": "content/posts/通用技术/MDIO接口/articles/MDIO.md",
+      "abbrlink": "67b211fd",
+      "cover": "content/posts/通用技术/MDIO接口/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/通用技术/MII-GMII-RGMII/MII-GMii-RGMII.md",
+      "article": "content/posts/通用技术/MII-GMII-RGMII/articles/MII-GMii-RGMII.md",
+      "abbrlink": "1fd19101",
+      "cover": "content/posts/通用技术/MII-GMII-RGMII/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/通用技术/arm汇编与C内联汇编.md",
+      "article": "content/posts/通用技术/arm汇编与C内联汇编/articles/arm汇编与C内联汇编.md",
+      "abbrlink": "cf1cdeca",
+      "cover": "content/posts/通用技术/arm汇编与C内联汇编/images/封面.png",
+      "generated_cover": false,
+      "images": 4
+    },
+    {
+      "old": "content/posts/通用技术/emmc/emmc.md",
+      "article": "content/posts/通用技术/emmc/articles/emmc.md",
+      "abbrlink": "695ba556",
+      "cover": "content/posts/通用技术/emmc/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/通用技术/linux内核代码规范.md",
+      "article": "content/posts/通用技术/linux内核代码规范/articles/linux内核代码规范.md",
+      "abbrlink": "66378cb",
+      "cover": "content/posts/通用技术/linux内核代码规范/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/通用技术/opencode/opencode.md",
+      "article": "content/posts/通用技术/opencode/articles/opencode.md",
+      "abbrlink": "138f945d",
+      "cover": "content/posts/通用技术/opencode/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/通用技术/操作系统/操作系统.md",
+      "article": "content/posts/通用技术/操作系统/articles/操作系统.md",
+      "abbrlink": "d04bd5bc",
+      "cover": "content/posts/通用技术/操作系统/images/封面.png",
+      "generated_cover": false,
+      "images": 44
+    },
+    {
+      "old": "content/posts/通用技术/数据结构与算法.md",
+      "article": "content/posts/通用技术/数据结构与算法/articles/数据结构与算法.md",
+      "abbrlink": "4b0178e0",
+      "cover": "content/posts/通用技术/数据结构与算法/images/封面.png",
+      "generated_cover": false,
+      "images": 73
+    },
+    {
+      "old": "content/posts/通用技术/硬件基础.md",
+      "article": "content/posts/通用技术/硬件基础/articles/硬件基础.md",
+      "abbrlink": "fd248405",
+      "cover": "content/posts/通用技术/硬件基础/images/封面.png",
+      "generated_cover": false,
+      "images": 4
+    },
+    {
+      "old": "content/posts/通用技术/程序是怎么跑起来的/程序是怎么跑起来的.md",
+      "article": "content/posts/通用技术/程序是怎么跑起来的/articles/程序是怎么跑起来的.md",
+      "abbrlink": "f85e2006",
+      "cover": "content/posts/通用技术/程序是怎么跑起来的/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/通用技术/计算机是怎么跑起来的/计算机是怎么跑起来的.md",
+      "article": "content/posts/通用技术/计算机是怎么跑起来的/articles/计算机是怎么跑起来的.md",
+      "abbrlink": "96a84f26",
+      "cover": "content/posts/通用技术/计算机是怎么跑起来的/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/通用技术/计算机组成原理.md",
+      "article": "content/posts/通用技术/计算机组成原理/articles/计算机组成原理.md",
+      "abbrlink": "8d4b7ae1",
+      "cover": "content/posts/通用技术/计算机组成原理/images/封面.png",
+      "generated_cover": false,
+      "images": 56
+    },
+    {
+      "old": "content/posts/通用技术/计算机网络.md",
+      "article": "content/posts/通用技术/计算机网络/articles/计算机网络.md",
+      "abbrlink": "e255a10a",
+      "cover": "content/posts/通用技术/计算机网络/images/封面.png",
+      "generated_cover": false,
+      "images": 21
+    },
+    {
+      "old": "content/posts/问题总结/nfs挂载文件出错.md",
+      "article": "content/posts/问题总结/nfs挂载文件出错/articles/nfs挂载文件出错.md",
+      "abbrlink": "be6530dc",
+      "cover": "content/posts/问题总结/nfs挂载文件出错/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/问题总结/常见问题.md",
+      "article": "content/posts/问题总结/常见问题/articles/常见问题.md",
+      "abbrlink": "83ff2157",
+      "cover": "content/posts/问题总结/常见问题/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/问题总结/隐式函数错误一般原因.md",
+      "article": "content/posts/问题总结/隐式函数错误一般原因/articles/隐式函数错误一般原因.md",
+      "abbrlink": "c0eb5989",
+      "cover": "content/posts/问题总结/隐式函数错误一般原因/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/音视频协议/XML读写规则.md",
+      "article": "content/posts/音视频协议/XML读写规则/articles/XML读写规则.md",
+      "abbrlink": "e2fc93b1",
+      "cover": "content/posts/音视频协议/XML读写规则/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/音视频协议/aac详解.md",
+      "article": "content/posts/音视频协议/aac详解/articles/aac详解.md",
+      "abbrlink": "f2d77ef1",
+      "cover": "content/posts/音视频协议/aac详解/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/音视频协议/ffmpeg/ffmpeg.md",
+      "article": "content/posts/音视频协议/ffmpeg/使用笔记/articles/ffmpeg.md",
+      "abbrlink": "2ffce39e",
+      "cover": "content/posts/音视频协议/ffmpeg/使用笔记/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/音视频协议/ffmpeg/音视频原理入门/音视频原理入门.md",
+      "article": "content/posts/音视频协议/ffmpeg/音视频原理入门/articles/音视频原理入门.md",
+      "abbrlink": "f2e2a688",
+      "cover": "content/posts/音视频协议/ffmpeg/音视频原理入门/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/音视频协议/ffmpeg/移植.md",
+      "article": "content/posts/音视频协议/ffmpeg/移植/articles/ffmpeg移植.md",
+      "abbrlink": "3a597416",
+      "cover": "content/posts/音视频协议/ffmpeg/移植/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/音视频协议/ipc开发.md",
+      "article": "content/posts/音视频协议/ipc开发/articles/ipc开发.md",
+      "abbrlink": "e33939ec",
+      "cover": "content/posts/音视频协议/ipc开发/images/封面.png",
+      "generated_cover": false,
+      "images": 3
+    },
+    {
+      "old": "content/posts/音视频协议/mjpeg和jpeg/mjpeg和jpeg.md",
+      "article": "content/posts/音视频协议/mjpeg和jpeg/articles/mjpeg和jpeg.md",
+      "abbrlink": "fbd6faa1",
+      "cover": "content/posts/音视频协议/mjpeg和jpeg/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/音视频协议/onvif协议.md",
+      "article": "content/posts/音视频协议/onvif协议/articles/onvif协议.md",
+      "abbrlink": "df20592e",
+      "cover": "content/posts/音视频协议/onvif协议/images/封面.png",
+      "generated_cover": false,
+      "images": 5
+    },
+    {
+      "old": "content/posts/音视频协议/pcm详解.md",
+      "article": "content/posts/音视频协议/pcm详解/articles/pcm详解.md",
+      "abbrlink": "d3ea8c5e",
+      "cover": "content/posts/音视频协议/pcm详解/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/音视频协议/soap协议.md",
+      "article": "content/posts/音视频协议/soap协议/articles/soap协议.md",
+      "abbrlink": "91d9ae79",
+      "cover": "content/posts/音视频协议/soap协议/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/音视频协议/wsdl接口.md",
+      "article": "content/posts/音视频协议/wsdl接口/articles/wsdl接口.md",
+      "abbrlink": "ce15fa91",
+      "cover": "content/posts/音视频协议/wsdl接口/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/busybox/busybox.md",
+      "article": "content/posts/驱动、bootloader、文件系统/busybox/articles/busybox.md",
+      "abbrlink": "8507fae1",
+      "cover": "content/posts/驱动、bootloader、文件系统/busybox/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/设备树/详解/设备树.md",
+      "article": "content/posts/驱动、bootloader、文件系统/设备树/详解/articles/设备树.md",
+      "abbrlink": "9bd85607",
+      "cover": "content/posts/驱动、bootloader、文件系统/设备树/详解/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/fuhanV500/kernel-fuhan.md",
+      "article": "content/posts/驱动、bootloader、文件系统/fuhanV500/kernel-fuhan/articles/kernel-fuhan.md",
+      "abbrlink": "d01ffb44",
+      "cover": "content/posts/驱动、bootloader、文件系统/fuhanV500/kernel-fuhan/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/fuhanV500/uboot-fuhan.md",
+      "article": "content/posts/驱动、bootloader、文件系统/fuhanV500/uboot-fuhan/articles/uboot-fuhan.md",
+      "abbrlink": "9efdaa58",
+      "cover": "content/posts/驱动、bootloader、文件系统/fuhanV500/uboot-fuhan/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/fuhanV500/开发过程脚本命令.md",
+      "article": "content/posts/驱动、bootloader、文件系统/fuhanV500/开发过程脚本命令/articles/开发过程脚本命令.md",
+      "abbrlink": "ec0dbfea",
+      "cover": "content/posts/驱动、bootloader、文件系统/fuhanV500/开发过程脚本命令/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/linux/linux源码分析-arm.md",
+      "article": "content/posts/驱动、bootloader、文件系统/linux/articles/linux源码分析-arm.md",
+      "abbrlink": "47c6620a",
+      "cover": "content/posts/驱动、bootloader、文件系统/linux/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/linux移植/kernel4.115移植.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/linux移植/kernel4.115移植/articles/kernel4.115移植.md",
+      "abbrlink": "f9607d0d",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/linux移植/kernel4.115移植/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/linux移植/kernel5.1571移植.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/linux移植/kernel5.1571移植/articles/kernel5.1571移植.md",
+      "abbrlink": "d002a462",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/linux移植/kernel5.1571移植/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/linux移植/kernel5.17内核移植.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/linux移植/kernel5.17内核移植/articles/kernel5.17内核移植.md",
+      "abbrlink": "9bc69965",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/linux移植/kernel5.17内核移植/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/ov5640摄像头驱动移植/ov5640摄像头驱动移植.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/ov5640摄像头驱动移植/articles/ov5640摄像头驱动移植.md",
+      "abbrlink": "f0101ce5",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/ov5640摄像头驱动移植/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/rootfs移植/rootfs制作，基于busybos.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/rootfs移植/rootfs制作，基于busybos/articles/rootfs制作，基于busybos.md",
+      "abbrlink": "6d5e5a8",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/rootfs移植/rootfs制作，基于busybos/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/rootfs移植/rootfs移植.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/rootfs移植/概述/articles/rootfs移植.md",
+      "abbrlink": "c1179e11",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/rootfs移植/概述/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/mx6ull的uboot2023移植.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/mx6ull的uboot2023移植/articles/mx6ull的uboot2023移植.md",
+      "abbrlink": "a8487789",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/mx6ull的uboot2023移植/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/mx6ull的uboot2024移植.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/mx6ull的uboot2024移植/articles/mx6ull的uboot2024移植.md",
+      "abbrlink": "8b3dcb08",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/mx6ull的uboot2024移植/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/uboot.2016移植.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/uboot.2016移植/articles/uboot.2016移植.md",
+      "abbrlink": "99b63079",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/uboot.2016移植/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/uboot.2024.4移植.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/uboot.2024.4移植/articles/uboot.2024.4移植.md",
+      "abbrlink": "4d7a5285",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/uboot移植/uboot.2024.4移植/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/编译器选择.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/编译器选择/articles/编译器选择.md",
+      "abbrlink": "f8227b6f",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/编译器选择/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/驱动编写/lcd多点触摸屏/lcd多点触摸屏.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/驱动编写/lcd多点触摸屏/articles/lcd多点触摸屏.md",
+      "abbrlink": "a8a22b35",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/驱动编写/lcd多点触摸屏/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/mx6ull/驱动编写/lcd屏幕/lcd屏幕.md",
+      "article": "content/posts/驱动、bootloader、文件系统/mx6ull/驱动编写/lcd屏幕/articles/lcd屏幕.md",
+      "abbrlink": "ba837673",
+      "cover": "content/posts/驱动、bootloader、文件系统/mx6ull/驱动编写/lcd屏幕/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/uboot/uboot源码分析.md",
+      "article": "content/posts/驱动、bootloader、文件系统/uboot/articles/uboot源码分析.md",
+      "abbrlink": "3ec49deb",
+      "cover": "content/posts/驱动、bootloader、文件系统/uboot/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/uboot中链接文件分析.md",
+      "article": "content/posts/驱动、bootloader、文件系统/uboot中链接文件分析/articles/uboot中链接文件分析.md",
+      "abbrlink": "81483be3",
+      "cover": "content/posts/驱动、bootloader、文件系统/uboot中链接文件分析/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/uboot详解--初级.md",
+      "article": "content/posts/驱动、bootloader、文件系统/uboot详解--初级/articles/uboot详解--初级.md",
+      "abbrlink": "daa59fb4",
+      "cover": "content/posts/驱动、bootloader、文件系统/uboot详解--初级/images/封面.png",
+      "generated_cover": false,
+      "images": 3
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/交叉编译器/交叉编译器.md",
+      "article": "content/posts/驱动、bootloader、文件系统/交叉编译器/articles/交叉编译器.md",
+      "abbrlink": "df3b4268",
+      "cover": "content/posts/驱动、bootloader、文件系统/交叉编译器/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/文件系统/UBIFS/ubifs.md",
+      "article": "content/posts/驱动、bootloader、文件系统/文件系统/UBIFS/articles/ubifs.md",
+      "abbrlink": "0f73f9c6",
+      "cover": "content/posts/驱动、bootloader、文件系统/文件系统/UBIFS/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/并发与竞争/并发与竞争.md",
+      "article": "content/posts/驱动、bootloader、文件系统/并发与竞争/articles/并发与竞争.md",
+      "abbrlink": "bcc2870b",
+      "cover": "content/posts/驱动、bootloader、文件系统/并发与竞争/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/文件系统/ubi文件系统/ubi文件系统.md",
+      "article": "content/posts/驱动、bootloader、文件系统/文件系统/ubi文件系统/articles/ubi文件系统.md",
+      "abbrlink": "d9538d63",
+      "cover": "content/posts/驱动、bootloader、文件系统/文件系统/ubi文件系统/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/文件系统/低版本内核适配exfat文件系统/低版本内核适配exfat文件系统.md",
+      "article": "content/posts/驱动、bootloader、文件系统/文件系统/低版本内核适配exfat文件系统/articles/低版本内核适配exfat文件系统.md",
+      "abbrlink": "8b5bcc0c",
+      "cover": "content/posts/驱动、bootloader、文件系统/文件系统/低版本内核适配exfat文件系统/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/根文件系统/开机启动后要做的事情/mount -a.md",
+      "article": "content/posts/驱动、bootloader、文件系统/根文件系统/开机启动后要做的事情/articles/mount -a.md",
+      "abbrlink": "e850795b",
+      "cover": "content/posts/驱动、bootloader、文件系统/根文件系统/开机启动后要做的事情/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/根文件系统/文件系统挂载/nfs挂载命令.md",
+      "article": "content/posts/驱动、bootloader、文件系统/根文件系统/文件系统挂载/articles/nfs挂载命令.md",
+      "abbrlink": "661705ae",
+      "cover": "content/posts/驱动、bootloader、文件系统/根文件系统/文件系统挂载/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/设备树/设备树.md",
+      "article": "content/posts/驱动、bootloader、文件系统/设备树/学习关键问题/articles/设备树.md",
+      "abbrlink": "b90d665b",
+      "cover": "content/posts/驱动、bootloader、文件系统/设备树/学习关键问题/images/封面.png",
+      "generated_cover": true,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/通讯协议/常见总线和通讯方式.md",
+      "article": "content/posts/驱动、bootloader、文件系统/通讯协议/常见总线和通讯方式/articles/常见总线和通讯方式.md",
+      "abbrlink": "d30e4928",
+      "cover": "content/posts/驱动、bootloader、文件系统/通讯协议/常见总线和通讯方式/images/封面.png",
+      "generated_cover": false,
+      "images": 2
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/通讯协议/蓝牙.md",
+      "article": "content/posts/驱动、bootloader、文件系统/通讯协议/蓝牙/articles/蓝牙.md",
+      "abbrlink": "5d669232",
+      "cover": "content/posts/驱动、bootloader、文件系统/通讯协议/蓝牙/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/驱动框架/input子系统.md",
+      "article": "content/posts/驱动、bootloader、文件系统/驱动框架/input子系统/articles/input子系统.md",
+      "abbrlink": "a0e06ac4",
+      "cover": "content/posts/驱动、bootloader、文件系统/驱动框架/input子系统/images/1、结构图.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/驱动框架/linux中断.md",
+      "article": "content/posts/驱动、bootloader、文件系统/驱动框架/linux中断/articles/linux中断.md",
+      "abbrlink": "835d4465",
+      "cover": "content/posts/驱动、bootloader、文件系统/驱动框架/linux中断/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/驱动框架/linux内核定时器.md",
+      "article": "content/posts/驱动、bootloader、文件系统/驱动框架/linux内核定时器/articles/linux内核定时器.md",
+      "abbrlink": "7ec46997",
+      "cover": "content/posts/驱动、bootloader、文件系统/驱动框架/linux内核定时器/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/驱动框架/内核4.8与4.8之前的gpio差异.md",
+      "article": "content/posts/驱动、bootloader、文件系统/驱动框架/内核4.8与4.8之前的gpio差异/articles/内核4.8与4.8之前的gpio差异.md",
+      "abbrlink": "59a0a1ec",
+      "cover": "content/posts/驱动、bootloader、文件系统/驱动框架/内核4.8与4.8之前的gpio差异/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/驱动框架/字符驱动框架.md",
+      "article": "content/posts/驱动、bootloader、文件系统/驱动框架/字符驱动框架/articles/字符驱动框架.md",
+      "abbrlink": "a299f17f",
+      "cover": "content/posts/驱动、bootloader、文件系统/驱动框架/字符驱动框架/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    },
+    {
+      "old": "content/posts/驱动、bootloader、文件系统/驱动编写.md",
+      "article": "content/posts/驱动、bootloader、文件系统/驱动编写/articles/驱动编写.md",
+      "abbrlink": "9750cb91",
+      "cover": "content/posts/驱动、bootloader、文件系统/驱动编写/images/封面.png",
+      "generated_cover": false,
+      "images": 1
+    }
+  ],
+  "recovered_references": [
+    {
+      "article": "content/posts/通用技术/数据结构与算法.md",
+      "old": "./../../../img/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/12%E3%80%81%E8%8A%82%E7%82%B9%E5%85%B3%E7%B3%BB.png",
+      "found": "通用技术/数据结构/12、树/12、节点关系.png"
+    },
+    {
+      "article": "content/posts/通用技术/数据结构与算法.md",
+      "old": "./../../../img/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/12%E3%80%81%E8%8A%82%E7%82%B9%E3%80%81%E6%A0%91%E7%9A%84%E5%B1%9E%E6%80%A7%E6%8F%8F%E8%BF%B0.png",
+      "found": "通用技术/数据结构/12、树/12、节点、树的属性描述.png"
+    },
+    {
+      "article": "content/posts/通用技术/数据结构与算法.md",
+      "old": "./../../../img/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/12%E3%80%81%E6%A3%AE%E6%9E%97.png",
+      "found": "通用技术/数据结构/12、树/12、森林.png"
+    },
+    {
+      "article": "content/posts/通用技术/计算机网络.md",
+      "old": "./../../../img/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/6%E3%80%81%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%88%86%E5%B1%82.png",
+      "found": "通用技术/计算机网络/6、网络结构/6、计算机网络分层.png"
+    },
+    {
+      "article": "content/posts/通用技术/计算机网络.md",
+      "old": "./../../../img/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/6%E3%80%81%E6%95%B0%E6%8D%AE%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B%EF%BC%88%E5%9E%82%E7%9B%B4%E8%A7%86%E8%A7%92%EF%BC%89.png",
+      "found": "通用技术/计算机网络/6、网络结构/6、数据传输过程（垂直视角）.png"
+    },
+    {
+      "article": "content/posts/通用技术/计算机网络.md",
+      "old": "./../../../img/%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/6%E3%80%81%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%88%86%E5%B1%82%E7%BB%93%E6%9E%84%E7%9F%A5%E8%AF%86%E7%82%B9%E5%9B%9E%E9%A1%BE.png",
+      "found": "通用技术/计算机网络/6、网络结构/6、计算机网络分层结构知识点回顾.png"
+    },
+    {
+      "article": "content/posts/音视频协议/mjpeg和jpeg/mjpeg和jpeg.md",
+      "old": "/img/音视频协议/mjpeg和jpeg/详解/封面.png",
+      "found": "音视频协议/mjpeg和jpeg/封面.png"
+    },
+    {
+      "article": "content/posts/linux开发/makefile语法.md",
+      "old": "./img/1.png",
+      "found": "linux开发/makefile语法/1.png"
+    }
+  ],
+  "missing_body_images": [
+    {
+      "article": "content/posts/AI-深度学习/AI人工智能深度学习正式篇.md",
+      "reference": "../../../img/AI-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/AI%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%AD%A3%E5%BC%8F%E7%AF%87/stride1.png"
+    }
+  ],
+  "preserved_images": 381,
+  "generated_cover_count": 13
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="'Noto Serif SC', 'Songti SC', serif">
+  <rect x="0" y="0" width="1000" height="560" fill="#f7f3e9"/>
+  <rect x="40" y="40" width="920" height="480" rx="10" fill="none" stroke="#d9d0bf" stroke-width="2"/>
+  <text x="80" y="120" font-size="44" fill="#293e47">函数与术语速查</text>
+  <text x="80" y="164" font-size="20" fill="#6b7d80">从零搭建视觉模型 · 附录</text>
+  <line x1="80" y1="196" x2="920" y2="196" stroke="#d9d0bf" stroke-width="1"/>
+  <g font-size="18" font-family="'JetBrains Mono', monospace">
+    <rect x="80" y="232" width="400" height="40" rx="4" fill="none" stroke="#d9d0bf"/>
+    <text x="100" y="259" fill="#526a73">torch.tensor · from_numpy · cat</text>
+    <rect x="80" y="288" width="400" height="40" rx="4" fill="none" stroke="#d9d0bf"/>
+    <text x="100" y="315" fill="#526a73">nn.Conv2d · Linear · Flatten</text>
+    <rect x="80" y="344" width="400" height="40" rx="4" fill="none" stroke="#d9d0bf"/>
+    <text x="100" y="371" fill="#526a73">backward · step · zero_grad</text>
+    <rect x="80" y="400" width="400" height="40" rx="4" fill="none" stroke="#d9d0bf"/>
+    <text x="100" y="427" fill="#526a73">state_dict · onnx.export</text>
+  </g>
+  <g font-size="18" fill="#6b7d80">
+    <text x="530" y="259">张量与搬运 …… A</text>
+    <text x="530" y="315">层与结构 …… B</text>
+    <text x="530" y="371">训练与保存 …… C · D</text>
+    <text x="530" y="427">调试与部署 …… E · F · G</text>
+  </g>
+  <circle cx="905" cy="92" r="18" fill="#e4ece8" stroke="#5a7fb0" stroke-width="2"/>
+  <text x="905" y="98" font-size="18" fill="#5a7fb0" text-anchor="middle">查</text>
+</svg>

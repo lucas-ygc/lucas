@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img">
+<title>签名升级：先建立信任，再核对内容</title>
+<rect width="1200" height="650" rx="24" fill="#f7f3eb"/>
+<style>text{font-family:system-ui,"Noto Sans CJK SC",sans-serif;fill:#294746}.title{font-size:32px;font-weight:700}.sub{font-size:20px}.head{font-size:23px;font-weight:600}.body{font-size:19px}</style>
+<text x="50" y="65" class="title">签名升级：先建立信任，再核对内容</text>
+<text x="50" y="103" class="sub">发布端持有私钥；设备预置可信公钥。公钥可以公开，但不能任意替换。</text>
+<rect x="50" y="145" width="340" height="150" rx="14" fill="#ffffff" stroke="#a3b7ac" stroke-width="2"/>
+<text x="70" y="184" class="head">发布 ① 计算摘要</text>
+<text x="70" y="223" class="body">kernel / app → SHA-256</text>
+<text x="70" y="257" class="body">摘要、身份、版本写入描述头</text>
+<text x="399" y="227" class="title">→</text>
+<rect x="430" y="145" width="340" height="150" rx="14" fill="#ffffff" stroke="#a3b7ac" stroke-width="2"/>
+<text x="450" y="184" class="head">发布 ② 私钥签名</text>
+<text x="450" y="223" class="body">签名覆盖 512 字节描述头</text>
+<text x="450" y="257" class="body">RSA-2048 + SHA-256</text>
+<text x="779" y="227" class="title">→</text>
+<rect x="810" y="145" width="340" height="150" rx="14" fill="#ffffff" stroke="#a3b7ac" stroke-width="2"/>
+<text x="830" y="184" class="head">发布 ③ 组装升级包</text>
+<text x="830" y="223" class="body">描述头 + 签名 + 组件正文</text>
+<text x="830" y="257" class="body">签名 256 字节，包头共 768 字节</text>
+<rect x="50" y="335" width="340" height="150" rx="14" fill="#ffffff" stroke="#a3b7ac" stroke-width="2"/>
+<text x="70" y="374" class="head">设备 ① 公钥验签</text>
+<text x="70" y="413" class="body">确认描述头签名有效</text>
+<text x="70" y="447" class="body">检查产品、硬件与长度</text>
+<text x="399" y="417" class="title">→</text>
+<rect x="430" y="335" width="340" height="150" rx="14" fill="#ffffff" stroke="#a3b7ac" stroke-width="2"/>
+<text x="450" y="374" class="head">设备 ② 核对正文</text>
+<text x="450" y="413" class="body">计算收到的组件 SHA-256</text>
+<text x="450" y="447" class="body">必须与可信描述头逐项一致</text>
+<text x="779" y="417" class="title">→</text>
+<rect x="810" y="335" width="340" height="150" rx="14" fill="#ffffff" stroke="#a3b7ac" stroke-width="2"/>
+<text x="830" y="374" class="head">设备 ③ 安装与确认</text>
+<text x="830" y="413" class="body">写入非当前槽并读回校验</text>
+<text x="830" y="447" class="body">提交启动选择 → 重启后确认</text>
+<text x="50" y="575" class="sub">只改正文：哈希失败。修改描述头：旧签名失败。使用另一把私钥：原公钥拒绝。</text>
+<text x="50" y="612" class="sub">验签通过 ≠ 固件已加密；刷写完成 ≠ 新系统业务已经验证。</text>
+</svg>

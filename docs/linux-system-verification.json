@@ -1,0 +1,293 @@
+{
+  "date": "2026-10-24",
+  "platform": "Linux x86_64",
+  "python": "3.13.9",
+  "hardware_tested": false,
+  "results": [
+    {
+      "number": 4,
+      "id": "linux-sys-004",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "redirection order verified; preserved failure status=7\n",
+      "isolated": true
+    },
+    {
+      "number": 8,
+      "id": "linux-sys-008",
+      "command": "sh collect.sh",
+      "exit_code": 0,
+      "stdout": "Bounded read-only snapshot completed; fixed proc entries emitted. Host-specific values are not copied into the published record.\n",
+      "isolated": true
+    },
+    {
+      "number": 25,
+      "id": "linux-sys-025",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "child exit=7; parent reaped it\n",
+      "isolated": true
+    },
+    {
+      "number": 26,
+      "id": "linux-sys-026",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "joined two workers; each owns a separate counter: 10000,10000\n",
+      "isolated": true
+    },
+    {
+      "number": 30,
+      "id": "linux-sys-030",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "SIGUSR1 handled; main performs output and cleanup\n",
+      "isolated": true
+    },
+    {
+      "number": 31,
+      "id": "linux-sys-031",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "child exited; WNOWAIT deliberately leaves status available\nreaped child; a second wait reports ECHILD\n",
+      "isolated": true
+    },
+    {
+      "number": 34,
+      "id": "linux-sys-034",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "mapped, touched and unmapped 1 MiB; no RSS timing assumption\n",
+      "isolated": true
+    },
+    {
+      "number": 40,
+      "id": "linux-sys-040",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "20 bounded cycles: live objects return to 0; peak=4, independent of RSS retention\n",
+      "isolated": true
+    },
+    {
+      "number": 41,
+      "id": "linux-sys-041",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "original=a, dup=b: shared open-file offset\n",
+      "isolated": true
+    },
+    {
+      "number": 42,
+      "id": "linux-sys-042",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "hard link survives rename; symbolic path is now dangling\n",
+      "isolated": true
+    },
+    {
+      "number": 47,
+      "id": "linux-sys-047",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "file fsync -> rename -> directory fsync passed; no power-cut test\n",
+      "isolated": true
+    },
+    {
+      "number": 49,
+      "id": "linux-sys-049",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "empty=EAGAIN; read=3 bytes; all writers closed=EOF\n",
+      "isolated": true
+    },
+    {
+      "number": 50,
+      "id": "linux-sys-050",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "empty poll=timeout; after write=POLLIN; consumed x\n",
+      "isolated": true
+    },
+    {
+      "number": 51,
+      "id": "linux-sys-051",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "local socketpair: ping -> pong, no network connection\n",
+      "isolated": true
+    },
+    {
+      "number": 52,
+      "id": "linux-sys-052",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "parent sees shared value=42 after child exit; no concurrent access\n",
+      "isolated": true
+    },
+    {
+      "number": 53,
+      "id": "linux-sys-053",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "predicate checked under mutex; received value=42\n",
+      "isolated": true
+    },
+    {
+      "number": 54,
+      "id": "linux-sys-054",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "atomic counter=20000 after joins; not a multi-field publication protocol\n",
+      "isolated": true
+    },
+    {
+      "number": 55,
+      "id": "linux-sys-055",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "eventfd sum=5; one-shot timerfd expirations=1\n",
+      "isolated": true
+    },
+    {
+      "number": 65,
+      "id": "linux-sys-065",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "PTY raw bytes preserved: 00 0a 7f ff; no electrical UART test\n",
+      "isolated": true
+    },
+    {
+      "number": 84,
+      "id": "linux-sys-084",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "2/3/1/3-byte fragments reconstructed one bounded hello frame\n",
+      "isolated": true
+    },
+    {
+      "number": 89,
+      "id": "linux-sys-089",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "hello Linux; pointer bytes=8; long bytes=8\n",
+      "isolated": true
+    },
+    {
+      "number": 90,
+      "id": "linux-sys-090",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "hello from a standalone CMake project\n",
+      "isolated": true
+    },
+    {
+      "number": 93,
+      "id": "linux-sys-093",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "valid=16; empty, zero, negative, suffix, bound and overflow rejected\n",
+      "isolated": true
+    },
+    {
+      "number": 97,
+      "id": "linux-sys-097",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "trace target: write=5, read=5, read=0\n",
+      "isolated": true
+    },
+    {
+      "number": 98,
+      "id": "linux-sys-098",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "debug target result=42\n",
+      "isolated": true
+    },
+    {
+      "number": 100,
+      "id": "linux-sys-100",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "empty, boundary and oversized input checked; no intentional invalid memory access\n",
+      "isolated_build": true,
+      "allowlist_copy": false,
+      "sandbox": false
+    },
+    {
+      "number": 101,
+      "id": "linux-sys-101",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "bounded CPU target checksum=13378510460434280897; perf not invoked by this runner\n",
+      "isolated": true
+    },
+    {
+      "number": 104,
+      "id": "linux-sys-104",
+      "command": "python3 main.py",
+      "exit_code": 0,
+      "stdout": "frame=0 queue=2 compute=10 output=3 age=15 ms\nframe=1 queue=5 compute=10 output=5 age=20 ms\nframe=2 queue=200 compute=10 output=10 age=220 ms\nconstructed case: compute stays 10 ms while final age reaches 220 ms\n",
+      "isolated": true
+    },
+    {
+      "number": 109,
+      "id": "linux-sys-109",
+      "command": "sh run.sh",
+      "exit_code": 0,
+      "stdout": "requested sleep=10 ms; observed monotonic elapsed=10.601 ms\n",
+      "isolated": true
+    },
+    {
+      "number": 115,
+      "id": "linux-sys-115",
+      "command": "python3 main.py",
+      "exit_code": 0,
+      "stdout": "root-device-or-filesystem: inspect root=, storage driver, partition and fs support\ninit-execution: inspect init path, permissions, ELF, interpreter and libraries\nunknown: retain full log and last confirmed boot stage\n",
+      "isolated": true
+    },
+    {
+      "number": 116,
+      "id": "linux-sys-116",
+      "command": "python3 main.py",
+      "exit_code": 0,
+      "stdout": "constructed frame gap: [(11, 14)]\nheld buffers: [1, 2, 3, 4]\nclues only: need source sequence, drop policy and release records to identify cause\n",
+      "isolated": true
+    },
+    {
+      "number": 118,
+      "id": "linux-sys-118",
+      "command": "python3 main.py",
+      "exit_code": 0,
+      "stdout": "frame=0 queue=2 compute=10 output=3 age=15 ms\nframe=1 queue=5 compute=10 output=5 age=20 ms\nframe=2 queue=200 compute=10 output=10 age=220 ms\nconstructed case: compute stays 10 ms while final age reaches 220 ms\n",
+      "isolated": true
+    },
+    {
+      "number": 119,
+      "id": "linux-sys-119",
+      "command": "python3 main.py",
+      "exit_code": 0,
+      "stdout": "constructed fd growth per cycle: 2.0\nRSS span KiB: 4\nnext evidence: classify /proc/PID/fd targets and trace open/close; trend alone is not proof\n",
+      "isolated": true
+    },
+    {
+      "number": 120,
+      "id": "linux-sys-120",
+      "command": "sh collect.sh",
+      "exit_code": 0,
+      "stdout": "Bounded read-only snapshot completed; fixed proc entries emitted. Host-specific values are not copied into the published record.\n",
+      "isolated": true
+    }
+  ],
+  "environment_failures": [
+    {
+      "number": 100,
+      "stderr": "==361==LeakSanitizer has encountered a fatal error.\n==361==HINT: For debugging, try setting environment variable LSAN_OPTIONS=verbosity=1:log_threads=1\n==361==HINT: LeakSanitizer does not work under ptrace (strace, gdb, etc)\n",
+      "stdout": "",
+      "code": 1
+    }
+  ],
+  "failures": [],
+  "compiler": "cc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "cmake": "cmake version 3.22.1"
+}

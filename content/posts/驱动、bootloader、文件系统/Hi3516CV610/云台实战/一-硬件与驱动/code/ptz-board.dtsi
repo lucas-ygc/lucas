@@ -1,0 +1,47 @@
+/* BA4K 专用片段，合入现有 DTS；不要重复添加节点。 */
+&spi_bus1 { status = "disabled"; };
+&gpio_chip0 { gpio-controller; };
+&gpio_chip9 { gpio-controller; };
+&gpio_chip10 { gpio-controller; };
+/ {
+	ptzmotor {
+		compatible = "tuling,ba4k-ptzmotor";
+		status = "okay";
+		vertical-gpios = <&gpio_chip0 0 0>, <&gpio_chip9 2 0>,
+				   <&gpio_chip9 5 0>, <&gpio_chip9 3 0>;
+		horizontal-gpios = <&gpio_chip10 0 0>, <&gpio_chip10 2 0>,
+				 <&gpio_chip9 4 0>, <&gpio_chip10 1 0>;
+	};
+	ptz_flash_pinmux: pinctrl@10260000 {
+		compatible = "pinctrl-single";
+		reg = <0x10260000 0x4>;
+		#pinctrl-cells = <1>;
+		pinctrl-single,register-width = <32>;
+		pinctrl-single,function-mask = <0xf>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&ptz_m1_pin>;
+		ptz_m1_pin: ptz-m1-pin {
+			pinctrl-single,pins = <0x0 0x0>; /* H16 GPIO0_0, rewired M_IN1 */
+		};
+	};
+	ptz_video_pinmux: pinctrl@17940058 {
+		compatible = "pinctrl-single";
+		reg = <0x17940058 0x24>;
+		#pinctrl-cells = <1>;
+		pinctrl-single,register-width = <32>;
+		pinctrl-single,function-mask = <0xf>;
+		pinctrl-names = "default";
+		pinctrl-0 = <&ptz_winding_pins>;
+		ptz_winding_pins: ptz-winding-pins {
+			pinctrl-single,pins = <
+				0x00 0x0 /* GPIO9_2 M_IN2 */
+				0x04 0x0 /* GPIO9_3 M_IN4 */
+				0x08 0x0 /* GPIO9_4 M_IN7 */
+				0x0c 0x0 /* GPIO9_5 M_IN3 */
+				0x18 0x0 /* GPIO10_0 M_IN5 */
+				0x1c 0x0 /* GPIO10_1 M_IN8 */
+				0x20 0x0 /* GPIO10_2 M_IN6 */
+			>;
+		};
+	};
+};

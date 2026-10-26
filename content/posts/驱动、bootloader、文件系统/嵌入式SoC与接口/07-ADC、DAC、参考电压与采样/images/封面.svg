@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">ADC、DAC、参考电压与采样</title><desc id="desc">学习路径：模拟前端 → 参考与采样 → 数字值与误差</desc>
+<rect width="1200" height="720" fill="#f7f2e9"/><g font-family="sans-serif" fill="#304d50">
+<text x="70" y="85" font-size="23">嵌入式 SoC 与接口 · 07 / 50</text>
+<text x="70" y="160" font-size="39">ADC、DAC、参考电压与采样</text>
+<rect x="70" y="310" width="320" height="125" rx="16" fill="#dce6df"/><text x="230" y="365" text-anchor="middle" font-size="19">01</text><text x="230" y="405" text-anchor="middle" font-size="25">模拟前端</text>
+<path d="M398 370 h30 l-8 -6 m8 6 l-8 6" fill="none" stroke="#657e80" stroke-width="3"/>
+<rect x="440" y="310" width="320" height="125" rx="16" fill="#e2e6ed"/><text x="600" y="365" text-anchor="middle" font-size="19">02</text><text x="600" y="405" text-anchor="middle" font-size="25">参考与采样</text>
+<path d="M768 370 h30 l-8 -6 m8 6 l-8 6" fill="none" stroke="#657e80" stroke-width="3"/>
+<rect x="810" y="310" width="320" height="125" rx="16" fill="#ede0ce"/><text x="970" y="365" text-anchor="middle" font-size="19">03</text><text x="970" y="405" text-anchor="middle" font-size="25">数字值与误差</text>
+<polyline points="70,520 70,520 70,495 113,495 113,520 156,520 156,495 199,495 199,520 242,520 242,495 285,495 285,520 328,520 328,495 371,495 371,520 414,520 414,495 457,495 457,520 500,520 500,495 543,495 543,520 586,520 586,495 629,495 629,520 672,520 672,495 715,495 715,520 758,520 758,495 801,495 801,520 844,520 844,495 887,495 887,520 930,520 930,495 973,495 973,520 1016,520 1016,495 1059,495 1059,520" fill="none" stroke="#698780" stroke-width="3"/>
+<polyline points="70,575 70,575 70,550 113,550 113,575 156,575 156,550 199,550 199,575 242,575 242,550 285,550 285,575 328,575 328,550 371,550 371,575 414,575 414,550 457,550 457,575 500,575 500,550 543,550 543,575 586,575 586,550 629,550 629,575 672,575 672,550 715,550 715,575 758,575 758,550 801,550 801,575 844,575 844,550 887,550 887,575 930,575 930,550 973,550 973,575 1016,575 1016,550 1059,550 1059,575" fill="none" stroke="#698780" stroke-width="3"/>
+<text x="70" y="660" font-size="20">概念示意 · 机制 / 约束 / 验证</text></g></svg>

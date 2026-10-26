@@ -1,0 +1,567 @@
+[
+  {
+    "number": 1,
+    "id": "soc-01-system-map",
+    "title": "从摄像头框图认识 SoC",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/01-从摄像头框图认识 SoC/articles/从摄像头框图认识 SoC.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/01-从摄像头框图认识 SoC/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 2,
+    "id": "soc-02-logic-levels",
+    "title": "电平、地与逻辑阈值",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/02-电平、地与逻辑阈值/articles/电平、地与逻辑阈值.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/02-电平、地与逻辑阈值/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 3,
+    "id": "soc-03-signal-integrity",
+    "title": "差分、阻抗、端接与信号完整性",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/03-差分、阻抗、端接与信号完整性/articles/差分、阻抗、端接与信号完整性.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/03-差分、阻抗、端接与信号完整性/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 4,
+    "id": "soc-04-power-sequencing",
+    "title": "PMIC、供电时序与掉电行为",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/04-PMIC、供电时序与掉电行为/articles/PMIC、供电时序与掉电行为.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/04-PMIC、供电时序与掉电行为/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 5,
+    "id": "soc-05-clocks-cdc",
+    "title": "晶振、PLL、时钟树与跨时钟域",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/05-晶振、PLL、时钟树与跨时钟域/articles/晶振、PLL、时钟树与跨时钟域.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/05-晶振、PLL、时钟树与跨时钟域/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 6,
+    "id": "soc-06-reset-watchdog",
+    "title": "复位域、看门狗与故障恢复",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/06-复位域、看门狗与故障恢复/articles/复位域、看门狗与故障恢复.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/06-复位域、看门狗与故障恢复/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 7,
+    "id": "soc-07-adc-dac",
+    "title": "ADC、DAC、参考电压与采样",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/07-ADC、DAC、参考电压与采样/articles/ADC、DAC、参考电压与采样.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/07-ADC、DAC、参考电压与采样/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 8,
+    "id": "soc-08-mcu-mpu-os",
+    "title": "MCU、MPU、SoC 与操作系统",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/08-MCU、MPU、SoC 与操作系统/articles/MCU、MPU、SoC 与操作系统.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/08-MCU、MPU、SoC 与操作系统/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 9,
+    "id": "soc-09-cpu-interrupts",
+    "title": "CPU、异常、中断与多核",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/09-CPU、异常、中断与多核/articles/CPU、异常、中断与多核.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/09-CPU、异常、中断与多核/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 10,
+    "id": "soc-10-gpu-compute",
+    "title": "GPU：并行计算、图形与数据搬运",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/10-GPU：并行计算、图形与数据搬运/articles/GPU：并行计算、图形与数据搬运.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/10-GPU：并行计算、图形与数据搬运/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 11,
+    "id": "soc-11-dsp-fixed-point",
+    "title": "DSP：滤波、FFT、定点数与饱和",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/11-DSP：滤波、FFT、定点数与饱和/articles/DSP：滤波、FFT、定点数与饱和.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/11-DSP：滤波、FFT、定点数与饱和/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 12,
+    "id": "soc-12-npu-architecture",
+    "title": "NPU：张量计算、片上存储与 TOPS",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/12-NPU：张量计算、片上存储与 TOPS/articles/NPU：张量计算、片上存储与 TOPS.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/12-NPU：张量计算、片上存储与 TOPS/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 13,
+    "id": "soc-13-isp-pipeline",
+    "title": "ISP：从传感器 RAW 到可用图像",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/13-ISP：从传感器 RAW 到可用图像/articles/ISP：从传感器 RAW 到可用图像.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/13-ISP：从传感器 RAW 到可用图像/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 14,
+    "id": "soc-14-codec-accelerators",
+    "title": "视频编解码器与图像加速器",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/14-视频编解码器与图像加速器/articles/视频编解码器与图像加速器.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/14-视频编解码器与图像加速器/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 15,
+    "id": "soc-15-boot-chain",
+    "title": "Boot ROM、Bootloader 与系统启动",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/15-Boot ROM、Bootloader 与系统启动/articles/Boot ROM、Bootloader 与系统启动.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/15-Boot ROM、Bootloader 与系统启动/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 16,
+    "id": "soc-16-flash-ecc",
+    "title": "NOR、NAND、擦写与 ECC",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/16-NOR、NAND、擦写与 ECC/articles/NOR、NAND、擦写与 ECC.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/16-NOR、NAND、擦写与 ECC/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 17,
+    "id": "soc-17-emmc-storage",
+    "title": "eMMC：总线模式、内部管理与分区",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/17-eMMC：总线模式、内部管理与分区/articles/eMMC：总线模式、内部管理与分区.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/17-eMMC：总线模式、内部管理与分区/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 18,
+    "id": "soc-18-secure-update",
+    "title": "安全启动、固件签名与 A/B 升级",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/18-安全启动、固件签名与 A与B 升级/articles/安全启动、固件签名与 A与B 升级.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/18-安全启动、固件签名与 A与B 升级/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 19,
+    "id": "soc-19-mmio-registers",
+    "title": "寄存器、地址空间与 MMIO",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/19-寄存器、地址空间与 MMIO/articles/寄存器、地址空间与 MMIO.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/19-寄存器、地址空间与 MMIO/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 20,
+    "id": "soc-20-memory-bandwidth",
+    "title": "SRAM、DDR、带宽与延迟",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/20-SRAM、DDR、带宽与延迟/articles/SRAM、DDR、带宽与延迟.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/20-SRAM、DDR、带宽与延迟/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 21,
+    "id": "soc-21-cache-coherence",
+    "title": "Cache、一致性与可见性",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/21-Cache、一致性与可见性/articles/Cache、一致性与可见性.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/21-Cache、一致性与可见性/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 22,
+    "id": "soc-22-dma-rings",
+    "title": "DMA、描述符与环形缓冲",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/22-DMA、描述符与环形缓冲/articles/DMA、描述符与环形缓冲.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/22-DMA、描述符与环形缓冲/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 23,
+    "id": "soc-23-mmu-iommu",
+    "title": "MMU、IOMMU 与三种地址",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/23-MMU、IOMMU 与三种地址/articles/MMU、IOMMU 与三种地址.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/23-MMU、IOMMU 与三种地址/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 24,
+    "id": "soc-24-amba-interconnect",
+    "title": "AXI、AHB、APB 与片内互连",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/24-AXI、AHB、APB 与片内互连/articles/AXI、AHB、APB 与片内互连.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/24-AXI、AHB、APB 与片内互连/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 25,
+    "id": "soc-25-zero-copy",
+    "title": "零拷贝、dma-buf 与缓冲生命周期",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/25-零拷贝、dma-buf 与缓冲生命周期/articles/零拷贝、dma-buf 与缓冲生命周期.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/25-零拷贝、dma-buf 与缓冲生命周期/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 26,
+    "id": "soc-26-heterogeneous-ipc",
+    "title": "共享内存、Mailbox 与核间通信",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/26-共享内存、Mailbox 与核间通信/articles/共享内存、Mailbox 与核间通信.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/26-共享内存、Mailbox 与核间通信/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 27,
+    "id": "soc-27-gpio-pinmux",
+    "title": "GPIO、Pinmux、上下拉与引脚状态",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/27-GPIO、Pinmux、上下拉与引脚状态/articles/GPIO、Pinmux、上下拉与引脚状态.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/27-GPIO、Pinmux、上下拉与引脚状态/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 28,
+    "id": "soc-28-uart-rs485",
+    "title": "UART、RS-232 与 RS-485",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/28-UART、RS-232 与 RS-485/articles/UART、RS-232 与 RS-485.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/28-UART、RS-232 与 RS-485/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 29,
+    "id": "soc-29-i2c",
+    "title": "I²C：地址、ACK、重复起始与上拉",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/29-I²C：地址、ACK、重复起始与上拉/articles/I²C：地址、ACK、重复起始与上拉.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/29-I²C：地址、ACK、重复起始与上拉/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 30,
+    "id": "soc-30-spi-qspi",
+    "title": "SPI、QSPI 与 Flash 访问",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/30-SPI、QSPI 与 Flash 访问/articles/SPI、QSPI 与 Flash 访问.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/30-SPI、QSPI 与 Flash 访问/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 31,
+    "id": "soc-31-timers-pwm",
+    "title": "定时器、PWM、输入捕获与编码器",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/31-定时器、PWM、输入捕获与编码器/articles/定时器、PWM、输入捕获与编码器.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/31-定时器、PWM、输入捕获与编码器/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 32,
+    "id": "soc-32-audio-i2s",
+    "title": "I²S、PCM、TDM 与音频时钟",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/32-I²S、PCM、TDM 与音频时钟/articles/I²S、PCM、TDM 与音频时钟.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/32-I²S、PCM、TDM 与音频时钟/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 33,
+    "id": "soc-33-can-fd",
+    "title": "CAN 与 CAN FD：仲裁、帧和错误状态",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/33-CAN 与 CAN FD：仲裁、帧和错误状态/articles/CAN 与 CAN FD：仲裁、帧和错误状态.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/33-CAN 与 CAN FD：仲裁、帧和错误状态/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 34,
+    "id": "soc-34-usb-uvc",
+    "title": "USB：角色、端点、传输类型与 UVC",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/34-USB：角色、端点、传输类型与 UVC/articles/USB：角色、端点、传输类型与 UVC.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/34-USB：角色、端点、传输类型与 UVC/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 35,
+    "id": "soc-35-sd-sdio",
+    "title": "SD 与 SDIO：存储卡和外设功能",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/35-SD 与 SDIO：存储卡和外设功能/articles/SD 与 SDIO：存储卡和外设功能.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/35-SD 与 SDIO：存储卡和外设功能/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 36,
+    "id": "soc-36-ethernet",
+    "title": "Ethernet：MAC、PHY、MDIO 与吞吐",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/36-Ethernet：MAC、PHY、MDIO 与吞吐/articles/Ethernet：MAC、PHY、MDIO 与吞吐.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/36-Ethernet：MAC、PHY、MDIO 与吞吐/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 37,
+    "id": "soc-37-pcie",
+    "title": "PCIe：链路、枚举、BAR、中断与 DMA",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/37-PCIe：链路、枚举、BAR、中断与 DMA/articles/PCIe：链路、枚举、BAR、中断与 DMA.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/37-PCIe：链路、枚举、BAR、中断与 DMA/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 38,
+    "id": "soc-38-mipi-layers",
+    "title": "MIPI 全景：CSI、DSI 与 PHY",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/38-MIPI 全景：CSI、DSI 与 PHY/articles/MIPI 全景：CSI、DSI 与 PHY.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/38-MIPI 全景：CSI、DSI 与 PHY/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 39,
+    "id": "soc-39-sensor-bringup",
+    "title": "摄像头接入：供电、复位、MCLK 与配置",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/39-摄像头接入：供电、复位、MCLK 与配置/articles/摄像头接入：供电、复位、MCLK 与配置.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/39-摄像头接入：供电、复位、MCLK 与配置/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 40,
+    "id": "soc-40-csi-bandwidth",
+    "title": "CSI-2：数据类型、虚拟通道与带宽预算",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/40-CSI-2：数据类型、虚拟通道与带宽预算/articles/CSI-2：数据类型、虚拟通道与带宽预算.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/40-CSI-2：数据类型、虚拟通道与带宽预算/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 41,
+    "id": "soc-41-display-interfaces",
+    "title": "显示链路：DSI、RGB、LVDS 与 HDMI",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/41-显示链路：DSI、RGB、LVDS 与 HDMI/articles/显示链路：DSI、RGB、LVDS 与 HDMI.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/41-显示链路：DSI、RGB、LVDS 与 HDMI/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 42,
+    "id": "soc-42-linux-driver-resources",
+    "title": "设备树、probe、IRQ 与资源生命周期",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/42-设备树、probe、IRQ 与资源生命周期/articles/设备树、probe、IRQ 与资源生命周期.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/42-设备树、probe、IRQ 与资源生命周期/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 43,
+    "id": "soc-43-realtime-scheduling",
+    "title": "实时性、中断延迟与优先级反转",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/43-实时性、中断延迟与优先级反转/articles/实时性、中断延迟与优先级反转.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/43-实时性、中断延迟与优先级反转/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 44,
+    "id": "soc-44-debug-instruments",
+    "title": "万用表、示波器、逻辑分析仪与 JTAG",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/44-万用表、示波器、逻辑分析仪与 JTAG/articles/万用表、示波器、逻辑分析仪与 JTAG.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/44-万用表、示波器、逻辑分析仪与 JTAG/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 45,
+    "id": "soc-45-system-troubleshooting",
+    "title": "综合排障：无图、花屏、丢帧与 NPU 慢",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/45-综合排障：无图、花屏、丢帧与 NPU 慢/articles/综合排障：无图、花屏、丢帧与 NPU 慢.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/45-综合排障：无图、花屏、丢帧与 NPU 慢/images/封面.svg",
+    "code_files": [
+      "main.py",
+      "README.md",
+      "requirements.txt",
+      "verification.md",
+      ".gitignore",
+      "events.json"
+    ],
+    "exercise": "offline-python-and-analysis"
+  },
+  {
+    "number": 46,
+    "id": "soc-46-wireless",
+    "title": "选修：Wi-Fi、Bluetooth 与蜂窝通信",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/46-选修：Wi-Fi、Bluetooth 与蜂窝通信/articles/选修：Wi-Fi、Bluetooth 与蜂窝通信.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/46-选修：Wi-Fi、Bluetooth 与蜂窝通信/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 47,
+    "id": "soc-47-industrial-network",
+    "title": "选修：工业以太网、EtherCAT 与 TSN",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/47-选修：工业以太网、EtherCAT 与 TSN/articles/选修：工业以太网、EtherCAT 与 TSN.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/47-选修：工业以太网、EtherCAT 与 TSN/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 48,
+    "id": "soc-48-fpga",
+    "title": "选修：FPGA、流水线与时序约束",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/48-选修：FPGA、流水线与时序约束/articles/选修：FPGA、流水线与时序约束.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/48-选修：FPGA、流水线与时序约束/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 49,
+    "id": "soc-49-camera-serdes",
+    "title": "选修：长距离视频 SerDes 与 A-PHY",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/49-选修：长距离视频 SerDes 与 A-PHY/articles/选修：长距离视频 SerDes 与 A-PHY.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/49-选修：长距离视频 SerDes 与 A-PHY/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  },
+  {
+    "number": 50,
+    "id": "soc-50-reliability-validation",
+    "title": "选修：温度、功耗、EMC 与长期可靠性",
+    "article": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/50-选修：温度、功耗、EMC 与长期可靠性/articles/选修：温度、功耗、EMC 与长期可靠性.md",
+    "cover": "content/posts/驱动、bootloader、文件系统/嵌入式SoC与接口/50-选修：温度、功耗、EMC 与长期可靠性/images/封面.svg",
+    "code_files": [],
+    "exercise": "analysis-or-hardware-observation"
+  }
+]

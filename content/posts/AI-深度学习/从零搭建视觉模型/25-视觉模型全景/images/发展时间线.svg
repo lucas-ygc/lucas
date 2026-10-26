@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1160" viewBox="0 0 720 1160" role="img" aria-labelledby="title desc">
+<title id="title">视觉模型发展时间线</title><desc id="desc">规则与特征、早期神经网络、深度 CNN、Transformer 与基础模型交叉发展；生成路线并行。</desc>
+<rect width="720" height="1160" rx="20" fill="#f8f3e9"/>
+<g font-family="'Kaiti SC','KaiTi','STKaiti','Noto Serif CJK SC',serif" fill="#293e3c">
+<text x="32" y="58" font-size="36" fill="#293e3c">视觉模型的发展脉络</text>
+<text x="32" y="101" font-size="25" fill="#587873">代表节点交叉共存，并非逐代淘汰</text>
+<path d="M 52 155 V 873" stroke="#78938a" stroke-width="4"/>
+<circle cx="52" cy="165" r="8" fill="#587873"/>
+<rect x="78" y="138" width="610" height="112" rx="14" fill="#e7eeE8"/>
+<text x="96" y="170" font-size="26" fill="#293e3c">早期规则与几何</text>
+<text x="96" y="204" font-size="24" fill="#293e3c">边缘、角点、模板与成像关系</text>
+<text x="96" y="234" font-size="23" fill="#587873">人工定义怎样提取信息</text>
+<circle cx="52" cy="291" r="8" fill="#587873"/>
+<rect x="78" y="264" width="610" height="112" rx="14" fill="#e7eeE8"/>
+<text x="96" y="296" font-size="26" fill="#293e3c">早期神经网络｜1998 LeNet-5</text>
+<text x="96" y="330" font-size="24" fill="#293e3c">从像素学习可用于识别的特征</text>
+<text x="96" y="360" font-size="23" fill="#587873">与人工特征路线长期并行</text>
+<circle cx="52" cy="417" r="8" fill="#587873"/>
+<rect x="78" y="390" width="610" height="112" rx="14" fill="#e7eeE8"/>
+<text x="96" y="422" font-size="26" fill="#293e3c">1999 / 2004 SIFT · 2005 HOG</text>
+<text x="96" y="456" font-size="24" fill="#293e3c">人工特征结合匹配或学习算法</text>
+<text x="96" y="486" font-size="23" fill="#587873">把特征描述与最终判断分开</text>
+<circle cx="52" cy="543" r="8" fill="#587873"/>
+<rect x="78" y="516" width="610" height="112" rx="14" fill="#e7eeE8"/>
+<text x="96" y="548" font-size="26" fill="#293e3c">2012 AlexNet → 2015 ResNet</text>
+<text x="96" y="582" font-size="24" fill="#293e3c">数据、GPU 与深层优化共同进步</text>
+<text x="96" y="612" font-size="23" fill="#587873">分类特征扩展到检测和分割</text>
+<circle cx="52" cy="669" r="8" fill="#587873"/>
+<rect x="78" y="642" width="610" height="112" rx="14" fill="#e7eeE8"/>
+<text x="96" y="674" font-size="26" fill="#293e3c">2020 ViT / DETR · 2021 CLIP</text>
+<text x="96" y="708" font-size="24" fill="#293e3c">视觉注意力、集合预测、图文对齐</text>
+<text x="96" y="738" font-size="23" fill="#587873">不同工作解决不同层面的问题</text>
+<circle cx="52" cy="795" r="8" fill="#587873"/>
+<rect x="78" y="768" width="610" height="112" rx="14" fill="#e7eeE8"/>
+<text x="96" y="800" font-size="26" fill="#293e3c">2023—2026 基础模型与多模态</text>
+<text x="96" y="834" font-size="24" fill="#293e3c">通用表示、提示感知、视觉语言</text>
+<text x="96" y="864" font-size="23" fill="#587873">实时感知与空间理解继续发展</text>
+<rect x="32" y="931" width="656" height="181" rx="14" fill="#eee3d4"/>
+<text x="52" y="968" font-size="28" fill="#293e3c">并行分支：视觉生成</text>
+<text x="52" y="1006" font-size="25" fill="#293e3c">VAE / GAN → 扩散与潜空间生成</text>
+<text x="52" y="1043" font-size="25" fill="#293e3c">自回归、DiT、流匹配等路线交叉发展</text>
+<text x="52" y="1080" font-size="24" fill="#587873">结构、训练方法与任务可以自由组合</text>
+<text x="32" y="1141" font-size="20" fill="#587873">年份采用正文所注明的首次公开或代表论文时间</text>
+</g></svg>

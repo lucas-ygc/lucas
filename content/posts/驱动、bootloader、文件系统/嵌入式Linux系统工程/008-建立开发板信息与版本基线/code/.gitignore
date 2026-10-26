@@ -1,0 +1,7 @@
+demo
+build/
+__pycache__/
+*.pyc
+trace.txt
+core
+core.*

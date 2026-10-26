@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">根文件系统与 initramfs</title><desc id="desc">根设备 → 文件系统 → init。概念观察路径，非实测波形。</desc>
+<rect width="1200" height="720" fill="#f7f2e9"/>
+<g font-family="sans-serif" fill="#304d50">
+<text x="64" y="70" font-size="22">LINUX SYSTEM ENGINEERING · 013 / 120</text>
+<text x="64" y="140" font-size="38">根文件系统与 initramfs</text>
+<text x="64" y="250" font-size="23">启动与系统构建</text>
+<rect x="64" y="310" width="330" height="135" rx="14" fill="#dce4eb"/><text x="89" y="348" font-size="18">01</text><text x="229" y="405" text-anchor="middle" font-size="27">根设备</text>
+<path d="M400 377 h26 l-7 -6 m7 6 l-7 6" stroke="#68817d" stroke-width="3" fill="none"/>
+<rect x="434" y="310" width="330" height="135" rx="14" fill="#e9dfcf"/><text x="459" y="348" font-size="18">02</text><text x="599" y="405" text-anchor="middle" font-size="27">文件系统</text>
+<path d="M770 377 h26 l-7 -6 m7 6 l-7 6" stroke="#68817d" stroke-width="3" fill="none"/>
+<rect x="804" y="310" width="330" height="135" rx="14" fill="#e3deeb"/><text x="829" y="348" font-size="18">03</text><text x="969" y="405" text-anchor="middle" font-size="27">init</text>
+<rect x="70" y="490" width="1020" height="20" rx="4" fill="#dce4eb"/>
+<rect x="70" y="525" width="890" height="20" rx="4" fill="#e9dfcf"/>
+<rect x="70" y="560" width="760" height="20" rx="4" fill="#e3deeb"/>
+<text x="64" y="655" font-size="21">资源机制 · 使用方法 · 证据与排查</text></g></svg>

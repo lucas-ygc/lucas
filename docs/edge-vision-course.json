@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-24",
+  "series": "edge-vision-advanced",
+  "chapters": [
+    {
+      "chapter": 1,
+      "id": "edge-vision-01-model-contract",
+      "title": "怎样读懂一个实际模型",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/01-怎样读懂一个实际模型/articles/怎样读懂一个实际模型.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/01-怎样读懂一个实际模型/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/01-怎样读懂一个实际模型/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 2,
+      "id": "edge-vision-02-convolution-variants",
+      "title": "卷积进阶：分组、深度、逐点与空洞卷积",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/02-卷积进阶/articles/卷积进阶：分组、深度、逐点与空洞卷积.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/02-卷积进阶/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/02-卷积进阶/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 3,
+      "id": "edge-vision-03-mobilenet-blocks",
+      "title": "MobileNet：深度可分离卷积与倒残差",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/03-MobileNet/articles/MobileNet：深度可分离卷积与倒残差.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/03-MobileNet/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/03-MobileNet/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 4,
+      "id": "edge-vision-04-mobilenetv3-se",
+      "title": "通道注意力与 MobileNetV3",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/04-通道注意力与 MobileNetV3/articles/通道注意力与 MobileNetV3.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/04-通道注意力与 MobileNetV3/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/04-通道注意力与 MobileNetV3/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 5,
+      "id": "edge-vision-05-channel-shuffle",
+      "title": "ShuffleNet：通道拆分与重排",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/05-ShuffleNet/articles/ShuffleNet：通道拆分与重排.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/05-ShuffleNet/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/05-ShuffleNet/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 6,
+      "id": "edge-vision-06-reparameterization",
+      "title": "结构重参数化：训练分支怎样合为一个卷积",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/06-结构重参数化/articles/结构重参数化：训练分支怎样合为一个卷积.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/06-结构重参数化/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/06-结构重参数化/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 7,
+      "id": "edge-vision-07-feature-pyramid",
+      "title": "Backbone、Neck、Head 与多尺度特征",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/07-Backbone、Neck、Head 与多尺度特征/articles/Backbone、Neck、Head 与多尺度特征.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/07-Backbone、Neck、Head 与多尺度特征/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/07-Backbone、Neck、Head 与多尺度特征/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 8,
+      "id": "edge-vision-08-fpn-pan",
+      "title": "FPN 与 PAN：怎样融合不同尺度的信息",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/08-FPN 与 PAN/articles/FPN 与 PAN：怎样融合不同尺度的信息.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/08-FPN 与 PAN/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/08-FPN 与 PAN/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 9,
+      "id": "edge-vision-09-detection-head",
+      "title": "检测头：分类、位置与置信度",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/09-检测头/articles/检测头：分类、位置与置信度.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/09-检测头/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/09-检测头/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 10,
+      "id": "edge-vision-10-detector-loss",
+      "title": "检测训练：标签分配与损失计算",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/10-检测训练/articles/检测训练：标签分配与损失计算.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/10-检测训练/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/10-检测训练/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 11,
+      "id": "edge-vision-11-yolov8-inference",
+      "title": "完整 YOLOv8 推理：从图片到原图目标框",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/11-完整 YOLOv8 推理/articles/完整 YOLOv8 推理：从图片到原图目标框.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/11-完整 YOLOv8 推理/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/11-完整 YOLOv8 推理/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 12,
+      "id": "edge-vision-12-train-detector",
+      "title": "训练自己的检测器与错误分析",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/12-训练自己的检测器与错误分析/articles/训练自己的检测器与错误分析.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/12-训练自己的检测器与错误分析/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/12-训练自己的检测器与错误分析/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 13,
+      "id": "edge-vision-13-detector-export",
+      "title": "检测器导出对照与其他结构路线",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/13-检测器导出对照与其他结构路线/articles/检测器导出对照与其他结构路线.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/13-检测器导出对照与其他结构路线/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/13-检测器导出对照与其他结构路线/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 14,
+      "id": "edge-vision-14-sort-tracking",
+      "title": "跟踪基础：运动预测、匹配与轨迹生命周期",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/14-跟踪基础/articles/跟踪基础：运动预测、匹配与轨迹生命周期.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/14-跟踪基础/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/14-跟踪基础/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 15,
+      "id": "edge-vision-15-bytetrack-association",
+      "title": "ByteTrack 思路：用低分框恢复已有轨迹",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/15-ByteTrack 思路/articles/ByteTrack 思路：用低分框恢复已有轨迹.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/15-ByteTrack 思路/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/15-ByteTrack 思路/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 16,
+      "id": "edge-vision-16-reid-embeddings",
+      "title": "外观特征与 ReID：怎样比较两个目标",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/16-外观特征与 ReID/articles/外观特征与 ReID：怎样比较两个目标.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/16-外观特征与 ReID/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/16-外观特征与 ReID/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 17,
+      "id": "edge-vision-17-ptz-follow",
+      "title": "目标跟随：从轨迹到云台控制接口",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/17-目标跟随/articles/目标跟随：从轨迹到云台控制接口.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/17-目标跟随/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/17-目标跟随/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 18,
+      "id": "edge-vision-18-video-pipeline",
+      "title": "视频系统：队列、时间戳与异步流水线",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/18-视频系统/articles/视频系统：队列、时间戳与异步流水线.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/18-视频系统/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/18-视频系统/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 19,
+      "id": "edge-vision-19-face-alignment",
+      "title": "人脸处理流程：检测、关键点与对齐",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/19-人脸处理流程/articles/人脸处理流程：检测、关键点与对齐.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/19-人脸处理流程/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/19-人脸处理流程/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 20,
+      "id": "edge-vision-20-face-threshold",
+      "title": "特征识别：人脸向量、相似度与阈值",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/20-特征识别/articles/特征识别：人脸向量、相似度与阈值.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/20-特征识别/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/20-特征识别/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 21,
+      "id": "edge-vision-21-pose-decoding",
+      "title": "人体关键点与姿态估计",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/21-人体关键点与姿态估计/articles/人体关键点与姿态估计.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/21-人体关键点与姿态估计/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/21-人体关键点与姿态估计/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 22,
+      "id": "edge-vision-22-text-rectification",
+      "title": "OCR 检测：从文字区域到矫正图片",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/22-OCR 检测/articles/OCR 检测：从文字区域到矫正图片.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/22-OCR 检测/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/22-OCR 检测/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 23,
+      "id": "edge-vision-23-ctc-recognition",
+      "title": "OCR 识别：序列模型与 CTC",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/23-OCR 识别/articles/OCR 识别：序列模型与 CTC.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/23-OCR 识别/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/23-OCR 识别/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 24,
+      "id": "edge-vision-24-ocr-pipeline",
+      "title": "完整 OCR 流程与识别错误分析",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/24-完整 OCR 流程与识别错误分析/articles/完整 OCR 流程与识别错误分析.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/24-完整 OCR 流程与识别错误分析/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/24-完整 OCR 流程与识别错误分析/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 25,
+      "id": "edge-vision-25-light-segmentation",
+      "title": "轻量语义分割与实例分割",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/25-轻量语义分割与实例分割/articles/轻量语义分割与实例分割.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/25-轻量语义分割与实例分割/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/25-轻量语义分割与实例分割/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 26,
+      "id": "edge-vision-26-anomaly-detection",
+      "title": "工业异常检测：缺陷样本少时怎么办",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/26-工业异常检测/articles/工业异常检测：缺陷样本少时怎么办.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/26-工业异常检测/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/26-工业异常检测/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 27,
+      "id": "edge-vision-27-depth-restoration",
+      "title": "深度估计与图像恢复：两个专题入口",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/27-深度估计与图像恢复/articles/深度估计与图像恢复：两个专题入口.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/27-深度估计与图像恢复/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/27-深度估计与图像恢复/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 28,
+      "id": "edge-vision-28-npu-graph",
+      "title": "面向 NPU 的计算图与算子兼容",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/28-面向 NPU 的计算图与算子兼容/articles/面向 NPU 的计算图与算子兼容.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/28-面向 NPU 的计算图与算子兼容/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/28-面向 NPU 的计算图与算子兼容/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 29,
+      "id": "edge-vision-29-quantization-distillation",
+      "title": "量化、蒸馏与剪枝的实际取舍",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/29-量化、蒸馏与剪枝的实际取舍/articles/量化、蒸馏与剪枝的实际取舍.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/29-量化、蒸馏与剪枝的实际取舍/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/29-量化、蒸馏与剪枝的实际取舍/images/封面.svg",
+      "experiment": "python3 main.py"
+    },
+    {
+      "chapter": 30,
+      "id": "edge-vision-30-capstone-follow",
+      "title": "综合项目：检测、跟踪与云台跟随验收",
+      "article": "content/posts/AI-深度学习/嵌入式视觉模型进阶/30-综合项目/articles/综合项目：检测、跟踪与云台跟随验收.md",
+      "code": "content/posts/AI-深度学习/嵌入式视觉模型进阶/30-综合项目/code",
+      "cover": "content/posts/AI-深度学习/嵌入式视觉模型进阶/30-综合项目/images/封面.svg",
+      "experiment": "python3 main.py"
+    }
+  ]
+}
